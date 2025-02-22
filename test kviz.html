@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Men's Health Test </title>
+    <link rel="stylesheet" href="csskviz/style.css">
+   
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="images/eau-logo.svg" alt="EAU">
+                </a>
+                <nav class="primary-nav">
+                    <ul id="navLinks"></ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="search-btn">
+                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation">
+                            <path d="M14.5 25C20.299 25 25 20.299 25 14.5C25 8.70101 20.299 4 14.5 4C8.70101 4 4 8.70101 4 14.5C4 20.299 8.70101 25 14.5 25Z" stroke="#152443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M21.9242 21.925L27.9993 28.0001" stroke="#152443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                    <button class="mobile-menu-btn">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 12h18M3 6h18M3 18h18" stroke="#152443" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div id="headerButtons"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Первый экран -->
+            <section id="screen1" class="screen landing active">
+                <h1 id="mainTitle"></h1>
+                <div id="landingText"></div>
+                <button class="cta-button" onclick="startQuiz()" id="startButton"></button>
+                <ul class="landing-benefits" id="landingBenefits">
+                    <h3></h3>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <button class="cta-button" onclick="startQuiz()" id="middleButton"></button>
+                
+                
+                <div class="slider" id="slider">
+                    <div class="slider-container" id="sliderContainer"></div>
+                    <div class="slider-nav" id="sliderNav"></div>
+                    <button class="slider-arrow slider-prev" onclick="prevSlide('slider')">❮</button>
+                    <button class="slider-arrow slider-next" onclick="nextSlide('slider')">❯</button>
+                </div>
+                <div id="slideTexts"></div>
+                <button class="cta-button" onclick="startQuiz()" id="bottomButton"></button>
+                <ul id="socialProof"></ul>
+                <div class="image-row">
+                    <img src="images/AUA-logo.png" >
+                    <img src="images/SUA-Logo-for-website_2021_retina.webp" >
+                    <img src="images/MUA-logo-text-black-1.png" >
+                    <img src="images/zeland.jpg" >
+                </div>
+            </section>
+
+            <!-- Второй экран -->
+            <section id="screen2" class="screen quiz">
+                <div class="progress-bar">
+                    <div class="progress" id="progressBar"></div>
+                </div>
+                <div id="questionContainer"></div>
+            </section>
+
+            <!-- Третий экран -->
+            <section id="screen3" class="screen results">
+                <h2 id="resultMainHeading"></h2>
+                <img src="images/res1.webp" id="resultMainImage">
+                <p id="resultMainText"></p>
+                
+                <h3 id="seriousHeading"></h3>
+                <ul id="seriousReasonsList">
+                    <li id="seriousReason1"></li>
+                    <li id="seriousReason2"></li>
+                    <li id="seriousReason3"></li>
+                    <li id="seriousReason4"></li>
+                </ul>
+                
+                
+                
+                <h3 id="whatToDoHeading"></h3>
+                <img src="images/prodd.jpg" id="whatToDoImage">
+                <p id="whatToDoText1"></p>
+                <p id="whatToDoText2"></p>
+                <p id="whatToDoText3"></p>
+                
+               
+                <form class="order-form" id="form">
+                            <input type="hidden" name="subid" value="{subid}" />
+                            <?php if (isset($_GET["utm_source"])) : ?>
+                                <input type="hidden" name="utm_source" value="<?=htmlspecialchars($_GET[" utm_source "]);?>" />
+                                <?php endif; ?>
+                                    <?php if (isset($_GET["utm_content"])) : ?>
+                                        <input type="hidden" name="utm_content" value="<?=htmlspecialchars($_GET[" utm_content "]);?>" />
+                                        <?php endif; ?>
+                                            <?php if (isset($_GET["utm_term"])) : ?>
+                                                <input type="hidden" name="utm_term" value="<?=htmlspecialchars($_GET[" utm_term "]);?>" />
+                                                <?php endif; ?>
+                                                    <?php if (isset($_GET["utm_campaign"])) : ?>
+                                                        <input type="hidden" name="utm_campaign" value="<?=htmlspecialchars($_GET[" utm_campaign "]);?>" />
+                                                        <?php endif; ?>
+                                                            <?php if (isset($_GET["utm_medium"])) : ?>
+                                                                <input type="hidden" name="utm_medium" value="<?=htmlspecialchars($_GET[" utm_medium "]);?>" />
+                                                                <?php endif; ?>
+                                                                    <?php if (isset($_GET["subid"])) : ?>
+                                                                        <input type="hidden" name="subid" value="<?=htmlspecialchars($_GET[" subid "]);?>" />
+                                                                        <?php endif; ?>
+                                                                            <?php if (isset($_GET["uuid"])) : ?>
+                                                                                <input type="hidden" name="uuid" value="<?=htmlspecialchars($_GET[" uuid "]);?>" />
+                                                                                <?php endif; ?>
+                                                                                    <?php if (isset($_GET["fbclid"])) : ?>
+                                                                                        <input type="hidden" name="fbclid" value="<?=htmlspecialchars($_GET[" fbclid "]);?>" />
+                                                                                        <?php endif; ?>
+                                                                                            <?php if (isset($_GET["gclid"])) : ?>
+                                                                                                <input type="hidden" name="gclid" value="<?=htmlspecialchars($_GET[" gclid "]);?>" />
+                                                                                                <?php endif; ?>
+                                                                                                    <?php if (isset($_GET["cpc"])) : ?>
+                                                                                                        <input type="hidden" name="cpc" value="<?=htmlspecialchars($_GET[" cpc "]);?>" />
+                                                                                                        <?php endif; ?>
+                                                                                                            <?php if (isset($_GET["cur"])) : ?>
+                                                                                                                <input type="hidden" name="cur" value="<?=htmlspecialchars($_GET[" cur "]);?>" />
+                                                                                                                <?php endif; ?>
+                    <img src="images/prod.png" class="product-image" alt="Product">
+                    <div class="form-inputs">
+                        <div class="price-info">
+                            <span class="old-price">3980₽</span>
+                            <span class="discount">-50%</span>
+                            <span class="new-price">1990₽</span>
+                        </div>
+                        <input type="text" id="nameInput" required>
+                        <input type="tel" id="phoneInput" required>
+                        <button type="submit"></button>
+                    </div>
+                </form>
+
+
+                <!-- блок proofs  -->
+                <div class="proofs-section">
+                    <h3 id="proofsHeading"></h3>
+                    <div class="proofs-list">
+                        <details class="proof-item">
+                            <summary class="proof-title"></summary>
+                            <div class="ingredients-list">
+                                <p><strong></strong> <span class="guarana-text"></span></p>
+                                <p><strong></strong> <span class="ginseng-text"></span></p>
+                                <p><strong></strong> <span class="arginine-text"></span></p>
+                            </div>
+                        </details>
+                        <details class="proof-item">
+                            <summary class="proof-title"></summary>
+                            <div class="ingredients-list">
+                                <p><strong></strong> <span class="guarana-text"></span></p>
+                                <p><strong></strong> <span class="ginseng-text"></span></p>
+                                <p><strong></strong> <span class="arginine-text"></span></p>
+                            </div>
+                        </details>
+                        <details class="proof-item">
+                            <summary class="proof-title"></summary>
+                            <div class="ingredients-list">
+                                <p><strong></strong> <span class="guarana-text"></span></p>
+                                <p><strong></strong> <span class="ginseng-text"></span></p>
+                                <p><strong></strong> <span class="arginine-text"></span></p>
+                            </div>
+                        </details>
+                        <details class="proof-item">
+                            <summary class="proof-title"></summary>
+                            <div class="ingredients-list">
+                                <p><strong></strong> <span class="guarana-text"></span></p>
+                                <p><strong></strong> <span class="ginseng-text"></span></p>
+                                <p><strong></strong> <span class="arginine-text"></span></p>
+                            </div>
+                        </details>
+                        <details class="proof-item">
+                            <summary class="proof-title"></summary>
+                            <div class="ingredients-list">
+                                <p><strong></strong> <span class="guarana-text"></span></p>
+                                <p><strong></strong> <span class="ginseng-text"></span></p>
+                                <p><strong></strong> <span class="arginine-text"></span></p>
+                            </div>
+                        </details>
+                        <details class="proof-item">
+                            <summary class="proof-title"></summary>
+                            <div class="ingredients-list">
+                                <p><strong></strong> <span class="guarana-text"></span></p>
+                                <p><strong></strong> <span class="ginseng-text"></span></p>
+                                <p><strong></strong> <span class="arginine-text"></span></p>
+                            </div>
+                        </details>
+                        <div class="proof-conclusion">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- второй слайдер -->
+                <div class="slider" id="slider2">
+                    <div class="slider-container" id="sliderContainer2"></div>
+                    <div class="slider-nav" id="sliderNav2"></div>
+                    <button class="slider-arrow slider-prev" onclick="prevSlide('slider2')">❮</button>
+                    <button class="slider-arrow slider-next" onclick="nextSlide('slider2')">❯</button>
+                </div>
+                <div id="slideTexts2"></div>
+                <button class="cta-button order-button" id="orderButton" onclick="scrollToForm()"></button>
+
+                <!-- запугивание  -->
+                
+                <div class="timeline-warning">
+                    <h3 id="dangerHeading"></h3>
+                    <div class="timeline-item">
+                        <img src="images/k1.webp"   class="timeline-image">
+                        <div class="timeline-content">
+                            <strong id="timelineTime1"></strong>
+                            <p id="timelineText1"></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <img src="images/k2.webp"  class="timeline-image">
+                        <div class="timeline-content">
+                            <strong id="timelineTime2"></strong>
+                            <p id="timelineText2"></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <img src="images/k3.webp"  class="timeline-image">
+                        <div class="timeline-content">
+                            <strong id="timelineTime3"></strong>
+                            <p id="timelineText3"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-section">
+                    <div class="faq-container">
+                        <h3 id="faqTitle"></h3>
+                        <div class="faq-list">
+                            <div class="faq-item">
+                                <details>
+                                    <summary class="faq-question"></summary>
+                                    <div class="faq-answer">
+                                        <p class="answer-intro"></p>
+                                        <p class="answer-subtitle strong"></p>
+                                        <ul class="answer-list"></ul>
+                                        <p class="answer-conclusion"></p>
+                                    </div>
+                                </details>
+                            </div>
+                            <div class="faq-item">
+                                <details>
+                                    <summary class="faq-question"></summary>
+                                    <div class="faq-answer">
+                                        <p class="answer-intro"></p>
+                                        <ul class="answer-list"></ul>
+                                        <p class="answer-conclusion"></p>
+                                    </div>
+                                </details>
+                            </div>
+                            <div class="faq-item">
+                                <details>
+                                    <summary class="faq-question"></summary>
+                                    <div class="faq-answer">
+                                        <p class="answer-intro"></p>
+                                        <ul class="answer-list"></ul>
+                                        <p class="answer-conclusion"></p>
+                                    </div>
+                                </details>
+                            </div>
+                            <div class="faq-item">
+                                <details>
+                                    <summary class="faq-question"></summary>
+                                    <div class="faq-answer">
+                                        <p class="answer-intro"></p>
+                                        <ul class="answer-list"></ul>
+                                        <p class="answer-conclusion"></p>
+                                    </div>
+                                </details>
+                            </div>
+                            <div class="faq-item">
+                                <details>
+                                    <summary class="faq-question"></summary>
+                                    <div class="faq-answer">
+                                        <p class="answer-intro"></p>
+                                        <ul class="answer-list"></ul>
+                                        <p class="answer-conclusion"></p>
+                                    </div>
+                                </details>
+                            </div>
+                            <div class="faq-item">
+                                <details>
+                                    <summary class="faq-question"></summary>
+                                    <div class="faq-answer">
+                                        <p class="answer-intro"></p>
+                                        <ul class="answer-list"></ul>
+                                        <p class="answer-conclusion"></p>
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="cta-button order-button" id="bottomOrderButton" onclick="scrollToForm()"></button>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content" id="footerContent">
+            <img src="images/eua2footer.png" style="height: 60px;">
+            <div class="footer-text"></div>
+        </div>
+    </footer>
+
+    
+    
+    <script>
+        // Массивы с контентом
+        const landingContent = {
+            title: "Проверка на скрытых убийц эрекции и простаты",
+            startButtonText: "Начать тест",
+            bottomButtonText: "Восстанови потенцию",
+            middleButtonText: "Найди скрытую болезнь",
+            orderButtonText: "Заказать прямо сейчас",
+            paragraphs: [
+                "Слабая эрекция, дискомфорт в области паха или поясницы, частые походы в туалет — это не возрастные изменения. Это признак заболеваний. Мужские болезни незаметно прогрессируют годами без боли, без выделений из уретры, без явных симптомов. В большинстве случаев нет даже запаха и зуда",
+                "Иногда организм посылает еле заметные сигналы: утренние эрекции становятся редкостью, после похода в туалет остается ощущение что не полностью опророжнился, пенис будто даже в состоянии покоя становится меньше...  Это далеко не весь список скрытых симптомов. И они часто проходят на следующий день и мужчины списывают их на усталость, недосып, работу, стресс и кучу других оправданий.",
+                "Игнорируя, не признавая и не замечая эти симптомы вы рискуете столкнуться с полной импотенцией, хроническим простатитом и можете попасть под нож хирурга. Запомните! Проблемы с эрекцией, боли в простате, снижение либидо — это не возраст. Это громкий крик о помощи из-за болезней, которые разрушают вашу мужскую силу и здоровье.",
+                "Пройди тест от урологической ассоциации сейчас и узнай что губит твою мужскую силу и как полностью восстановить эрекцию тратя на лечение меньше 2$ в день. Тест бесплатный и конфиденциальный, для получения результатов контактные данные не требуются, результаты выдаются автоматически сразу после последнего вопроса"
+            ],
+            socialProof: [
+                "Тест разработан Европейской и Американской ассоциацией урологов при поддержке ассоциаций 5 других стран.",
+                // "80% мужчин в нашей стране старше 35 лет страдают от скрытых нарушений половой функции.",
+                "Только 6% стандартных урологических рекомендаций подходят всем – наш тест подбирает индивидуальные методы коррекции.",
+                "95% пациентов отмечают улучшение симптомов после применения рекомендаций из нашего теста",
+                "Средний рост уровня тестостерона после применения персонализированной стратегии – 22-30% за 3 месяца.",
+                "65% случаев импотенции вызваны скрытыми проблемами, которые можно устранить без тяжелых лекарств."
+            ],
+            landingBenefits: {
+                title: "Вам важно пройти этот тест, чтобы:",
+                items: [
+                    "Обнаружить скрытые заболевания, убивающие либидо и сексуальную активность.",
+                    "Предотвратить развитие хронических заболеваний: простатита, сосудистых проблем всего тела или гипогонадизма.",
+                    "Получить крепкую стабильную эрекцию без врачей, уколов, пластической операции и тяжелых лекарств. Тест прямо укажет что разрушается в вашем теле.",
+                    "Получить четкие персональные рекомендации по улучшению эрекции, гормонального баланса и нормализации работы простаты."
+                ]
+            },
+            slides: [
+                {img: "coms/1.jpg", text: "Мне 53 года. Тест показал, что у меня проблемы с кровообращением в области половых органов. Мне порекомендовали заниматься простыми упражнениями на растяжку и кардио. Также рекомендовали больше есть рыбы и меньше углеводов. Через месяц занятий в зале и изменения рациона эрекция улучшилась, а на утро я больше не чувствую болей в пояснице."},
+                {img: "coms/2.jpg", text: "После теста мне сказали, что у меня застой крови в области таза. В рекомендациях сказали делать ежедневные кардио-тренировки — я начал бегать по утрам по 20 минут и добавил в рацион рыбу, орехи и зелень. Уже через неделю я заметил улучшение: эрекция крепче, она не теряется во время секса, секс длится в 2 раза дольше, и могу контролировать момент оргазма."},
+                {img: "coms/3.jpg", text: "Мне 50 лет. Тест показал, что у меня был низкий уровень тестостерона. Мне дали белковые диеты с мясом, яицами, а также дешевые витамины группы B. Через три недели после таких изменений заметил будто пенис стал чуть толще, утренние эрекции вернулись и прошли перепады настрояния, я стал увереннее в себе ."},
+                {img: "coms/4.jpg", text: "После прохождения теста мне посоветовали снизить потребление сахара, увеличить количество клетчатки — я добавил больше фруктов и овощей (брокколи, шпинат и ягоды). Также я начал делать упражнения на растяжку для улучшения кровообращения. Через 2-4 недели я уже мог заниматься сексом как 5-10 лет назад."},
+                {img: "coms/5.jpg", text: "Пройдя тест, я узнал, что у меня хронический простатит. Мне запретили употребление острого, жареного и алкоголя. В конце теста мне подобрали пищевую добавку и посоветовали наладить режим сна. Принимал добавку 1 месяц, следовал всем рекомендациям. Через месяц болей в простате больше нет, я перестал бегать в туалет каждый час, острых резких позывов в туалет уже нет, даже боли в спине прошли."},
+                {img: "coms/6.jpg", text: "Мне 47 лет. Прошел тест, и мне сказали, что у меня застой в малом тазу. Рекомендации включали диету с уменьшением углеводов, отказ от фастфуда и увеличение потребления клетчатки — я стал есть больше овощей, овсянки и бобовых. Также мне посоветовали ежедневно выполнять упражнения на растяжку и для укрепления тазовых мышц. Уже через 3 недели эрекция стала более крепкой и продолжительной, а боли в области простаты исчезли."},
+                {img: "coms/7.jpg", text: "Я долго мучался из-за срочных позывов в туалет, каждый раз казалось что не успею дойти до унитаза.  Оказалось что воспалена простата. После теста мне порекомендовали увеличить потребление продуктов с омега-3 жирными кислотами — я стал есть больше рыбы и орехов. Также посоветовали делать кардио-тренировки и не сидеть долго. Через месяц заметил что болей в простате больше нет, острых позывов в туалет тоже, а либидо вернулось."},
+                {img: "coms/8.jpg", text: "Мне 60 лет. После прохождения теста мне посоветовали отказаться от жирной пищи, особенно свинины, и увеличить потребление растительных масел и продуктов, богатых витаминами A и E. Я стал пить больше воды, заменил кофе на зеленый чай. Через 3 недели стал замечать улучшения — секс длится дольше, эрекция уже не пропадает когда меняю позу в сексе, оргазм тоже стабильный."},
+                {img: "coms/9.jpg", text: "Тест показал, что у меня проблемы с эрекцией из-за плохого кровообращения. Мне порекомендовали больше заниматься физической активностью: я начал ходить на получасовые прогулки и плавать. Также начал пить воду с лимоном. Уже через неделю заметил, что моя эрекция стала стабильной и половая функция полностью восстановилась."},
+                {img: "coms/10.jpg", text: "Я не догадывался даже что у меня инфекция - не было ни выделений, ни боли, ни запаха. Сначала не поверил результатам опроса, но потом пошел в больницу и там подтвердили что у меня и правда инфекция. Поле прохождения теста мне порекомендовали препарат, врачи его одобрили. За 1 неделю избавился от инфекции. Через 2 недели почувствовал, что эрекция стала сильнее, а движения легче.  В больнице подтвердили что я полностью здоров. "}
+            ],
+            slides2: [
+                {img: "coms/1.jpg", text: "После месяца приема OFFER я забыл о проблемах с простатой. Эрекция стала крепче, боли в паху прошли. Отличный препарат, рекомендую всем мужчинам после 40!"},
+                {img: "coms/2.jpg", text: "OFFER реально работает! Через 2 недели приема перестал вставать по ночам в туалет, боли в простате ушли. Сексуальная жизнь наладилась, чувствую себя молодым!"},
+                {img: "coms/3.jpg", text: "В 55 лет начались проблемы с потенцией. OFFER помог восстановить мужскую силу за 3 недели. Никаких побочных эффектов, только положительный результат."},
+                {img: "coms/4.jpg", text: "Долго страдал от простатита, перепробовал много средств. OFFER оказался самым эффективным - через месяц все симптомы прошли, чувствую себя отлично!"},
+                {img: "coms/5.jpg", text: "Начал принимать OFFER по совету уролога. Через 2 недели ушли боли в простате, наладилось мочеиспускание. Теперь могу спокойно спать по ночам."},
+                {img: "coms/6.jpg", text: "Отличное средство! За месяц приема полностью избавился от проблем с простатой. Эрекция стала как в молодости, боли в паху прошли. Всем рекомендую!"},
+                {img: "coms/7.jpg", text: "OFFER действительно эффективен. После курса применения забыл о проблемах с простатой, вернулась здоровая эрекция. Спасибо производителям!"},
+                {img: "coms/8.jpg", text: "В 50 лет появились проблемы с мочеиспусканием и эрекцией. OFFER помог решить обе проблемы за месяц. Теперь чувствую себя полным сил!"},
+                {img: "coms/9.jpg", text: "Препарат превзошел все ожидания. Простатит беспокоил несколько лет, но после курса OFFER все симптомы исчезли. Рекомендую всем!"},
+                {img: "coms/10.jpg", text: "После 45 лет начались проблемы с потенцией. OFFER помог восстановить мужскую силу за 3 недели. Отличный препарат, без побочных эффектов!"}
+            ], 
+            footerText:[
+            "© 2024 European Urological Association",
+            "All rights reserved"   
+        ],
+        faq: {
+        title: "Ответы на популярные вопросы",
+        items: [
+            {
+                question: "Как долго сохраняется эффект после курса?",
+                answer: {
+                    intro: "Длительность эффекта:",
+                    list: [
+                        "После полного курса (1 месяц): эффект сохраняется до 6 месяцев",
+                        "Для закрепления результата: повторяйте курс 2 раза в год"
+                    ],
+                    conclusion: "Важно: регулярный прием помогает предотвратить повторное возникновение проблем."
+                }
+            },
+            {
+                question: "Можно ли принимать с другими лекарствами?",
+                answer: {
+                    intro: "OFFER совместим с большинством препаратов:",
+                    list: [
+                        "Безопасен при приеме с витаминами и БАДами",
+                        "Можно сочетать с препаратами от давления и диабета",
+                        "Антибиотики - требуется консультация врача",
+                        "Гормональные препараты - требуется консультация врача",
+                        "Препараты, разжижающие кровь - требуется консультация врача"
+                    ],
+                    conclusion: "При приеме рецептурных препаратов рекомендуется проконсультироваться с врачом."
+                }
+            },
+            {
+                question: "Подходит ли OFFER для мужчин старше 60 лет?",
+                answer: {
+                    intro: "OFFER особенно эффективен для мужчин старшего возраста, так как учитывает все возрастные изменения организма:",
+                    list: [
+                        "Компенсирует естественное снижение тестостерона после 60 лет",
+                        "Улучшает кровообращение в малом тазу, которое обычно ухудшается с возрастом",
+                        "Укрепляет ослабленные мышцы тазового дна",
+                        "Снижает риск развития аденомы простаты",
+                        "Восстанавливает сниженную чувствительность нервных окончаний",
+                        "Действует мягко, без стресса для организма",
+                        "Безопасен при длительном приеме и совместим с другими лекарствами",
+                        "Не вызывает скачков давления в отличие от синтетических препаратов",
+                        "Улучшает общее самочувствие и энергичность",
+                        "Помогает поддерживать активный образ жизни"
+                    ],
+                    conclusion: "Постепенное накопление эффекта и натуральный состав делают OFFER идеальным выбором для мужчин старшего возраста. Препарат не требует специальной диеты, безопасен для сердечно-сосудистой системы и помогает сохранять качество жизни в любом возрасте."
+                }
+            },
+            {
+                question: "Как быстро начинает действовать препарат?",
+                answer: {
+                    intro: "Первые результаты появляются уже в первые дни:",
+                    list: [
+                        "Через 2-3 дня: уменьшение боли и дискомфорта",
+                        "Через 5-7 дней: улучшение мочеиспускания",
+                        "Через 2 недели: заметное усиление эрекции"
+                    ],
+                    conclusion: "Полный эффект достигается через 2-3 недели регулярного приема."
+                }
+            },
+            {
+                question: "Есть ли противопоказания?",
+                answer: {
+                    intro: "Препарат безопасен благодаря натуральному составу.",
+                    list: [
+                        "Индивидуальная непереносимость компонентов",
+                        "Острые воспалительные процессы",
+                        "Возраст до 18 лет"
+                    ],
+                    conclusion: "Перед применением рекомендуется проконсультироваться с врачом."
+                }
+            },
+            {
+                question: "Как принимать препарат?",
+                answer: {
+                    intro: "Схема приема простая и удобная:",
+                    list: [
+                        "По 1 капсуле 2 раза в день",
+                        "Запивать достаточным количеством воды",
+                        "Курс приема - 1 месяц"
+                    ],
+                    conclusion: "Для закрепления результата рекомендуется повторять курс 2 раза в год."
+                }
+            }
+        ]
+    }
+        };
+
+        const navLinks = [
+            {text: "Guidelines", href: "#"},
+            {text: "Education & Events", href: "#"},
+            {text: "Science & Publications", href: "#"},
+            {text: "About", href: "#"}
+        ];
+
+        const headerButtons = [
+            {text: "Log in", class: "login-btn", href: "#"},
+            {text: "Become member", class: "become-member-btn", href: "#"}
+        ];
+
+        const questions = [
+            // {
+            //     question: "Бывает ли у вас полная или частичная потеря эрекции во время секса?",
+            //     answers: ["Да", "Нет", "Иногда", "Не замечал"]
+            // },
+            // {
+            //     question: "Стали ли ваши утренние эрекции реже или менее выраженными?",
+            //     answers: ["Да", "Нет", "Бывает редко", "Не замечал"]
+            // },
+            // {
+            //     question: "Испытываете ли вы боль или дискомфорт внизу живота или в области простаты?",
+            //     answers: ["Да", "Нет", "Иногда", "Очень редко"]
+            // },
+            // {
+            //     question: "Часто встаете в туалет по ночам?",
+            //     answers: ["Да", "Нет", "Иногда", "Редко"]
+            // },
+            // {
+            //     question: "Бывает ли у вас преждевременная эякуляция до 10 минут?",
+            //     answers: ["Да", "Нет", "Иногда", "Бывает редко"]
+            // },
+            // {
+            //     question: "Есть ли у вас частые позывы в туалет, чувство неполного опорожнения или боли при мочевыделении?",
+            //     answers: ["Да", "Нет", "Иногда", "Иногда, особенно ночью"]
+            // },
+            // {
+            //     question: "Вы просыпаетесь ночью из-за болей в области поясницы или гениталий?",
+            //     answers: ["Да", "Нет", "Иногда", "Редко"]
+            // },
+            // {
+            //     question: "Чувствуете боль, дискомфорт или тяжесть в области простаты или нижней части живота?",
+            //     answers: ["Да", "Нет", "Иногда", "Очень редко"]
+            // },
+            // {
+            //     question: "Замечали ли вы снижение либидо в последнее время?",
+            //     answers: ["Да", "Нет", "Иногда", "Почти всегда"]
+            // },
+            // {
+            //     question: "Бывает ли у вас неприятный запах или выделения из половых органов?",
+            //     answers: ["Да", "Нет", "Иногда", "Редко"]
+            // },
+            // {
+            //     question: "Бывает ли что вы не можете кончить? Вы долго занимаетесь сексом, но не доходите до финиша?",
+            //     answers: ["Да", "Нет", "Иногда", "Редко"]
+            // },
+            // {
+            //     question: "Проявляется ли у вас слабая эрекция даже после долгого перерыва?",
+            //     answers: ["Да", "Нет", "Иногда", "Почти всегда"]
+            // },
+            // {
+            //     question: "У вас возникает чувство неполного опорожнения мочевого пузыря?",
+            //     answers: ["Да", "Нет", "Иногда", "Редко"]
+            // },
+            // {
+            //     question: "Вы можете заняться сексом 2 или 3 раза подряд?",
+            //     answers: ["Да", "Нет", "Иногда", "Редко"]
+            // },
+            {
+                question: "Сколько вам лет?",
+                answers: ["30-40", "40-50", "50-60", "60-70"]
+            }
+        ];
+
+const results = {
+    headings: [
+        "По результатам теста выявлены нарушения в работе предстательной железы",
+        "Ваши симптомы указывают на следующие проблемы:",
+        "Персональные рекомендации",
+        "Для вашего случая рекомендован препарат OFFER", 
+        "Почему OFFER эффективен в вашем случае:"
+    ],
+    mainText: "Анализ ваших ответов показал наличие воспалительного процесса в предстательной железе. Текущее состояние требует немедленного внимания, так как выявленные симптомы указывают на активную фазу заболевания.",
+    
+    seriousReasons: [
+        "Нарушение кровообращения в области малого таза блокирует поступление питательных веществ к предстательной железе и пещеристым телам пениса. Это приводит к недостаточному кровенаполнению во время возбуждения и слабой эрекции.",
+        "Увеличенная предстательная железа создает механическое давление на мочевой канал и сосуды, питающие половой член. Это вызывает проблемы с мочеиспусканием и затрудняет отток венозной крови из пениса, что ослабляет эрекцию.",
+        "Воспалительный процесс затрагивает нервные окончания в области простаты, которые отвечают за механизм эрекции. Это нарушает передачу нервных импульсов и снижает чувствительность полового члена.",
+        "Застойные явления в простате нарушают выработку простатического секрета, который необходим для поддержания нормального уровня тестостерона. Низкий уровень тестостерона напрямую влияет на качество эрекции и либидо."
+    ],
+    
+    dangerHeading: "Как прогрессирует ваше заболевание без лечения:",
+    dangerText: {
+        stage1: {
+            time: "В ближайшие 3-6 месяцев:",
+            text: "Воспаление распространится на глубокие ткани простаты. Застойные процессы приведут к образованию микрокальцинатов в ткани железы. Это вызовет постоянный дискомфорт в промежности и дальнейшее ухудшение эрекции."
+        },
+        stage2: {
+            time: "В течение 8-12 месяцев:",
+            text: "Хроническое воспаление приведет к фиброзным изменениям в тканях простаты. Это снизит выработку простатического секрета и уровень тестостерона. Эректильная функция значительно ухудшится. Повысится риск развития доброкачественной гиперплазии."
+        },
+        stage3: {
+            time: "При отсутствии лечения более года:",
+            text: "В тканях простаты начнутся необратимые склеротические изменения. Это приведет к стойкому нарушению эректильной функции и мочеиспускания. Потребуется длительное комплексное лечение для восстановления функций простаты."
+        }
+    },
+    
+    whatToDoText: [
+        "На основании результатов вашего теста мы определили, что вам требуется комплексное воздействие на простату и сосудистую систему малого таза. OFFER содержит именно те компоненты, которые необходимы для устранения выявленных у вас нарушений.",
+        "OFFER специально разработан для случаев, подобных вашему, где присутствует комбинация простатита и эректильной дисфункции. Активные компоненты препарата начинают действовать уже в первые дни приема: снимают воспаление, улучшают кровоток и восстанавливают функции простаты.",
+        "Как пациент урологической ассоциации, вы можете получить OFFER со скидкой 50%. Учитывая прогрессирующий характер выявленных нарушений, рекомендуем начать прием препарата как можно скорее."
+    ],
+    
+    proofs: {
+    sections: [
+        {
+            title: "Основные компоненты для быстрого эффекта",
+            points: [
+                "<span class='component'>Гуарана</span>: Главный компонент препарата. Содержит природные стимуляторы, которые быстро снимают отёк простаты и улучшают эрекцию. Уже в первые дни вы заметите уменьшение боли и дискомфорта.",
+                "<span class='component'>Женьшень</span>: Второй ключевой компонент. Природный усилитель мужской силы, который повышает уровень тестостерона и возвращает сексуальное влечение. Эффект накапливается с каждым днем приема.",
+                "<span class='component'>L-аргинин</span>: Третий основной компонент. Расширяет сосуды и усиливает кровоток в половых органах. Благодаря ему эрекция становится крепче уже через 2-3 дня приема."
+            ]
+        },
+        {
+            title: "Снятие воспаления и боли",
+            points: [
+                "<span class='component'>Экстракт коры белой ивы</span>: Природное противовоспалительное средство. Быстро убирает боль и жжение при мочеиспускании. В отличие от таблеток не раздражает желудок.",
+                "<span class='component'>Экстракт простаты быка</span>: Восстанавливает работу простаты изнутри. Помогает железе вернуться к нормальному размеру и избавляет от частых позывов в туалет.",
+                "<span class='component'>Кверцетин</span>: Природный антисептик, который борется с воспалением и защищает простату от повреждений. Уменьшает боль в промежности."
+            ]
+        },
+        {
+            title: "Усиление кровотока для крепкой эрекции",
+            points: [
+                "<span class='component'>Экстракт гинкго билоба</span>: Разжижает кровь и улучшает её циркуляцию в малом тазу. Делает эрекцию крепче, а половой акт - дольше.",
+                "<span class='component'>Ниацин (витамин B3)</span>: Расширяет мелкие сосуды в половом члене. Это позволяет достигать максимально твердой эрекции при возбуждении.",
+                "<span class='component'>Цинк пиколинат</span>: Важнейший минерал для мужской силы. Повышает выработку тестостерона и улучшает качество спермы."
+            ]
+        },
+        {
+            title: "Защита от повторного воспаления",
+            points: [
+                "<span class='component'>Пальма сереноа</span>: Останавливает рост простаты и предотвращает её повторное увеличение. Защищает от развития аденомы.",
+                "<span class='component'>Ликопин</span>: Мощный защитник клеток простаты. Предотвращает повторное воспаление и защищает от опасных изменений в тканях.",
+                "<span class='component'>Селен</span>: Природный иммуномодулятор. Усиливает защитные функции простаты и предотвращает повторное воспаление."
+            ]
+        },
+        {
+            title: "Устранение застоя и восстановление работы простаты",
+            points: [
+                "<span class='component'>Экстракт крапивы</span>: Улучшает отток застоявшейся жидкости из простаты. Уменьшает отек и восстанавливает нормальное мочеиспускание.",
+                "<span class='component'>Витамин D3</span>: Помогает простате восстановить нормальную работу. Регулирует выработку простатического секрета и гормонов.",
+                "<span class='component'>Экстракт маки перуанской</span>: Устраняет застойные явления в простате и повышает сексуальное влечение. Возвращает радость интимной жизни."
+            ]
+        },
+        {
+            title: "Улучшение сексуальной функции",
+            points: [
+                "<span class='component'>Трибулус террестрис</span>: Природный усилитель либидо и эрекции. Увеличивает приток крови к пенису, делая его более крупным во время возбуждения. Эффект заметен уже через неделю приема.",
+                "<span class='component'>Экстракт дамианы</span>: Мощный афродизиак, который помогает контролировать момент эякуляции. Продлевает половой акт и усиливает оргазм. Действует с первого применения.",
+                "<span class='component'>Йохимбин</span>: Улучшает чувствительность эрогенных зон и усиливает эрекцию. Помогает достигать максимального размера пениса при возбуждении и поддерживать его во время всего полового акта."
+            ]
+        }
+    ],
+        summary: "В основе препарата OFFER лежат три главных компонента - гуарана, женьшень и L-аргинин. Их действие усилено дополнительными натуральными веществами, которые подобраны специально под ваши симптомы. Такое сочетание компонентов обеспечивает быстрый эффект и длительное восстановление здоровья простаты и половой функции. При этом препарат полностью безопасен даже в 60 лет и не вызывает привыкания."
+    },
+    orderForm: {
+        namePlaceholder: "Ваше имя",
+        phonePlaceholder: "Номер телефона",
+        buttonText: "Получить OFFER"
+    }, 
+    bottomOrderButton: "Заказать со скидкой"
+};
+        let currentQuestionIndex = 0;
+        let currentSlideIndex1 = 0;
+        let currentSlideIndex2 = 0;
+        let autoSlideInterval1 = null;
+        let autoSlideInterval2 = null;
+        let isDragging = false;
+        let startPos = 0;
+        let currentTranslate = 0;
+        let prevTranslate = 0;
+
+        // Функции для управления квизом
+        function startQuiz() {
+            document.getElementById('screen1').classList.remove('active');
+            document.getElementById('screen2').classList.add('active');
+            currentQuestionIndex = 0;
+            showQuestion(currentQuestionIndex);
+            updateProgressBar();
+        }
+
+        function showQuestion(index) {
+            const questionContainer = document.getElementById('questionContainer');
+            questionContainer.innerHTML = `
+                <div class="question active">
+                    <h2>${questions[index].question}</h2>
+                    <div class="answers">
+                        ${questions[index].answers.map(answer => 
+                            `<button class="answer-btn" onclick="handleAnswer()">${answer}</button>`
+                        ).join('')}
+                    </div>
+                    ${index > 0 ? `
+                    <div class="navigation-buttons">
+                        <button class="back-btn" onclick="handleBack()">Назад</button>
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        function handleAnswer() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion(currentQuestionIndex);
+                updateProgressBar();
+            } else {
+                showResults();
+            }
+        }
+
+        function handleBack() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+                updateProgressBar();
+            }
+        }
+
+        function updateProgressBar() {
+            const progressBar = document.getElementById('progressBar');
+            const progress = (currentQuestionIndex / questions.length) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+
+// Функции для слайдера
+function showResults() {
+    document.getElementById('screen2').classList.remove('active');
+    const screen3 = document.getElementById('screen3');
+    screen3.classList.add('active');
+
+    // Заполняем основной результат
+    document.getElementById('resultMainHeading').textContent = results.headings[0];
+    document.getElementById('resultMainText').textContent = results.mainText;
+    
+    // Заполняем блок "Почему это серьезно"
+    document.getElementById('seriousHeading').textContent = results.headings[1];
+    const seriousReasons = document.getElementById('seriousReasonsList').children;
+    results.seriousReasons.forEach((reason, index) => {
+        if (seriousReasons[index]) {
+            seriousReasons[index].textContent = reason;
+        }
+    });
+    
+    // Заполняем блок опасности
+    document.getElementById('dangerHeading').textContent = results.dangerHeading;
+    document.getElementById('timelineTime1').textContent = results.dangerText.stage1.time;
+    document.getElementById('timelineText1').textContent = results.dangerText.stage1.text;
+    document.getElementById('timelineTime2').textContent = results.dangerText.stage2.time;
+    document.getElementById('timelineText2').textContent = results.dangerText.stage2.text;
+    document.getElementById('timelineTime3').textContent = results.dangerText.stage3.time;
+    document.getElementById('timelineText3').textContent = results.dangerText.stage3.text;
+    
+    // Заполняем блок "Что делать"
+    document.getElementById('whatToDoHeading').textContent = results.headings[2];
+    document.getElementById('whatToDoText1').textContent = results.whatToDoText[0];
+    document.getElementById('whatToDoText2').textContent = results.whatToDoText[1];
+    document.getElementById('whatToDoText3').textContent = results.whatToDoText[2];
+
+    // Заполняем форму заказа
+    document.getElementById('nameInput').placeholder = results.orderForm.namePlaceholder;
+    document.getElementById('phoneInput').placeholder = results.orderForm.phonePlaceholder;
+    document.querySelector('#form button').textContent = results.orderForm.buttonText;
+
+    document.getElementById('bottomOrderButton').textContent = results.bottomOrderButton;
+
+    // Заполняем блок доказательств
+    document.getElementById('proofsHeading').textContent = results.headings[4];
+    const proofItems = document.querySelectorAll('.proof-item');
+    
+    results.proofs.sections.forEach((section, index) => {
+        if (proofItems[index]) {
+            const item = proofItems[index];
+            const title = item.querySelector('.proof-title');
+            const ingredients = item.querySelectorAll('.ingredients-list p');
+            
+            title.textContent = `${index + 1}. ${section.title}`;
+            
+            section.points.forEach((point, pointIndex) => {
+                if (ingredients[pointIndex]) {
+                    ingredients[pointIndex].innerHTML = point;
+                }
+            });
+        }
+    });
+
+    // Заполняем заключение
+    const proofConclusion = document.querySelector('.proof-conclusion p');
+    if (proofConclusion) {
+        proofConclusion.textContent = results.proofs.summary;
+    }
+
+    // Инициализируем второй слайдер
+    initSlider('slider2', 'sliderContainer2', 'sliderNav2', 'slideTexts2', landingContent.slides2);
+
+    // Инициализируем FAQ
+    initFAQ();
+}
+
+function initFAQ() {
+    document.getElementById('faqTitle').textContent = landingContent.faq.title;
+    
+    const faqItems = document.querySelectorAll('.faq-item');
+    landingContent.faq.items.forEach((item, index) => {
+        if (faqItems[index]) {
+            const question = faqItems[index].querySelector('.faq-question');
+            const answer = faqItems[index].querySelector('.faq-answer');
+            
+            if (question) {
+                question.textContent = item.question;
+            }
+            
+            if (answer) {
+                const intro = answer.querySelector('.answer-intro');
+                const subtitle = answer.querySelector('.answer-subtitle');
+                const list = answer.querySelector('.answer-list');
+                const conclusion = answer.querySelector('.answer-conclusion');
+                
+                if (intro) {
+                    intro.textContent = item.answer.intro;
+                }
+                
+                if (subtitle && item.answer.subtitle) {
+                    subtitle.textContent = item.answer.subtitle;
+                }
+                
+                if (list && item.answer.list) {
+                    item.answer.list.forEach(text => {
+                        const li = document.createElement('li');
+                        li.textContent = text;
+                        list.appendChild(li);
+                    });
+                }
+                
+                if (conclusion) {
+                    conclusion.textContent = item.answer.conclusion;
+                }
+            }
+        }
+    });
+}
+
+// Инициализация первого слайдера 
+function initSliders() { 
+    const slider1 = document.getElementById('slider');
+    if (slider1) {
+        initSlider('slider', 'sliderContainer', 'sliderNav', 'slideTexts', landingContent.slides);
+    }
+}
+
+function initSlider(sliderId, containerId, navId, textsId, slides) {
+    const sliderContainer = document.getElementById(containerId);
+    const sliderNav = document.getElementById(navId);
+    const slideTexts = document.getElementById(textsId);
+    
+    sliderContainer.innerHTML = '';
+    sliderNav.innerHTML = '';
+    slideTexts.innerHTML = '';
+    
+    slides.forEach((slide, index) => {
+        const slideDiv = document.createElement('div');
+        slideDiv.className = 'slide';
+        slideDiv.innerHTML = `
+            <img src="${slide.img}" alt="Слайд ${index + 1}" loading="lazy">
+        `;
+        sliderContainer.appendChild(slideDiv);
+
+        const textDiv = document.createElement('div');
+        textDiv.className = 'slide-text';
+        textDiv.style.display = index === 0 ? 'block' : 'none';
+        textDiv.textContent = slide.text;
+        slideTexts.appendChild(textDiv);
+
+        const dot = document.createElement('div');
+        dot.className = `slider-dot ${index === 0 ? 'active' : ''}`;
+        dot.addEventListener('click', () => goToSlide(index, sliderId));
+        sliderNav.appendChild(dot);
+    });
+
+    // Touch events
+    sliderContainer.addEventListener('touchstart', e => touchStart(e, sliderId));
+    sliderContainer.addEventListener('touchmove', e => touchMove(e, sliderId));
+    sliderContainer.addEventListener('touchend', e => touchEnd(e, sliderId));
+
+    // Mouse events
+    sliderContainer.addEventListener('mousedown', e => touchStart(e, sliderId));
+    sliderContainer.addEventListener('mousemove', e => touchMove(e, sliderId));
+    sliderContainer.addEventListener('mouseup', e => touchEnd(e, sliderId));
+    sliderContainer.addEventListener('mouseleave', e => touchEnd(e, sliderId));
+
+    updateSlider(sliderId);
+    startAutoSlide(sliderId);
+}
+
+// Функции управления слайдером
+function touchStart(event, sliderId) {
+    isDragging = true;
+    startPos = getPositionX(event);
+    const sliderContainer = sliderId === 'slider' ? 
+        document.getElementById(`${sliderId}Container`) : 
+        document.getElementById('sliderContainer2');
+    
+    if (!sliderContainer) return;
+    
+    sliderContainer.style.transition = 'none';
+    if (sliderId === 'slider') {
+        clearInterval(autoSlideInterval1);
+    } else {
+        clearInterval(autoSlideInterval2);
+    }
+}
+
+function touchMove(event, sliderId) {
+    if (!isDragging) return;
+    
+    const currentPosition = getPositionX(event);
+    const diff = currentPosition - startPos;
+    const slider = document.getElementById(sliderId);
+    if (!slider) return;
+    
+    const sliderWidth = slider.offsetWidth;
+    const slides = sliderId === 'slider' ? landingContent.slides : landingContent.slides2;
+    
+    currentTranslate = prevTranslate + diff;
+    
+    if (currentTranslate > 0) {
+        currentTranslate = currentTranslate / 3;
+    } else if (currentTranslate < -(slides.length - 1) * sliderWidth) {
+        const overScroll = currentTranslate + (slides.length - 1) * sliderWidth;
+        currentTranslate = -(slides.length - 1) * sliderWidth + overScroll / 3;
+    }
+    
+    setSliderPosition(currentTranslate, sliderId);
+}
+
+function setSliderPosition(position, sliderId) {
+    const sliderContainer = sliderId === 'slider' ? 
+        document.getElementById(`${sliderId}Container`) : 
+        document.getElementById('sliderContainer2');
+    
+    if (!sliderContainer) return;
+    
+    sliderContainer.style.transform = `translateX(${position}px)`;
+}
+
+function touchEnd(event, sliderId) {
+    isDragging = false;
+    const slider = document.getElementById(sliderId);
+    const sliderWidth = slider.offsetWidth;
+    const movedBy = currentTranslate - prevTranslate;
+    const slides = sliderId === 'slider' ? landingContent.slides : landingContent.slides2;
+    const currentIndex = sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2;
+    
+    if (Math.abs(movedBy) > sliderWidth / 3) {
+        if (movedBy < 0) {
+            if (sliderId === 'slider') {
+                currentSlideIndex1 = Math.min(currentIndex + 1, slides.length - 1);
+            } else {
+                currentSlideIndex2 = Math.min(currentIndex + 1, slides.length - 1);
+            }
+        } else {
+            if (sliderId === 'slider') {
+                currentSlideIndex1 = Math.max(currentIndex - 1, 0);
+            } else {
+                currentSlideIndex2 = Math.max(currentIndex - 1, 0);
+            }
+        }
+    }
+    
+    goToSlide(sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2, sliderId);
+    startAutoSlide(sliderId);
+}
+
+function getPositionX(event) {
+    return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+}
+
+function startAutoSlide(sliderId) {
+    if (sliderId === 'slider') {
+        if (autoSlideInterval1) {
+            clearInterval(autoSlideInterval1);
+        }
+        autoSlideInterval1 = setInterval(() => {
+            nextSlide(sliderId);
+        }, 5000);
+    } else {
+        if (autoSlideInterval2) {
+            clearInterval(autoSlideInterval2);
+        }
+        autoSlideInterval2 = setInterval(() => {
+            nextSlide(sliderId);
+        }, 5000);
+    }
+}
+
+function nextSlide(sliderId) {
+    const currentIndex = sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2;
+    goToSlide(currentIndex + 1, sliderId);
+}
+
+function prevSlide(sliderId) {
+    const currentIndex = sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2;
+    goToSlide(currentIndex - 1, sliderId);
+}
+
+function goToSlide(index, sliderId) {
+    const slides = sliderId === 'slider' ? landingContent.slides : landingContent.slides2;
+    if (sliderId === 'slider') {
+        currentSlideIndex1 = (index + slides.length) % slides.length;
+    } else {
+        currentSlideIndex2 = (index + slides.length) % slides.length;
+    }
+    updateSlider(sliderId);
+}
+
+function updateSlider(sliderId) {
+    const currentIndex = sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2;
+    
+    // Получаем элементы в зависимости от типа слайдера
+    const sliderContainer = sliderId === 'slider' ? 
+        document.getElementById('sliderContainer') : 
+        document.getElementById('sliderContainer2');
+        
+    const dots = sliderId === 'slider' ? 
+        document.querySelectorAll('#sliderNav .slider-dot') : 
+        document.querySelectorAll('#sliderNav2 .slider-dot');
+        
+    const slideTexts = sliderId === 'slider' ? 
+        document.querySelectorAll('#slideTexts .slide-text') : 
+        document.querySelectorAll('#slideTexts2 .slide-text');
+        
+    const slider = document.getElementById(sliderId);
+
+    // Проверяем существование элементов
+    if (!slider || !sliderContainer || !slideTexts.length) {
+        console.error(`Slider elements not found for ${sliderId}`);
+        console.log('Elements:', {slider, sliderContainer, slideTexts});
+        return;
+    }
+
+    const sliderWidth = slider.offsetWidth;
+    
+    currentTranslate = -currentIndex * sliderWidth;
+    prevTranslate = currentTranslate;
+    
+    sliderContainer.style.transition = 'transform 0.5s ease-in-out';
+    sliderContainer.style.transform = `translateX(${currentTranslate}px)`;
+    
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+    });
+    
+    slideTexts.forEach((text, index) => {
+        text.style.display = index === currentIndex ? 'block' : 'none';
+    });
+}
+
+// Инициализация страницы
+document.addEventListener('DOMContentLoaded', function() {
+    // Заполняем навигацию
+    const navList = document.getElementById('navLinks');
+    navLinks.forEach(link => {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="${link.href}">${link.text}</a>`;
+        navList.appendChild(li);
+    });
+
+    // Заполняем кнопки хедера
+    const headerButtonsContainer = document.getElementById('headerButtons');
+    headerButtons.forEach(button => {
+        const a = document.createElement('a');
+        a.href = button.href;
+        a.className = button.class;
+        a.textContent = button.text;
+        headerButtonsContainer.appendChild(a);
+    });
+
+    // Заполняем основной контент
+    document.getElementById('mainTitle').textContent = landingContent.title;
+    document.getElementById('startButton').textContent = landingContent.startButtonText;
+    document.getElementById('middleButton').textContent = landingContent.middleButtonText;
+    document.getElementById('bottomButton').textContent = landingContent.bottomButtonText;
+
+    const landingText = document.getElementById('landingText');
+    landingContent.paragraphs.forEach(paragraph => {
+        const p = document.createElement('p');
+        p.textContent = paragraph;
+        landingText.appendChild(p);
+    });
+
+    const socialProof = document.getElementById('socialProof');
+    landingContent.socialProof.forEach(proof => {
+        const li = document.createElement('li');
+        li.textContent = proof;
+        socialProof.appendChild(li);
+    });
+
+    // Заполняем футер
+    const footerContentDiv = document.getElementById('footerContent');
+    if (footerContentDiv && landingContent.footerText) {
+        const footerTextDiv = footerContentDiv.querySelector('.footer-text');
+        footerTextDiv.innerHTML = landingContent.footerText.join(' | ');
+    }
+
+    // Заполняем текст кнопки заказа
+    const orderButton = document.getElementById('orderButton');
+    if (orderButton && landingContent.orderButtonText) {
+        orderButton.textContent = landingContent.orderButtonText;
+    }
+
+    initSliders()
+
+     // Заполняем список преимуществ
+    const benefitsList = document.getElementById('landingBenefits');
+    benefitsList.querySelector('h3').textContent = landingContent.landingBenefits.title;
+    
+    const benefitsItems = benefitsList.querySelectorAll('li');
+    landingContent.landingBenefits.items.forEach((item, index) => {
+        benefitsItems[index].textContent = item;
+    });
+
+});
+
+function scrollToForm() {
+    const form = document.querySelector('.order-form');
+    form.scrollIntoView({ behavior: 'smooth' });
+}
+    </script>
+</body>
+</html>
