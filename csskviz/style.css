@@ -1344,6 +1344,81 @@ details[open] .faq-answer {
     }
 }
 
+.doctor-section {
+    display: flex;
+    gap: 30px;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.doctor-section::before {
+    content: '"';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 60px;
+    color: var(--eau-blue);
+    opacity: 0.2;
+    font-family: Georgia, serif;
+}
+
+.doctor-photo {
+    flex: 0 0 200px;
+}
+
+.doctor-photo img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.doctor-content {
+    flex: 1;
+}
+
+.doctor-quote {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.doctor-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid var(--eau-blue);
+}
+
+.doctor-info cite {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    color: #152443;
+    margin-bottom: 5px;
+}
+
+.doctor-info span {
+    color: #666;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .doctor-section {
+        flex-direction: column;
+    }
+    
+    .doctor-photo {
+        flex: 0 0 auto;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+
 
 
 

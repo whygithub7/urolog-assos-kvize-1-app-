@@ -217,6 +217,22 @@
                 <div id="slideTexts2"></div>
                 <button class="cta-button order-button" id="orderButton" onclick="scrollToForm()"></button>
 
+                    <!-- Мнение локал врача -->
+                    <div class="doctor-section">
+                        <div class="doctor-photo">
+                            <img src="images/doctor.jpg"  id="doctorPhoto">
+                        </div>
+                        <div class="doctor-content">
+                            <blockquote class="doctor-quote">
+                                <p id="doctorQuote"></p>
+                                <footer class="doctor-info">
+                                    <cite id="doctorName"></cite>
+                                    <span id="doctorTitle"></span>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
                 <!-- запугивание  -->
                 
                 <div class="timeline-warning">
@@ -243,6 +259,8 @@
                         </div>
                     </div>
                 </div>
+
+           
 
                 <div class="faq-section">
                     <div class="faq-container">
@@ -470,6 +488,11 @@
                 }
             }
         ]
+    },
+    doctorComment: {
+        name: "Андрей Викторович Соколов",
+        title: "Врач-уролог высшей категории, к.м.н.",
+        quote: "За 15 лет практики я наблюдал сотни случаев, когда мужчины обращались слишком поздно из-за того, что игнорировали первые симптомы. OFFER - это именно тот препарат, который я рекомендую своим пациентам для профилактики и лечения проблем с простатой. Его натуральный состав безопасен даже при длительном приеме, а эффективность подтверждена клиническими исследованиями. Особенно важно, что препарат помогает не только с простатитом, но и улучшает эректильную функцию, что критически важно для качества жизни мужчины."
     }
         };
 
@@ -1105,11 +1128,18 @@ document.addEventListener('DOMContentLoaded', function() {
         benefitsItems[index].textContent = item;
     });
 
+    initDoctorComment();
 });
 
 function scrollToForm() {
     const form = document.querySelector('.order-form');
     form.scrollIntoView({ behavior: 'smooth' });
+}
+
+function initDoctorComment() {
+    document.getElementById('doctorQuote').textContent = landingContent.doctorComment.quote;
+    document.getElementById('doctorName').textContent = landingContent.doctorComment.name;
+    document.getElementById('doctorTitle').textContent = landingContent.doctorComment.title;
 }
     </script>
 </body>
