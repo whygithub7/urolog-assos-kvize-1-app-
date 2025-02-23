@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAU Test Results</title>
+    <style>
+        :root {
+            --primary: #2C3E50;
+            --accent: #3498DB;
+            --warning: #E74C3C;
+            --success: #2ECC71;
+            --light: #ECF0F1;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background: #f5f5f5;
+            line-height: 1.6;
+            color: var(--primary);
+        }
+        
+        .header {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 3px solid var(--accent);
+        }
+        
+        .header img {
+            height: 50px;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1, h2, h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .diagnosis-block, .stats-block, .timeline-block, .warning-block, .solution-block {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .diagnosis-block {
+            border-left: 5px solid var(--warning);
+        }
+        
+        .solution-block {
+            border-left: 5px solid var(--success);
+        }
+        
+        .chart-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .chart-caption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            list-style: none;
+        }
+        
+        .timeline li {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: var(--light);
+            border-radius: 8px;
+        }
+        
+        .timeline li::before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 50%;
+            width: 15px;
+            height: 15px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+        
+        .warning-text {
+            color: var(--warning);
+            font-weight: bold;
+        }
+        
+        .success-text {
+            color: var(--success);
+            font-weight: bold;
+        }
+        
+        .treatment-steps ul {
+            list-style: none;
+        }
+        
+        .treatment-steps li {
+            padding: 15px;
+            margin: 10px 0;
+            background: var(--light);
+            border-radius: 8px;
+            border-left: 3px solid var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="images/eau-logo.svg" alt="EAU Logo">
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1>Your Test Results</h1>
+        
+        <div class="diagnosis-block">
+            <h2>Your Diagnosis: Chronic Prostatitis</h2>
+            <p>Based on your answers, our system detected congestion in the prostate and impaired blood circulation in the pelvic area. This explains:</p>
+            <ul>
+                <li>Frequent urination</li>
+                <li>Unstable erection</li>
+                <li>Quick fatigue</li>
+                <li>Perineal discomfort</li>
+            </ul>
+            <div class="chart-container">
+                <img src="temporary/5aZzLG-hSEGfjj77bmenew.webp" alt="Prostate Anatomy">
+                <p class="chart-caption">Anatomical illustration showing affected areas</p>
+            </div>
+        </div>
+
+        <div class="stats-block">
+            <h2>Recovery Plan</h2>
+            <div class="chart-container">
+                <img src="temporary/www.webp" alt="Recovery Progress">
+                <p class="chart-caption">Expected improvement timeline</p>
+            </div>
+            
+            <div class="treatment-steps">
+                <h3>Daily Exercises:</h3>
+                <ul>
+                    <li>🏃‍♂️ Morning jog - 20 minutes</li>
+                    <li>🧘‍♂️ Plank - 30-60 seconds</li>
+                    <li>🏋️‍♂️ Squats with twists</li>
+                    <li>🤸‍♂️ Kegel exercises - 3 sets daily</li>
+                </ul>
+
+                <div class="chart-container">
+                    <img src="temporary/JHuZHw4QS3KwNEr5rjyvPQ.jpg" alt="Exercise Effectiveness">
+                    <p class="chart-caption">Exercise effectiveness distribution</p>
+                </div>
+
+                <h3>Diet Plan:</h3>
+                <ul>
+                    <li>🐟 Salmon - twice per week</li>
+                    <li>🥜 Walnuts - handful daily</li>
+                    <li>🫒 Olive oil - 2 tablespoons daily</li>
+                    <li>🥦 Broccoli and spinach - daily portion</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-block">
+            <h2>Expected Results</h2>
+            <ul class="timeline">
+                <li>Days 3-6: Pain and discomfort reduction</li>
+                <li>Week 2: Urination normalization</li>
+                <li>Week 3: Erection restoration</li>
+                <li>Month 1: Return to full sexual activity</li>
+            </ul>
+            <div class="chart-container">
+                <img src="temporary/kv55.jpg" alt="Progress Timeline">
+                <p class="chart-caption">Patient recovery timeline</p>
+            </div>
+        </div>
+
+        <div class="warning-block">
+            <h2>Important!</h2>
+            <p>Without treatment, prostatitis can lead to:</p>
+            <ul>
+                <li class="warning-text">Complete erectile dysfunction</li>
+                <li class="warning-text">Chronic pain</li>
+                <li class="warning-text">Infertility</li>
+            </ul>
+        </div>
+
+        <div class="solution-block">
+            <h2>Your Solution</h2>
+            <p class="success-text">Following all recommendations will help you:</p>
+            <ul>
+                <li>✅ Eliminate pain and discomfort</li>
+                <li>✅ Restore stable erection</li>
+                <li>✅ Return to full sexual life</li>
+                <li>✅ Prevent complications</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 

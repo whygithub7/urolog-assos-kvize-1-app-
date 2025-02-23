@@ -125,7 +125,37 @@ body {
 .landing h1 {
     font-size: 36px;
     color: #003366;
+    margin-bottom: 15px;
+}
+
+.landing .subtitle {
+    font-size: 14px;
+    color: #666666;
     margin-bottom: 30px;
+    text-align: left;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
+}
+
+.landing .subtitle:before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.landing .subtitle:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    background: #eee;
 }
 
 .landing p {
@@ -1417,6 +1447,15 @@ details[open] .faq-answer {
         max-width: 200px;
         margin: 0 auto;
     }
+}
+
+#whatToDoImage {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    padding:0;
 }
 
 
