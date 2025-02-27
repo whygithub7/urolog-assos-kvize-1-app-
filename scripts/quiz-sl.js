@@ -228,50 +228,50 @@ const headerButtons = [
 
 // Вопросы теста
 const questions = [
-    // {
-    //     question: "Ali imate popolno ali delno izgubo erekcije med spolnim odnosom?",
-    //     answers: ["Da", "Ne", "Včasih", "Nisem opazil"]
-    // },
-    // {
-    //     question: "Ali so vaše jutranje erekcije postale manj pogoste ali manj izrazite?",
-    //     answers: ["Da", "Ne", "Se redko dogaja", "Nisem opazil"]
-    // },
-    // {
-    //     question: "Ali se ponoči zbujate zaradi bolečin v križu ali spolnih organih?",
-    //     answers: ["Da", "Ne", "Včasih", "Redko"]
-    // },
-    // {
-    //     question: "Ali čutite bolečino ali nelagodje v spodnjem delu trebuha ali območju prostate?",
-    //     answers: ["Da", "Ne", "Včasih", "Zelo redko"]
-    // },
-    // {
-    //     question: "Ali ste opazili zmanjšan libido v zadnjem času?",
-    //     answers: ["Da", "Ne", "Včasih", "Skoraj vedno"]
-    // },
-    // {
-    //     question: "Ali imate prezgodnjo ejakulacijo (manj kot 10 minut)?",
-    //     answers: ["Da", "Ne", "Včasih", "Redko"]
-    // },
-    // {
-    //     question: "Ali imate neprijeten vonj ali izcedek iz spolnih organov?",
-    //     answers: ["Da", "Ne", "Včasih", "Redko"]
-    // },
-    // {
-    //     question: "Ali se vam dogaja, da ne morete doseči orgazma? Imate dolg spolni odnos, a ne dosežete vrhunca?",
-    //     answers: ["Da", "Ne", "Včasih", "Redko"]
-    // },
-    // {
-    //     question: "Ali imate šibko erekcijo tudi po dolgem premoru?",
-    //     answers: ["Da", "Ne", "Včasih", "Skoraj vedno"]
-    // },
-    // {
-    //     question: "Ali dobite občutek nepopolnega praznjenja mehurja?",
-    //     answers: ["Da", "Ne", "Včasih", "Redko"]
-    // },
-    // {
-    //     question: "Ali lahko imate spolne odnose 2 ali 3-krat zapored?",
-    //     answers: ["Da", "Ne", "Včasih", "Redko"]
-    // },
+    {
+        question: "Ali imate popolno ali delno izgubo erekcije med spolnim odnosom?",
+        answers: ["Da", "Ne", "Včasih", "Nisem opazil"]
+    },
+    {
+        question: "Ali so vaše jutranje erekcije postale manj pogoste ali manj izrazite?",
+        answers: ["Da", "Ne", "Se redko dogaja", "Nisem opazil"]
+    },
+    {
+        question: "Ali se ponoči zbujate zaradi bolečin v križu ali spolnih organih?",
+        answers: ["Da", "Ne", "Včasih", "Redko"]
+    },
+    {
+        question: "Ali čutite bolečino ali nelagodje v spodnjem delu trebuha ali območju prostate?",
+        answers: ["Da", "Ne", "Včasih", "Zelo redko"]
+    },
+    {
+        question: "Ali ste opazili zmanjšan libido v zadnjem času?",
+        answers: ["Da", "Ne", "Včasih", "Skoraj vedno"]
+    },
+    {
+        question: "Ali imate prezgodnjo ejakulacijo (manj kot 10 minut)?",
+        answers: ["Da", "Ne", "Včasih", "Redko"]
+    },
+    {
+        question: "Ali imate neprijeten vonj ali izcedek iz spolnih organov?",
+        answers: ["Da", "Ne", "Včasih", "Redko"]
+    },
+    {
+        question: "Ali se vam dogaja, da ne morete doseči orgazma? Imate dolg spolni odnos, a ne dosežete vrhunca?",
+        answers: ["Da", "Ne", "Včasih", "Redko"]
+    },
+    {
+        question: "Ali imate šibko erekcijo tudi po dolgem premoru?",
+        answers: ["Da", "Ne", "Včasih", "Skoraj vedno"]
+    },
+    {
+        question: "Ali dobite občutek nepopolnega praznjenja mehurja?",
+        answers: ["Da", "Ne", "Včasih", "Redko"]
+    },
+    {
+        question: "Ali lahko imate spolne odnose 2 ali 3-krat zapored?",
+        answers: ["Da", "Ne", "Včasih", "Redko"]
+    },
     {
         question: "Koliko ste stari?",
         answers: ["30-40", "40-50", "50-60", "60-70"]
