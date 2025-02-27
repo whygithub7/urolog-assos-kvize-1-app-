@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="medical-preloader.css">
+</head>
+<body>
+    <!-- Основной контейнер прелоадера -->
+    <div id="medical-preloader" class="hidden">
+        <div class="preloader-content">
+            <!-- Этапы анализа -->
+            <div class="analysis-stages">
+                <div class="stage">
+                    <div class="stage-icon">
+                        <svg viewBox="0 0 24 24" class="dna-icon">
+                            <path d="M4,2h2v2h2v2H6v2H4V6H2V4h2V2z M10,6h2v2h-2V6z M14,6h2v2h-2V6z M18,6h2v2h-2V6z"/>
+                        </svg>
+                    </div>
+                    <div class="stage-progress"></div>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <svg viewBox="0 0 24 24" class="chart-icon">
+                            <path d="M4,19h16v2H4v-2z M4,15h4v2H4V15z M10,11h4v6h-4V11z M16,7h4v10h-4V7z"/>
+                        </svg>
+                    </div>
+                    <div class="stage-progress"></div>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <svg viewBox="0 0 24 24" class="result-icon">
+                            <path d="M9,16.17L4.83,12l-1.42,1.41L9,19L21,7l-1.41-1.41L9,16.17z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Анимированный крест -->
+            <div class="medical-cross">
+                <div class="cross-vertical"></div>
+                <div class="cross-horizontal"></div>
+            </div>
+            
+            <!-- Круговой прогресс-бар -->
+            <div class="progress-circle">
+                <div class="progress-circle-inner"></div>
+            </div>
+            
+            <!-- Пульсирующая кардиограмма -->
+            <div class="cardiogram">
+                <svg viewBox="0 0 120 40">
+                    <path class="cardiogram-line" d="M 0,20 L 20,20 L 25,20 L 30,0 L 35,40 L 40,20 L 45,20 L 120,20"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключаем JavaScript -->
+    <script src="quiz-ru.js"></script>
+    <script src="medical-preloader.js"></script>
+</body>
+</html> 

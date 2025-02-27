@@ -1,4 +1,6 @@
-       
+// Используем существующие глобальные переменные из языковых файлов
+// (не объявляем повторно)
+
 // Функции для управления квизом
         function startQuiz() {
             document.getElementById('screen1').classList.remove('active');
@@ -20,7 +22,7 @@
                     </div>
                     ${index > 0 ? `
                     <div class="navigation-buttons">
-                        <button class="back-btn" onclick="handleBack()">Назад</button>
+                        <button class="back-btn" onclick="handleBack()"> ↫ Back </button>
                     </div>
                     ` : ''}
                 </div>
@@ -54,75 +56,93 @@
 // Функции для слайдера
 function showResults() {
     document.getElementById('screen2').classList.remove('active');
-    const screen3 = document.getElementById('screen3');
-    screen3.classList.add('active');
-
-    // Заполняем основной результат
-    document.getElementById('resultMainHeading').textContent = results.headings[0];
-    document.getElementById('resultMainText').textContent = results.mainText;
     
-    // Заполняем блок "Почему это серьезно"
-    document.getElementById('seriousHeading').textContent = results.headings[1];
-    const seriousReasons = document.getElementById('seriousReasonsList').children;
-    results.seriousReasons.forEach((reason, index) => {
-        if (seriousReasons[index]) {
-            seriousReasons[index].textContent = reason;
+    // Показываем прелоадер перед отображением результатов
+    showMedicalPreloader();
+    
+    // Добавляем задержку для показа результатов после прелоадера
+    setTimeout(() => {
+        const screen3 = document.getElementById('screen3');
+        screen3.classList.add('active');
+        
+        // Заполняем основной результат
+        document.getElementById('resultMainHeading').textContent = results.headings[0];
+        document.getElementById('resultMainText').textContent = results.mainText;
+        
+        // Заполняем блок "Почему это серьезно"
+        document.getElementById('seriousHeading').textContent = results.headings[1];
+        const seriousReasons = document.getElementById('seriousReasonsList').children;
+        results.seriousReasons.forEach((reason, index) => {
+            if (seriousReasons[index]) {
+                seriousReasons[index].textContent = reason;
+            }
+        });
+        
+        // Заполняем блок опасности
+        document.getElementById('dangerHeading').textContent = results.dangerHeading;
+        document.getElementById('timelineTime1').textContent = results.dangerText.stage1.time;
+        document.getElementById('timelineText1').textContent = results.dangerText.stage1.text;
+        document.getElementById('timelineTime2').textContent = results.dangerText.stage2.time;
+        document.getElementById('timelineText2').textContent = results.dangerText.stage2.text;
+        document.getElementById('timelineTime3').textContent = results.dangerText.stage3.time;
+        document.getElementById('timelineText3').textContent = results.dangerText.stage3.text;
+        
+        // Заполняем блок "Что делать"
+        document.getElementById('whatToDoHeading').textContent = results.headings[2];
+        document.getElementById('whatToDoText1').textContent = results.whatToDoText[0];
+        document.getElementById('whatToDoText2').textContent = results.whatToDoText[1];
+        document.getElementById('whatToDoText3').textContent = results.whatToDoText[2];
+        
+        // Заполняем форму заказа
+        document.getElementById('nameInput').placeholder = results.orderForm.namePlaceholder;
+        document.getElementById('phoneInput').placeholder = results.orderForm.phonePlaceholder;
+        document.querySelector('#form button').textContent = results.orderForm.buttonText;
+
+        document.getElementById('bottomOrderButton').textContent = results.bottomOrderButton;
+        
+        // Заполняем блок доказательств
+        document.getElementById('proofsHeading').textContent = results.headings[4];
+        const proofItems = document.querySelectorAll('.proof-item');
+        
+        results.proofs.sections.forEach((section, index) => {
+            if (proofItems[index]) {
+                const item = proofItems[index];
+                const title = item.querySelector('.proof-title');
+                const ingredients = item.querySelectorAll('.ingredients-list p');
+                
+                title.textContent = `${index + 1}. ${section.title}`;
+                
+                section.points.forEach((point, pointIndex) => {
+                    if (ingredients[pointIndex]) {
+                        ingredients[pointIndex].innerHTML = point;
+                    }
+                });
+            }
+        });
+
+        // Заполняем заключение
+        const proofConclusion = document.querySelector('.proof-conclusion p');
+        if (proofConclusion) {
+            proofConclusion.textContent = results.proofs.summary;
         }
-    });
-    
-    // Заполняем блок опасности
-    document.getElementById('dangerHeading').textContent = results.dangerHeading;
-    document.getElementById('timelineTime1').textContent = results.dangerText.stage1.time;
-    document.getElementById('timelineText1').textContent = results.dangerText.stage1.text;
-    document.getElementById('timelineTime2').textContent = results.dangerText.stage2.time;
-    document.getElementById('timelineText2').textContent = results.dangerText.stage2.text;
-    document.getElementById('timelineTime3').textContent = results.dangerText.stage3.time;
-    document.getElementById('timelineText3').textContent = results.dangerText.stage3.text;
-    
-    // Заполняем блок "Что делать"
-    document.getElementById('whatToDoHeading').textContent = results.headings[2];
-    document.getElementById('whatToDoText1').textContent = results.whatToDoText[0];
-    document.getElementById('whatToDoText2').textContent = results.whatToDoText[1];
-    document.getElementById('whatToDoText3').textContent = results.whatToDoText[2];
 
-    // Заполняем форму заказа
-    document.getElementById('nameInput').placeholder = results.orderForm.namePlaceholder;
-    document.getElementById('phoneInput').placeholder = results.orderForm.phonePlaceholder;
-    document.querySelector('#form button').textContent = results.orderForm.buttonText;
-
-    document.getElementById('bottomOrderButton').textContent = results.bottomOrderButton;
-
-    // Заполняем блок доказательств
-    document.getElementById('proofsHeading').textContent = results.headings[4];
-    const proofItems = document.querySelectorAll('.proof-item');
-    
-    results.proofs.sections.forEach((section, index) => {
-        if (proofItems[index]) {
-            const item = proofItems[index];
-            const title = item.querySelector('.proof-title');
-            const ingredients = item.querySelectorAll('.ingredients-list p');
-            
-            title.textContent = `${index + 1}. ${section.title}`;
-            
-            section.points.forEach((point, pointIndex) => {
-                if (ingredients[pointIndex]) {
-                    ingredients[pointIndex].innerHTML = point;
-                }
-            });
+        // Проверяем существование элементов для второго слайдера перед его инициализацией
+        const slider2 = document.getElementById('slider2');
+        const sliderContainer2 = document.getElementById('sliderContainer2');
+        const sliderNav2 = document.getElementById('sliderNav2');
+        const slideTexts2 = document.getElementById('slideTexts2');
+        
+        if (slider2 && sliderContainer2 && sliderNav2 && slideTexts2 && 
+            landingContent.slides2 && landingContent.slides2.length > 0) {
+            // Инициализируем второй слайдер только при наличии всех необходимых элементов
+            initSlider('slider2', 'sliderContainer2', 'sliderNav2', 'slideTexts2', landingContent.slides2);
+        } else {
+            console.log('Пропущена инициализация второго слайдера: не все элементы доступны');
         }
-    });
 
-    // Заполняем заключение
-    const proofConclusion = document.querySelector('.proof-conclusion p');
-    if (proofConclusion) {
-        proofConclusion.textContent = results.proofs.summary;
-    }
-
-    // Инициализируем второй слайдер
-    initSlider('slider2', 'sliderContainer2', 'sliderNav2', 'slideTexts2', landingContent.slides2);
-
-    // Инициализируем FAQ
-    initFAQ();
+        // Инициализируем FAQ
+        initFAQ();
+    }, 3500); // Задержка должна быть немного больше, чем время скрытия прелоадера из medical-preloader.js
 }
 
 function initFAQ() {
@@ -181,15 +201,31 @@ function initSlider(sliderId, containerId, navId, textsId, slides) {
     const sliderNav = document.getElementById(navId);
     const slideTexts = document.getElementById(textsId);
     
+    if (!sliderContainer || !sliderNav || !slideTexts) {
+        console.error(`Не найдены необходимые элементы для слайдера ${sliderId}`);
+        return;
+    }
+    
     sliderContainer.innerHTML = '';
     sliderNav.innerHTML = '';
     slideTexts.innerHTML = '';
     
+    // Получаем ширину контейнера слайдера
+    const slider = document.getElementById(sliderId);
+    const sliderWidth = slider ? slider.offsetWidth : 0;
+    
+    // Базовые стили для контейнера
+    sliderContainer.style.display = 'flex';
+    sliderContainer.style.willChange = 'transform'; // Оптимизация для GPU
+    
     slides.forEach((slide, index) => {
         const slideDiv = document.createElement('div');
         slideDiv.className = 'slide';
+        // Устанавливаем явную ширину для слайда
+        slideDiv.style.width = `${sliderWidth}px`;
+        
         slideDiv.innerHTML = `
-            <img src="${slide.img}" alt="Слайд ${index + 1}" loading="lazy">
+            <img src="${slide.img}" loading="lazy">
         `;
         sliderContainer.appendChild(slideDiv);
 
@@ -205,9 +241,9 @@ function initSlider(sliderId, containerId, navId, textsId, slides) {
         sliderNav.appendChild(dot);
     });
 
-    // Touch events
-    sliderContainer.addEventListener('touchstart', e => touchStart(e, sliderId));
-    sliderContainer.addEventListener('touchmove', e => touchMove(e, sliderId));
+    // Touch events с простыми параметрами
+    sliderContainer.addEventListener('touchstart', e => touchStart(e, sliderId), { passive: false });
+    sliderContainer.addEventListener('touchmove', e => touchMove(e, sliderId), { passive: false });
     sliderContainer.addEventListener('touchend', e => touchEnd(e, sliderId));
 
     // Mouse events
@@ -241,24 +277,42 @@ function touchStart(event, sliderId) {
 function touchMove(event, sliderId) {
     if (!isDragging) return;
     
+    // Предотвращаем стандартное поведение, чтобы избежать прокрутки страницы
+    event.preventDefault();
+    
     const currentPosition = getPositionX(event);
     const diff = currentPosition - startPos;
     const slider = document.getElementById(sliderId);
     if (!slider) return;
     
-    const sliderWidth = slider.offsetWidth;
+    // Получаем контейнер слайдера
+    const sliderContainer = sliderId === 'slider' ? 
+        document.getElementById(`${sliderId}Container`) : 
+        document.getElementById('sliderContainer2');
+        
+    if (!sliderContainer) return;
+        
+    // Используем более точное измерение ширины
+    const sliderWidth = slider.getBoundingClientRect().width;
     const slides = sliderId === 'slider' ? landingContent.slides : landingContent.slides2;
     
-    currentTranslate = prevTranslate + diff;
+    // Добавляем коэффициент сопротивления при достижении границ
+    let resistance = 1;
     
-    if (currentTranslate > 0) {
-        currentTranslate = currentTranslate / 3;
-    } else if (currentTranslate < -(slides.length - 1) * sliderWidth) {
-        const overScroll = currentTranslate + (slides.length - 1) * sliderWidth;
-        currentTranslate = -(slides.length - 1) * sliderWidth + overScroll / 3;
+    // Расчет с добавлением сопротивления на краях
+    if (prevTranslate + diff > 0) {
+        resistance = 0.3; // Сильное сопротивление при попытке перетащить влево от первого слайда
+    } else if (prevTranslate + diff < -(slides.length - 1) * sliderWidth) {
+        resistance = 0.3; // Сильное сопротивление при попытке перетащить вправо от последнего слайда
     }
     
-    setSliderPosition(currentTranslate, sliderId);
+    // Применяем сопротивление для более естественного перетаскивания
+    currentTranslate = prevTranslate + (diff * resistance);
+    
+    // Используем requestAnimationFrame для плавности анимации
+    requestAnimationFrame(() => {
+        setSliderPosition(currentTranslate, sliderId);
+    });
 }
 
 function setSliderPosition(position, sliderId) {
@@ -268,18 +322,36 @@ function setSliderPosition(position, sliderId) {
     
     if (!sliderContainer) return;
     
-    sliderContainer.style.transform = `translateX(${position}px)`;
+    // Используем transform с translate3d вместо translateX для аппаратного ускорения
+    sliderContainer.style.transform = `translate3d(${position}px, 0, 0)`;
 }
 
 function touchEnd(event, sliderId) {
+    if (!isDragging) return;
+    
     isDragging = false;
     const slider = document.getElementById(sliderId);
-    const sliderWidth = slider.offsetWidth;
+    
+    if (!slider) return;
+    
+    // Используем более точное измерение ширины
+    const sliderWidth = slider.getBoundingClientRect().width;
     const movedBy = currentTranslate - prevTranslate;
     const slides = sliderId === 'slider' ? landingContent.slides : landingContent.slides2;
     const currentIndex = sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2;
     
-    if (Math.abs(movedBy) > sliderWidth / 3) {
+    // Получаем слайдер-контейнер
+    const sliderContainer = sliderId === 'slider' ? 
+        document.getElementById(`${sliderId}Container`) : 
+        document.getElementById('sliderContainer2');
+    
+    // Добавляем более плавный переход с кубической функцией
+    if (sliderContainer) {
+        sliderContainer.style.transition = 'transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1)';
+    }
+    
+    // Снижаем порог переключения для более отзывчивого опыта
+    if (Math.abs(movedBy) > sliderWidth / 4) {
         if (movedBy < 0) {
             if (sliderId === 'slider') {
                 currentSlideIndex1 = Math.min(currentIndex + 1, slides.length - 1);
@@ -295,7 +367,11 @@ function touchEnd(event, sliderId) {
         }
     }
     
-    goToSlide(sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2, sliderId);
+    // Используем requestAnimationFrame для более плавной анимации
+    requestAnimationFrame(() => {
+        goToSlide(sliderId === 'slider' ? currentSlideIndex1 : currentSlideIndex2, sliderId);
+    });
+    
     startAutoSlide(sliderId);
 }
 
@@ -304,19 +380,42 @@ function getPositionX(event) {
 }
 
 function startAutoSlide(sliderId) {
+    // Очищаем предыдущие интервалы
     if (sliderId === 'slider') {
         if (autoSlideInterval1) {
             clearInterval(autoSlideInterval1);
+            autoSlideInterval1 = null;
         }
+        
+        // Устанавливаем новый интервал только если есть больше одного слайда
+        const slides = landingContent.slides;
+        if (!slides || slides.length <= 1) return;
+        
         autoSlideInterval1 = setInterval(() => {
-            nextSlide(sliderId);
+            // Проверяем существование слайдера перед переключением и что не выполняется перетаскивание
+            const slider = document.getElementById(sliderId);
+            if (slider && !isDragging) {
+                const nextIndex = (currentSlideIndex1 + 1) % slides.length;
+                goToSlide(nextIndex, sliderId);
+            }
         }, 10000);
-    } else {
+    } else if (sliderId === 'slider2') {
         if (autoSlideInterval2) {
             clearInterval(autoSlideInterval2);
+            autoSlideInterval2 = null;
         }
+        
+        // Устанавливаем новый интервал только если есть больше одного слайда
+        const slides = landingContent.slides2;
+        if (!slides || slides.length <= 1) return;
+        
         autoSlideInterval2 = setInterval(() => {
-            nextSlide(sliderId);
+            // Проверяем существование слайдера перед переключением и что не выполняется перетаскивание
+            const slider = document.getElementById(sliderId);
+            if (slider && !isDragging) {
+                const nextIndex = (currentSlideIndex2 + 1) % slides.length;
+                goToSlide(nextIndex, sliderId);
+            }
         }, 5000);
     }
 }
@@ -333,12 +432,59 @@ function prevSlide(sliderId) {
 
 function goToSlide(index, sliderId) {
     const slides = sliderId === 'slider' ? landingContent.slides : landingContent.slides2;
-    if (sliderId === 'slider') {
-        currentSlideIndex1 = (index + slides.length) % slides.length;
-    } else {
-        currentSlideIndex2 = (index + slides.length) % slides.length;
+    
+    // Проверка на существование слайдов
+    if (!slides || !slides.length) {
+        console.error('Нет слайдов для отображения');
+        return;
     }
+    
+    // Обрабатываем случаи выхода за пределы массива слайдов
+    let newIndex = (index + slides.length) % slides.length;
+    
+    // Обновляем текущий индекс в зависимости от типа слайдера
+    if (sliderId === 'slider') {
+        currentSlideIndex1 = newIndex;
+    } else {
+        currentSlideIndex2 = newIndex;
+    }
+    
+    // Получаем контейнер слайдера
+    const sliderContainer = sliderId === 'slider' ? 
+        document.getElementById('sliderContainer') : 
+        document.getElementById('sliderContainer2');
+        
+    const slider = document.getElementById(sliderId);
+    
+    if (!slider || !sliderContainer) {
+        console.error('Не найдены элементы слайдера');
+        return;
+    }
+    
+    // Получаем ширину слайдера
+    const sliderWidth = slider.getBoundingClientRect().width;
+    
+    // Устанавливаем переход для плавного скольжения
+    sliderContainer.style.transition = 'transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1)';
+    
+    // Устанавливаем позицию слайдера с использованием translate3d для аппаратного ускорения
+    const position = -newIndex * sliderWidth;
+    currentTranslate = position;
+    prevTranslate = position;
+    
+    // Используем requestAnimationFrame для более плавной анимации
+    requestAnimationFrame(() => {
+        sliderContainer.style.transform = `translate3d(${position}px, 0, 0)`;
+    });
+    
+    // Обновляем слайдер
     updateSlider(sliderId);
+    
+    // Добавляем обработчик события transitionend для сброса transition после завершения анимации
+    sliderContainer.addEventListener('transitionend', function resetTransition() {
+        sliderContainer.style.transition = '';
+        sliderContainer.removeEventListener('transitionend', resetTransition);
+    });
 }
 
 function updateSlider(sliderId) {
@@ -359,29 +505,52 @@ function updateSlider(sliderId) {
         
     const slider = document.getElementById(sliderId);
 
-    // Проверяем существование элементов
-    if (!slider || !sliderContainer || !slideTexts.length) {
+    // Проверяем существование основных элементов
+    if (!slider || !sliderContainer) {
         console.error(`Slider elements not found for ${sliderId}`);
         console.log('Elements:', {slider, sliderContainer, slideTexts});
         return;
     }
 
-    const sliderWidth = slider.offsetWidth;
+    // Проверяем, что слайдер не в процессе перетаскивания
+    if (isDragging) return;
     
-    currentTranslate = -currentIndex * sliderWidth;
-    prevTranslate = currentTranslate;
+    // Получаем точную ширину слайдера (убираем дробные значения)
+    const sliderWidth = Math.floor(slider.offsetWidth);
     
-    sliderContainer.style.transition = 'transform 0.5s ease-in-out';
-    sliderContainer.style.transform = `translateX(${currentTranslate}px)`;
+    // Вычисляем точную позицию (избегаем дробных чисел)
+    const exactPosition = Math.floor(-currentIndex * sliderWidth);
+    currentTranslate = exactPosition;
+    prevTranslate = exactPosition;
     
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-    });
+    // Устанавливаем позицию слайдера
+    sliderContainer.style.transform = `translateX(${exactPosition}px)`;
     
-    slideTexts.forEach((text, index) => {
-        text.style.display = index === currentIndex ? 'block' : 'none';
-    });
+    // Обновляем активные точки навигации, если они существуют
+    if (dots && dots.length) {
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentIndex);
+        });
+    }
+    
+    // Отображаем текст активного слайда, если он существует
+    if (slideTexts && slideTexts.length) {
+        slideTexts.forEach((text, index) => {
+            text.style.display = index === currentIndex ? 'block' : 'none';
+        });
+    }
 }
+
+// Добавляем обработчик изменения размера окна для корректного обновления слайдеров
+window.addEventListener('resize', function() {
+    // Обновляем оба слайдера при изменении размера окна
+    if (typeof currentSlideIndex1 !== 'undefined') {
+        updateSlider('slider');
+    }
+    if (typeof currentSlideIndex2 !== 'undefined') {
+        updateSlider('slider2');
+    }
+});
 
         // Инициализация страницы
         document.addEventListener('DOMContentLoaded', function() {
@@ -456,8 +625,26 @@ function updateSlider(sliderId) {
             form.scrollIntoView({ behavior: 'smooth' });
         }
 
+// Функция переключения состояния цитаты доктора
+function initToggleQuote() {
+    const doctorQuote = document.querySelector('.doctor-quote');
+    
+    if (doctorQuote) {
+        doctorQuote.addEventListener('click', function() {
+            // Только переключаем состояние, если цитата не развернута
+            if (!this.classList.contains('expanded')) {
+                this.classList.add('expanded');
+            }
+        });
+    }
+}
+
+// Добавление вызова инициализации в существующую функцию initDoctorComment
 function initDoctorComment() {
     document.getElementById('doctorQuote').textContent = landingContent.doctorComment.quote;
     document.getElementById('doctorName').textContent = landingContent.doctorComment.name;
     document.getElementById('doctorTitle').textContent = landingContent.doctorComment.title;
+    
+    // Добавляем инициализацию функции переключения состояния
+    setTimeout(initToggleQuote, 100);
 }

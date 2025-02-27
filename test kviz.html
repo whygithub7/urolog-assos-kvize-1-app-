@@ -12,7 +12,7 @@
         <div class="main-header">
             <div class="container">
                 <a href="#" class="logo">
-                    <img src="images/eau-logo.svg" alt="EAU">
+                    <img src="images/eau-logo.svg" loading="lazy">
                 </a>
                 <nav class="primary-nav">
                     <ul id="navLinks"></ul>
@@ -40,19 +40,20 @@
             <!-- Первый экран -->
             <section id="screen1" class="screen landing active">
                 <div class="landing">
+                <h2 id="mainSubtitle" class="subtitle"></h2>
                 <h1 id="mainTitle"></h1>
-                    <h2 id="mainSubtitle" class="subtitle"></h2>
+                <button class="cta-button" onclick="startQuiz()" id="startButton"></button>
                 <div id="landingText"></div>
                 </div>
-                <button class="cta-button" onclick="startQuiz()" id="startButton"></button>
+                <button class="cta-button" onclick="startQuiz()" id="middleButton"></button>
                 <ul class="landing-benefits" id="landingBenefits">
                     <h3></h3>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="benefit-item-1"></li>
+                    <li class="benefit-item-2"></li>
+                    <li class="benefit-item-3"></li>
+                    <li class="benefit-item-4"></li>
                 </ul>
-                <button class="cta-button" onclick="startQuiz()" id="middleButton"></button>
+                
                 
                 
                 <div class="slider" id="slider">
@@ -63,12 +64,12 @@
                 </div>
                 <div id="slideTexts"></div>
                 <button class="cta-button" onclick="startQuiz()" id="bottomButton"></button>
-                <ul id="socialProof"></ul>
-                <div class="image-row">
-                    <img src="images/AUA-logo.png" >
-                    <img src="images/SUA-Logo-for-website_2021_retina.webp" >
-                    <img src="images/MUA-logo-text-black-1.png" >
-                    <img src="images/zeland.jpg" >
+                <ul id="socialProof" class="mobile-scroll"></ul>
+                <div class="image-row mobile-scroll">
+                    <img src="images/AUA-logo.png" loading="lazy">
+                    <img src="images/SUA-Logo-for-website_2021_retina.webp" loading="lazy">
+                    <img src="images/MUA-logo-text-black-1.png" loading="lazy">
+                    <img src="images/zeland.jpg" loading="lazy">
                 </div>
             </section>
 
@@ -82,9 +83,13 @@
 
             <!-- Третий экран -->
             <section id="screen3" class="screen results">
-                <h2 id="resultMainHeading"></h2>
-                <img src="images/res1.webp" id="resultMainImage">
-                <p id="resultMainText"></p>
+                <div class="results-main-area">
+                    <h2 id="resultMainHeading"></h2>
+                    <div class="results-content">
+                        <img src="images/res1.webp" id="resultMainImage" loading="lazy">
+                        <p id="resultMainText"></p>
+                    </div>
+                </div>
                 
                 <h3 id="seriousHeading"></h3>
                 <ul id="seriousReasonsList">
@@ -96,11 +101,18 @@
                 
                 
                 
-                <h3 id="whatToDoHeading"></h3>
-                <img src="images/prod.png" id="whatToDoImage">
-                <p id="whatToDoText1"></p>
-                <p id="whatToDoText2"></p>
-                <p id="whatToDoText3"></p>
+                <!-- Оборачиваем блок "Что делать" в div с классом для стилизации -->
+                <div class="what-to-do-section">
+                    <h3 id="whatToDoHeading"></h3>
+                    <div class="what-to-do-content">
+                        <img src="images/pres.webp" id="whatToDoImage" loading="lazy">
+                        <div class="what-to-do-text">
+                            <p id="whatToDoText1"></p>
+                            <p id="whatToDoText2"></p>
+                            <p id="whatToDoText3"></p>
+                        </div>
+                    </div>
+                </div>
                 
                
                 <form class="order-form" id="form">
@@ -138,7 +150,7 @@
                                                                                                             <?php if (isset($_GET["cur"])) : ?>
                                                                                                                 <input type="hidden" name="cur" value="<?=htmlspecialchars($_GET[" cur "]);?>" />
                                                                                                                 <?php endif; ?>
-                    <img src="images/prod.png" class="product-image" alt="Product">
+                    <img src="images/scsc.png" class="product-image" loading="lazy">
                     <div class="form-inputs">
                         <div class="price-info">
                             <span class="old-price">3980₽</span>
@@ -154,6 +166,7 @@
 
                 <!-- блок proofs  -->
                 <div class="proofs-section">
+                    <img src="images/pres2.webp" loading="lazy" class="proof-image">
                     <h3 id="proofsHeading"></h3>
                     <div class="proofs-list">
                         <details class="proof-item">
@@ -218,12 +231,13 @@
                     <button class="slider-arrow slider-next" onclick="nextSlide('slider2')">❯</button>
                 </div>
                 <div id="slideTexts2"></div>
-                <button class="cta-button order-button" id="orderButton" onclick="scrollToForm()"></button>
+                <button class="cta-button order-button" id="orderButton" onclick="scrollToForm()">
+                </button>
 
                     <!-- Мнение локал врача -->
                     <div class="doctor-section">
                         <div class="doctor-photo">
-                            <img src="images/doctor.jpg"  id="doctorPhoto">
+                            <img src="images/doctor.jpg"  id="doctorPhoto" loading="lazy">
                         </div>
                         <div class="doctor-content">
                             <blockquote class="doctor-quote">
@@ -241,21 +255,21 @@
                 <div class="timeline-warning">
                     <h3 id="dangerHeading"></h3>
                     <div class="timeline-item">
-                        <img src="images/k1.webp"   class="timeline-image">
+                        <img src="images/k1.webp"   class="timeline-image" loading="lazy">
                         <div class="timeline-content">
                             <strong id="timelineTime1"></strong>
                             <p id="timelineText1"></p>
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <img src="images/k2.webp"  class="timeline-image">
+                        <img src="images/k2.webp"  class="timeline-image" loading="lazy">
                         <div class="timeline-content">
                             <strong id="timelineTime2"></strong>
                             <p id="timelineText2"></p>
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <img src="images/k3.webp"  class="timeline-image">
+                        <img src="images/k3.webp"  class="timeline-image" loading="lazy">
                         <div class="timeline-content">
                             <strong id="timelineTime3"></strong>
                             <p id="timelineText3"></p>
@@ -341,7 +355,7 @@
 
     <footer class="footer">
         <div class="footer-content" id="footerContent">
-            <img src="images/eua2footer.png" style="height: 60px;">
+            <img src="images/eua2footer.png" style="height: 60px;" loading="lazy">
             <div class="footer-text"></div>
         </div>
     </footer>
@@ -350,10 +364,68 @@
     <!-- <script src="scripts/quiz-sl.js"></script> -->
     <!-- <script src="scripts/quiz-it.js"></script> -->
     <!-- <script src="scripts/quiz-hu.js"></script> -->
-    <!-- <script src="scripts/quiz-de.js"></script>  -->
+    <script src="scripts/quiz-de.js"></script> 
     <!-- <script src="scripts/quiz-da.js"></script> -->
     <!-- <script src="scripts/quiz-hr.js"></script> -->
-     <script src="scripts/quiz-be-fr.js"></script>
+    <!-- <script src="scripts/quiz-be-fr.js"></script> -->
+    <!-- <script src="scripts/quiz-at.js"></script> -->
+    <!-- <script src="scripts/quiz-sk.js"></script> -->
     <script src="scripts/quiz.js"></script>
+    
+    <!-- Подключение прелоадера -->
+    <link rel="stylesheet" href="preloader/medical-preloader.css">
+    
+    <!-- Основной контейнер прелоадера -->
+    <div id="medical-preloader" class="hidden">
+        <div class="preloader-content">
+            <!-- Этапы анализа -->
+            <div class="analysis-stages">
+                <div class="stage">
+                    <div class="stage-icon">
+                        <svg viewBox="0 0 24 24" class="dna-icon">
+                            <path d="M4,2h2v2h2v2H6v2H4V6H2V4h2V2z M10,6h2v2h-2V6z M14,6h2v2h-2V6z M18,6h2v2h-2V6z"/>
+                        </svg>
+                    </div>
+                    <div class="stage-progress"></div>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <svg viewBox="0 0 24 24" class="chart-icon">
+                            <path d="M4,19h16v2H4v-2z M4,15h4v2H4V15z M10,11h4v6h-4V11z M16,7h4v10h-4V7z"/>
+                        </svg>
+                    </div>
+                    <div class="stage-progress"></div>
+                </div>
+                <div class="stage">
+                    <div class="stage-icon">
+                        <svg viewBox="0 0 24 24" class="result-icon">
+                            <path d="M9,16.17L4.83,12l-1.42,1.41L9,19L21,7l-1.41-1.41L9,16.17z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Анимированный крест -->
+            <div class="medical-cross">
+                <div class="cross-vertical"></div>
+                <div class="cross-horizontal"></div>
+            </div>
+            
+            <!-- Круговой прогресс-бар -->
+            <div class="progress-circle">
+                <div class="progress-circle-inner"></div>
+            </div>
+            
+            <!-- Пульсирующая кардиограмма -->
+            <div class="cardiogram">
+                <svg viewBox="0 0 120 40">
+                    <path class="cardiogram-line" d="M 0,20 L 20,20 L 25,20 L 30,0 L 35,40 L 40,20 L 45,20 L 120,20"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Подключение JavaScript прелоадера -->
+    <script src="preloader/medical-preloader.js"></script>
 </body>
 </html>

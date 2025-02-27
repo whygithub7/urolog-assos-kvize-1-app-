@@ -90,99 +90,98 @@ const landingContent = {
     "All rights reserved"   
 ],
 faq: {
-title: "Ответы на популярные вопросы",
+title: "Réponses aux questions fréquentes",
 items: [
     {
-        question: "Как долго сохраняется эффект после курса?",
+        question: "Combien de temps l'effet dure-t-il après le traitement?",
         answer: {
-            intro: "Эффект от применения Formelan имеет две фазы:",
+            intro: "L'effet de l'utilisation de Formelan se compose de deux phases :",
             list: [
-                "Быстрый эффект: через 30-40 минут после нанесения геля, длится 1-3 часа",
-                "Лечебный эффект: первые улучшения через 3-6 дней, полное восстановление через 3 недели",
-                "После полного курса эффект сохраняется 1-3 года при соблюдении рекомендаций",
-                "96% пациентов после курса лечения уже не требуются дополнительные стимуляторы для эрекции"
+                "Effet rapide : dans les 30-40 minutes suivant l'application du gel, dure 1-3 heures",
+                "Effet thérapeutique : premières améliorations dans les 3-6 jours, récupération complète dans les 3 semaines",
+                "Après un traitement complet, l'effet dure 1-3 ans en suivant les recommandations",
+                "96 % des patients après le traitement n'ont plus besoin de stimulateurs supplémentaires pour l'érection"
             ],
-            conclusion: "Для поддержания результата рекомендуется повторять курс 1 раз в 1-3 года"
+            conclusion: "Pour maintenir le résultat, il est recommandé de répéter le traitement une fois tous les 1-3 ans"
         }
     },
     {
-        question: "Можно принимать с другими лекарствами?",
+        question: "Peut-on prendre avec d'autres médicaments?",
         answer: {
-            intro: "Formelan сочетается со всем кроме силденафила:",
+            intro: "Formelan se combine avec tout sauf le sildénafil :",
             list: [
-                "Можно использовать вместе с любыми лекарствами от давления и диабета",
-                "Безопасен для сердечно-сосудистой системы в любом возрасте",
-                "Не вызывает побочных эффектов даже при длительном применении",
-                "Совместим с витаминами и пищевыми добавками",
-                "ВАЖНО: нельзя применять одновременно с виагрой и аналогичными препаратами"
+                "Peut être utilisé avec n'importe quel médicament pour l'hypertension et le diabète",
+                "Sûr pour le système cardiovasculaire à tout âge",
+                "Ne provoque pas d'effets secondaires même en cas d'utilisation prolongée",
+                "Compatible avec les vitamines et les compléments alimentaires",
+                "IMPORTANT : ne pas utiliser en même temps que le Viagra et des médicaments similaires"
             ],
-            conclusion: "Натуральный состав Formelan гарантирует безопасность при использовании с любыми лекарствами, кроме синтетических стимуляторов эрекции. После окончания курса Formelan дополнительные стимуляторы уже не потребуются."
+            conclusion: "La composition naturelle de Formelan garantit la sécurité lors de l'utilisation avec n'importe quel médicament, sauf les stimulateurs d'érection synthétiques. Après le traitement avec Formelan, des stimulateurs supplémentaires ne seront plus nécessaires."
         }
     },
     {
-        question: "Formelan подходит для мужчин старше 60 лет?",
+        question: "Formelan convient-il aux hommes de plus de 60 ans?",
         answer: {
-            intro: "Formelan особенно эффективен для мужчин старшего возраста, так как учитывает все возрастные изменения организма:",
+            intro: "Formelan est particulièrement efficace pour les hommes âgés, car il prend en compte tous les changements liés à l'âge :",
             list: [
-                "Компенсирует естественное снижение тестостерона после 60 лет",
-                "Улучшает кровообращение в малом тазу, которое обычно ухудшается с возрастом",
-                "Укрепляет ослабленные мышцы тазового дна",
-                "Снижает риск развития аденомы простаты",
-                "Восстанавливает сниженную чувствительность нервных окончаний",
-                "Действует мягко, без стресса для организма",
-                "Безопасен при длительном приеме и совместим с другими лекарствами",
-                "Не вызывает скачков давления в отличие от синтетических препаратов",
-                "Улучшает общее самочувствие и энергичность",
-                "Помогает поддерживать активный образ жизни"
+                "Compense la diminution naturelle de la testostérone après 60 ans",
+                "Améliore la circulation sanguine dans le bassin, qui se dégrade généralement avec l'âge",
+                "Renforce les muscles du plancher pelvien affaiblis",
+                "Réduit le risque de développer une hyperplasie bénigne de la prostate",
+                "Restaure la sensibilité réduite des terminaisons nerveuses",
+                "Agit en douceur, sans stress pour l'organisme",
+                "Sûr en cas d'utilisation prolongée et compatible avec d'autres médicaments",
+                "Ne provoque pas de variations de pression contrairement aux médicaments synthétiques",
+                "Améliore le bien-être général et l'énergie",
+                "Aide à maintenir un mode de vie actif"
             ],
-            conclusion: "Постепенное накопление эффекта и натуральный состав делают Formelan лучшим выбором для мужчин старшего возраста. Препарат не требует специальной диеты, безопасен для сердечно-сосудистой системы и помогает сохранять эрекцию и здоровую простату в любом возрасте."
+            conclusion: "L'accumulation progressive de l'effet et la composition naturelle font de Formelan le meilleur choix pour les hommes âgés. Le médicament ne nécessite pas de régime spécial, est sûr pour le système cardiovasculaire et aide à maintenir l'érection et une prostate saine à tout âge."
         }
     },
     {
-        question: "Есть ли противопоказания?",
+        question: "Y a-t-il des contre-indications?",
         answer: {
-            intro: "Да, препарат нельзя применять если у вас:",
+            intro: "Oui, le médicament ne doit pas être utilisé si vous avez :",
             list: [
-                "Индивидуальная непереносимость или алергия на гуарану и женьшень",
-                "Нельзя применять одновременно с виагрой и аналогичными препаратами"
+                "Intolérance individuelle ou allergie à la guarana et au ginseng",
+                "Ne pas utiliser en même temps que le Viagra et des médicaments similaires"
             ],
-            conclusion: "При наличии аллергии на любой из компонентов следует воздержаться от применения. В остальных случаях препарат полностью безопасен и не требует консультации с врачом."
+            conclusion: "En cas d'allergie à l'un des composants, il est conseillé de s'abstenir de l'utilisation. Dans les autres cas, le médicament est totalement sûr et ne nécessite pas de consultation médicale."
         }
     },
     {
-        question: "Диеты и упражнения меня вылечат?",
+        question: "Les régimes et les exercices vont-ils me guérir?",
         answer: {
-            intro: "Анализ ваших симптомов показал наличие воспаления простаты и нарушение кровообращения в малом тазу. На этой стадии одних только изменений образа жизни уже недостаточно:",
+            intro: "L'analyse de vos symptômes a montré une inflammation de la prostate et une circulation sanguine altérée dans le petit bassin. À ce stade, des changements de mode de vie seuls ne suffisent plus :",
             list: [
-                "Главное - срочно снять воспаление и восстановить кровоток с помощью Formelan",
-                "Диета и упражнения - это только вспомогательные меры, которые могут ускорить лечение",
-                "Рекомендуемые продукты (как дополнение к Formelan): рыба жирных сортов, грецкие орехи, тыквенные семечки, овощи (особенно брокколи, шпинат), ягоды, оливковое масло",
-                "Полезные упражнения (по желанию): быстрая ходьба 30 минут в день, плавание, легкая растяжка мышц таза, упражнения Кегеля",
-                "Что исключить для лучшего эффекта: острое, жареное, алкоголь, длительное сидение, тяжелые физические нагрузки"
+                "L'essentiel est de réduire rapidement l'inflammation et de rétablir la circulation sanguine avec Formelan",
+                "Le régime et les exercices ne sont que des mesures d'accompagnement qui peuvent accélérer le traitement",
+                "Produits recommandés (en complément de Formelan) : poissons gras, noix, graines de citrouille, légumes (en particulier brocoli, épinards), baies, huile d'olive",
+                "Exercices bénéfiques (facultatif) : marche rapide 30 minutes par jour, natation, étirements légers des muscles du bassin, exercices de Kegel",
+                "À exclure pour un meilleur effet : épicé, frit, alcool, positions assises prolongées, efforts physiques intenses"
             ],
-            conclusion: "Без применения Formelan одни только диеты и упражнения не остановят прогрессирование болезни. Formelan устраняет причину проблемы: через 3-6 дней уменьшаются частые позывы, через 3 недели нормализуется эрекция. Правильное питание и умеренная активность могут ускорить результат, но основа лечения - это курс Formelan."
+            conclusion: "Sans l'utilisation de Formelan, les régimes et les exercices seuls ne stopperont pas la progression de la maladie. Formelan élimine la cause du problème : après 3-6 jours, les envies fréquentes diminuent, après 3 semaines, l'érection se normalise. Une alimentation correcte et une activité modérée peuvent accélérer le résultat, mais la base du traitement est le cours de Formelan."
         }
     },
     {
-        question: "Как правильно использовать Formelan?",
+        question: "Comment utiliser correctement Formelan?",
         answer: {
-            intro: "Formelan прост в применении, но есть два способа использования:",
+            intro: "Formelan est facile à utiliser, mais il existe deux méthodes d'application :",
             list: [
-                "Для быстрого эффекта: нанести гель за 30-40 минут до близости",
-                "Для лечебного эффекта: наносить 2 раза в день - утром и вечером",
-                "Гель наносится тонким слоем на пенис и область промежности",
-                "Легкими массирующими движениями втирать 2-3 минуты до полного впитывания"
+                "Pour un effet rapide : appliquer le gel 30-40 minutes avant l'acte",
+                "Pour un effet thérapeutique : appliquer 2 fois par jour - le matin et le soir",
+                "Le gel est appliqué en couche fine sur le pénis et la zone de l'aine",
+                "Masser doucement pendant 2-3 minutes jusqu'à absorption complète"
             ],
-            conclusion: "После оформления заказа вам перезвонит специалист и подробно расскажет, как правильно использовать Formelan для быстрого эффекта и длительного лечения в вашем конкретном случае."
+            conclusion: "Après avoir passé votre commande, un spécialiste vous rappellera et vous expliquera en détail comment utiliser correctement Formelan pour un effet rapide et un traitement prolongé dans votre cas spécifique."
         }
     }
-]
-},
+]},
         doctorComment: {
         name: "Dr. David F. Jarrard",
-        title: "Врач-уролог высшей категории,  15 лет практики в урологии ",
-        quote: "Formelan при разовом применении действует как безопасный афродизиак: через 30-40 минут усиливает эрекцию и чувствительность, эффект держится 1-3 часа. При курсовом лечении: через 3-6 дней уменьшаются частые позывы в туалет и ночные пробуждения, к концу второй недели проходит жжение при мочеиспускании и боли в промежности. После 3 недель применения нормализуется эрекция и либидо. После этого большинству пациентов уже не нужно дополнительно стимулизровать эрекцию, они могут заниматься сексом уже без таблеток и мази. УЗИ-диагностика показывает уменьшение простаты на 20-30%, а анализы подтверждают снижение воспалительных маркеров и нормализацию простатического секрета. Особенно важно, что Formelan безопасен для сердечно-сосудистой системы, совместим с лекарствами от диабета и давления, а эффект сохраняется через 1-3 года после окончания курса."
-        }
+        title: "Médecin-urologue de catégorie supérieure, 15 ans d'expérience en urologie ",
+        quote: "Formelan agit comme un aperçu afin de sécuriser l'érection et la sensibilité après une application unique : 30-40 minutes après application, l'érection et la sensibilité sont renforcés, l'effet persiste 1-3 heures. En traitement : 3-6 jours après réduction des urgences et des réveils nocturnes, 2 semaines après fin de traitement, la douleur et la douleur à la prostate sont réduites. Après 3 semaines d'utilisation, l'érection et le libido sont rétablis. Après cela, la plupart des patients n'ont plus besoin de stimuler l'érection, ils peuvent avoir des rapports sexuels sans pilules et médicaments. L'échographie montre une réduction de la prostate de 20-30%, et les analyses confirment une réduction des marqueurs inflammatoires et une normalisation du sécrétariat prostatique. Il est particulièrement important que Formelan soit sûr pour le système cardio-vasculaire, compatible avec les médicaments anti-hypertenseurs et anti-diabétiques et que l'effet persiste 1-3 ans après la fin du traitement."
+    }
 };
 
 const navLinks = [
@@ -198,83 +197,83 @@ const headerButtons = [
 ];
 
 const questions = [
-    // {
-    //     question: "Бывает ли у вас полная или частичная потеря эрекции во время секса?",
-    //     answers: ["Да", "Нет", "Иногда", "Не замечал"]
-    // },
-    // {
-    //     question: "Стали ли ваши утренние эрекции реже или менее выраженными?",
-    //     answers: ["Да", "Нет", "Бывает редко", "Не замечал"]
-    // },
-    // {
-    //     question: "Испытываете ли вы боль или дискомфорт внизу живота или в области простаты?",
-    //     answers: ["Да", "Нет", "Иногда", "Очень редко"]
-    // },
-    // {
-    //     question: "Часто встаете в туалет по ночам?",
-    //     answers: ["Да", "Нет", "Иногда", "Редко"]
-    // },
-    // {
-    //     question: "Бывает ли у вас преждевременная эякуляция до 10 минут?",
-    //     answers: ["Да", "Нет", "Иногда", "Бывает редко"]
-    // },
-    // {
-    //     question: "Есть ли у вас частые позывы в туалет, чувство неполного опорожнения или боли при мочевыделении?",
-    //     answers: ["Да", "Нет", "Иногда", "Иногда, особенно ночью"]
-    // },
-    // {
-    //     question: "Вы просыпаетесь ночью из-за болей в области поясницы или гениталий?",
-    //     answers: ["Да", "Нет", "Иногда", "Редко"]
-    // },
-    // {
-    //     question: "Чувствуете боль, дискомфорт или тяжесть в области простаты или нижней части живота?",
-    //     answers: ["Да", "Нет", "Иногда", "Очень редко"]
-    // },
-    // {
-    //     question: "Замечали ли вы снижение либидо в последнее время?",
-    //     answers: ["Да", "Нет", "Иногда", "Почти всегда"]
-    // },
-    // {
-    //     question: "Бывает ли у вас неприятный запах или выделения из половых органов?",
-    //     answers: ["Да", "Нет", "Иногда", "Редко"]
-    // },
-    // {
-    //     question: "Бывает ли что вы не можете кончить? Вы долго занимаетесь сексом, но не доходите до финиша?",
-    //     answers: ["Да", "Нет", "Иногда", "Редко"]
-    // },
-    // {
-    //     question: "Проявляется ли у вас слабая эрекция даже после долгого перерыва?",
-    //     answers: ["Да", "Нет", "Иногда", "Почти всегда"]
-    // },
-    // {
-    //     question: "У вас возникает чувство неполного опорожнения мочевого пузыря?",
-    //     answers: ["Да", "Нет", "Иногда", "Редко"]
-    // },
-    // {
-    //     question: "Вы можете заняться сексом 2 или 3 раза подряд?",
-    //     answers: ["Да", "Нет", "Иногда", "Редко"]
-    // },
     {
-        question: "Сколько вам лет?",
+        question: "Avez-vous une perte totale ou partielle d'érection pendant les rapports sexuels ?",
+        answers: ["Oui", "Non", "Parfois", "Je n'ai pas remarqué"]
+    },
+    {
+        question: "Vos érections matinales sont-elles devenues moins fréquentes ou moins marquées ?",
+        answers: ["Oui", "Non", "Rarement", "Je n'ai pas remarqué"]
+    },
+    {
+        question: "Ressentez-vous de la douleur ou de l'inconfort dans le bas-ventre ou au niveau de la prostate ?",
+        answers: ["Oui", "Non", "Parfois", "Très rarement"]
+    },
+    {
+        question: "Vous levez-vous souvent la nuit pour aller aux toilettes ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Avez-vous des éjaculations précoces avant 10 minutes ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Avez-vous des envies fréquentes d'uriner, un sentiment de vidange incomplète ou de la douleur lors de la miction ?",
+        answers: ["Oui", "Non", "Parfois", "Parfois, surtout la nuit"]
+    },
+    {
+        question: "Vous réveillez-vous la nuit à cause de douleurs dans le bas du dos ou les organes génitaux ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Ressentez-vous de la douleur, de l'inconfort ou une lourdeur au niveau de la prostate ou du bas-ventre ?",
+        answers: ["Oui", "Non", "Parfois", "Très rarement"]
+    },
+    {
+        question: "Avez-vous remarqué une diminution de votre libido récemment ?",
+        answers: ["Oui", "Non", "Parfois", "Presque toujours"]
+    },
+    {
+        question: "Avez-vous une odeur désagréable ou des écoulements des organes génitaux ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Avez-vous des difficultés à atteindre l'orgasme ? Vous avez des rapports sexuels prolongés sans atteindre la fin ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Avez-vous une érection faible même après une longue période d'abstinence ?",
+        answers: ["Oui", "Non", "Parfois", "Presque toujours"]
+    },
+    {
+        question: "Ressentez-vous une sensation de vidange incomplète de la vessie ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Pouvez-vous avoir des rapports sexuels 2 ou 3 fois de suite ?",
+        answers: ["Oui", "Non", "Parfois", "Rarement"]
+    },
+    {
+        question: "Quel âge avez-vous ?",
         answers: ["30-40", "40-50", "50-60", "60-70"]
     }
 ];
 
 const results = {
 headings: [
-"По результатам теста выявлены нарушения в работе предстательной железы",
-"Ваши симптомы указывают на следующие проблемы:",
-"Персональные рекомендации",
-"Для вашего случая рекомендован препарат Formelan", 
-"Почему Formelan эффективен в вашем случае:"
+"Les résultats du test révèlent des troubles de la prostate",
+"Vos symptômes indiquent les problèmes suivants :",
+"Recommandations personnalisées",
+"Le médicament recommandé pour votre cas est Formelan", 
+"Pourquoi Formelan est-il efficace dans votre cas :"
 ],
-mainText: "Анализ ваших ответов показал наличие воспалительного процесса в предстательной железе. Текущее состояние требует немедленного внимания, так как выявленные симптомы указывают на активную фазу заболевания.",
+mainText: "L'analyse de vos réponses a montré la présence d'un processus inflammatoire dans la prostate. L'état actuel nécessite une attention immédiate, car les symptômes révélés indiquent une phase active de la maladie.",
 
 seriousReasons: [
-"Нарушение кровообращения в области малого таза блокирует поступление питательных веществ к предстательной железе и пещеристым телам пениса. Это приводит к недостаточному кровенаполнению во время возбуждения и слабой эрекции.",
-"Увеличенная предстательная железа создает механическое давление на мочевой канал и сосуды, питающие половой член. Это вызывает проблемы с мочеиспусканием и затрудняет отток венозной крови из пениса, что ослабляет эрекцию.",
-"Воспалительный процесс затрагивает нервные окончания в области простаты, которые отвечают за механизм эрекции. Это нарушает передачу нервных импульсов и снижает чувствительность полового члена.",
-"Застойные явления в простате нарушают выработку простатического секрета, который необходим для поддержания нормального уровня тестостерона. Низкий уровень тестостерона напрямую влияет на качество эрекции и либидо."
+"Une mauvaise circulation sanguine dans la région pelvienne bloque l'apport de nutriments à la prostate et aux corps caverneux du pénis. Cela entraîne un remplissage sanguin insuffisant lors de l'excitation et une érection faible.",
+"Une prostate agrandie exerce une pression mécanique sur l'urètre et les vaisseaux qui alimentent le pénis. Cela provoque des problèmes d'urination et entrave l'écoulement du sang veineux du pénis, ce qui affaiblit l'érection.",
+"Le processus inflammatoire affecte les terminaisons nerveuses dans la région de la prostate, qui sont responsables du mécanisme de l'érection. Cela perturbe la transmission des impulsions nerveuses et réduit la sensibilité du pénis.",
+"Les phénomènes de stagnation dans la prostate perturbent la production de sécrétions prostatiques, nécessaires au maintien d'un niveau normal de testostérone. Un faible niveau de testostérone affecte directement la qualité de l'érection et la libido."
 ],
 
     dangerHeading: "Comment votre maladie progresse sans traitement :",
