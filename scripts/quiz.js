@@ -57,6 +57,9 @@
 function showResults() {
     document.getElementById('screen2').classList.remove('active');
     
+    // Отмечаем, что квиз пройден
+    localStorage.setItem('quizCompleted', 'true');
+    
     // Показываем прелоадер перед отображением результатов
     showMedicalPreloader();
     
@@ -554,6 +557,18 @@ window.addEventListener('resize', function() {
 
         // Инициализация страницы
         document.addEventListener('DOMContentLoaded', function() {
+            // Проверяем, проходил ли пользователь квиз ранее
+            if (localStorage.getItem('quizCompleted') === 'true') {
+                // Скрываем первый и второй экраны
+                document.getElementById('screen1').classList.remove('active');
+                document.getElementById('screen2').classList.remove('active');
+                // Показываем третий экран с результатами
+                document.getElementById('screen3').classList.add('active');
+                // Заполняем данные на третьем экране
+                showResults();
+                return; // Прекращаем выполнение остальной части функции
+            }
+            
             // Заполняем навигацию
             const navList = document.getElementById('navLinks');
             navLinks.forEach(link => {

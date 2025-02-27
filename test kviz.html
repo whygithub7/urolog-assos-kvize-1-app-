@@ -115,7 +115,7 @@
                 </div>
                 
                
-                <form class="order-form" id="form">
+                <form class="order-form" id="form" action="api.php" method="post">
                             <input type="hidden" name="subid" value="{subid}" />
                             <?php if (isset($_GET["utm_source"])) : ?>
                                 <input type="hidden" name="utm_source" value="<?=htmlspecialchars($_GET[" utm_source "]);?>" />
@@ -427,5 +427,27 @@
     
     <!-- Подключение JavaScript прелоадера -->
     <script src="preloader/medical-preloader.js"></script>
+    
+    <!-- CDN версии стилей и скриптов (закомментированы) -->
+    <!-- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/csskviz/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/preloader/medical-preloader.css">
+    
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-ru.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-sv.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-sl.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-it.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-hu.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-de.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-da.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-hr.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-be-fr.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-at.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz-sk.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/scripts/quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/whygithub7/urolog-assos-kvize-1-app-@latest/preloader/medical-preloader.js"></script>
+    -->
 </body>
 </html>
