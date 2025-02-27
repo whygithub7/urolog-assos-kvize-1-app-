@@ -224,62 +224,62 @@ const headerButtons = [
 ];
 
 const questions = [
-    // {
-    //     question: "Van teljes vagy részleges merevedési problémája szex közben?",
-    //     answers: ["Igen", "Nem", "Néha", "Nem vettem észre"]
-    // },
-    // {
-    //     question: "A reggeli merevedései ritkábbak vagy kevésbé kifejezettek lettek?",
-    //     answers: ["Igen", "Nem", "Ritkán előfordul", "Nem vettem észre"]
-    // },
-    // {
-    //     question: "Érez fájdalmat vagy kellemetlenséget a has alsó részén vagy a prosztata területén?",
-    //     answers: ["Igen", "Nem", "Néha", "Nagyon ritkán"]
-    // },
-    // {
-    //     question: "Gyakran kel fel éjszaka vizelni?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán"]
-    // },
-    // {
-    //     question: "Van korai magömlése 10 percen belül?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán előfordul"]
-    // },
-    // {
-    //     question: "Van gyakori vizelési ingere, nem teljes ürítés érzése vagy fájdalom vizeléskor?",
-    //     answers: ["Igen", "Nem", "Néha", "Néha, főleg éjszaka"]
-    // },
-    // {
-    //     question: "Felébred éjszaka deréktáji vagy nemi szervi fájdalom miatt?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán"]
-    // },
-    // {
-    //     question: "Érez fájdalmat, kellemetlenséget vagy nehézséget a prosztata területén vagy a has alsó részén?",
-    //     answers: ["Igen", "Nem", "Néha", "Nagyon ritkán"]
-    // },
-    // {
-    //     question: "Észrevette a libidó csökkenését az utóbbi időben?",
-    //     answers: ["Igen", "Nem", "Néha", "Szinte mindig"]
-    // },
-    // {
-    //     question: "Van kellemetlen szaga vagy váladékozása a nemi szervének?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán"]
-    // },
-    // {
-    //     question: "Előfordul, hogy nem tud elélvezni? Hosszú ideig tart a szex, de nem jut el a csúcspontig?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán"]
-    // },
-    // {
-    //     question: "Van gyenge merevedése még hosszú szünet után is?",
-    //     answers: ["Igen", "Nem", "Néha", "Szinte mindig"]
-    // },
-    // {
-    //     question: "Van olyan érzése, hogy nem ürül ki teljesen a húgyhólyagja?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán"]
-    // },
-    // {
-    //     question: "Képes 2 vagy 3 alkalommal egymás után szexuális aktust végezni?",
-    //     answers: ["Igen", "Nem", "Néha", "Ritkán"]
-    // },
+    {
+        question: "Van teljes vagy részleges merevedési problémája szex közben?",
+        answers: ["Igen", "Nem", "Néha", "Nem vettem észre"]
+    },
+    {
+        question: "A reggeli merevedései ritkábbak vagy kevésbé kifejezettek lettek?",
+        answers: ["Igen", "Nem", "Ritkán előfordul", "Nem vettem észre"]
+    },
+    {
+        question: "Érez fájdalmat vagy kellemetlenséget a has alsó részén vagy a prosztata területén?",
+        answers: ["Igen", "Nem", "Néha", "Nagyon ritkán"]
+    },
+    {
+        question: "Gyakran kel fel éjszaka vizelni?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán"]
+    },
+    {
+        question: "Van korai magömlése 10 percen belül?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán előfordul"]
+    },
+    {
+        question: "Van gyakori vizelési ingere, nem teljes ürítés érzése vagy fájdalom vizeléskor?",
+        answers: ["Igen", "Nem", "Néha", "Néha, főleg éjszaka"]
+    },
+    {
+        question: "Felébred éjszaka deréktáji vagy nemi szervi fájdalom miatt?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán"]
+    },
+    {
+        question: "Érez fájdalmat, kellemetlenséget vagy nehézséget a prosztata területén vagy a has alsó részén?",
+        answers: ["Igen", "Nem", "Néha", "Nagyon ritkán"]
+    },
+    {
+        question: "Észrevette a libidó csökkenését az utóbbi időben?",
+        answers: ["Igen", "Nem", "Néha", "Szinte mindig"]
+    },
+    {
+        question: "Van kellemetlen szaga vagy váladékozása a nemi szervének?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán"]
+    },
+    {
+        question: "Előfordul, hogy nem tud elélvezni? Hosszú ideig tart a szex, de nem jut el a csúcspontig?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán"]
+    },
+    {
+        question: "Van gyenge merevedése még hosszú szünet után is?",
+        answers: ["Igen", "Nem", "Néha", "Szinte mindig"]
+    },
+    {
+        question: "Van olyan érzése, hogy nem ürül ki teljesen a húgyhólyagja?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán"]
+    },
+    {
+        question: "Képes 2 vagy 3 alkalommal egymás után szexuális aktust végezni?",
+        answers: ["Igen", "Nem", "Néha", "Ritkán"]
+    },
     {
         question: "Hány éves Ön?",
         answers: ["30-40", "40-50", "50-60", "60-70"]
