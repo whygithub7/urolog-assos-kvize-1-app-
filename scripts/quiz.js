@@ -129,6 +129,9 @@ function showResults() {
             proofConclusion.textContent = results.proofs.summary;
         }
 
+        // Инициализируем блок с комментарием доктора
+        initDoctorComment();
+
         // Проверяем существование элементов для второго слайдера перед его инициализацией
         const slider2 = document.getElementById('slider2');
         const sliderContainer2 = document.getElementById('sliderContainer2');
@@ -555,7 +558,7 @@ window.addEventListener('resize', function() {
     }
 });
 
-        // Инициализация страницы
+      // Инициализация страницы
         document.addEventListener('DOMContentLoaded', function() {
             // Проверяем, проходил ли пользователь квиз ранее
             if (localStorage.getItem('quizCompleted') === 'true') {
@@ -564,8 +567,15 @@ window.addEventListener('resize', function() {
                 document.getElementById('screen2').classList.remove('active');
                 // Показываем третий экран с результатами
                 document.getElementById('screen3').classList.add('active');
+                
                 // Заполняем данные на третьем экране
                 showResults();
+                
+                // инициализация блока с комментарием доктора с задержкой
+                setTimeout(() => {
+                    initDoctorComment();
+                }, 500);
+                
                 return; // Прекращаем выполнение остальной части функции
             }
             
@@ -589,7 +599,7 @@ window.addEventListener('resize', function() {
 
             // Заполняем основной контент
             document.getElementById('mainTitle').textContent = landingContent.title;
-    document.getElementById('mainSubtitle').textContent = landingContent.subtitle;
+            document.getElementById('mainSubtitle').textContent = landingContent.subtitle;
             document.getElementById('startButton').textContent = landingContent.startButtonText;
             document.getElementById('middleButton').textContent = landingContent.middleButtonText;
             document.getElementById('bottomButton').textContent = landingContent.bottomButtonText;
@@ -632,7 +642,7 @@ window.addEventListener('resize', function() {
                 benefitsItems[index].textContent = item;
             });
 
-    initDoctorComment();
+            initDoctorComment();
         });
 
         function scrollToForm() {
@@ -656,10 +666,29 @@ function initToggleQuote() {
 
 // Добавление вызова инициализации в существующую функцию initDoctorComment
 function initDoctorComment() {
-    document.getElementById('doctorQuote').textContent = landingContent.doctorComment.quote;
-    document.getElementById('doctorName').textContent = landingContent.doctorComment.name;
-    document.getElementById('doctorTitle').textContent = landingContent.doctorComment.title;
-    
-    // Добавляем инициализацию функции переключения состояния
-    setTimeout(initToggleQuote, 100);
+    try {
+        const doctorQuoteElement = document.getElementById('doctorQuote');
+        const doctorNameElement = document.getElementById('doctorName');
+        const doctorTitleElement = document.getElementById('doctorTitle');
+        
+        if (!doctorQuoteElement || !doctorNameElement || !doctorTitleElement) {
+            console.error('Элементы блока doctorComment не найдены');
+            return;
+        }
+        
+        if (!landingContent.doctorComment) {
+            console.error('Данные doctorComment отсутствуют в landingContent');
+            return;
+        }
+        
+        doctorQuoteElement.textContent = landingContent.doctorComment.quote;
+        doctorNameElement.textContent = landingContent.doctorComment.name;
+        doctorTitleElement.textContent = landingContent.doctorComment.title;
+        
+        // Добавляем инициализацию функции переключения состояния
+        setTimeout(initToggleQuote, 100);
+        
+    } catch (error) {
+        console.error('Ошибка при инициализации блока doctorComment:', error);
+    }
 }
