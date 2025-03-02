@@ -1,22 +1,22 @@
 const landingContent = {
-    title: "TEST ZA EREKTILNU DISFUNKCIJU",
-    subtitle: "Saznajte uzrok problema i kako ga riješiti",
-    startButtonText: "ZAPOČNITE TEST",
-    bottomButtonText: "ZAPOČNITE TEST",
-    middleButtonText: "NASTAVITE TEST",
-    orderButtonText: "NARUČITE FORMELAN",
+    title: "Slaba erekcija nije zbog godina. Prođite test i poboljšajte snagu i veličinu za 2 tjedna!",
+    subtitle: "Test urološke asocijacije",
+    startButtonText: "Započnite test",
+    bottomButtonText: "Obnovite potenciju",
+    middleButtonText: "Pronađite skrivenu bolest",
+    orderButtonText: "Započnite test",
     paragraphs: [
-        "Slaba erekcija je prvi znak ozbiljnih problema s prostatom i krvožilnim sustavom. Ignoriranje problema dovodi do potpune impotencije u 93% slučajeva.",
-        "Ovaj test razvijen je od strane vodećih europskih urologa. Omogućuje vam da identificirate uzrok problema i dobijete personalizirane preporuke za liječenje.",
-        "Test je anoniman i traje samo 3 minute. Vaši odgovori bit će analizirani pomoću naprednog algoritma koji je razvijen na temelju podataka od 12.000 muškaraca.",
-        "Započnite test odmah i vratite svoju muškost!"
+        "Slab libido, preuranjena ejakulacija, problemi s erekcijom i mlitavost, smanjenje veličine - to nisu promjene povezane s godinama. To su bolesti koje se razvijaju u vašem organizmu. Ako ih ne počnete liječiti u ranoj fazi, dovest će do potpune impotencije, neizlječivog oblika prostatitisa, hormonalnih poremećaja pa čak i do potrebe za kirurškim zahvatom.",
+        "Prestanite opravdavati probleme s erekcijom - stresom, godinama i nedostatkom sna. Impotencija nije normalna čak ni u 60-im godinama. To su simptomi bolesti koje uništavaju mušku snagu. Ne starite, vi ste bolesni!",
+        "Upale, infekcije i više od 10 muških bolesti razvijaju se bez oštrih bolova, nelagode i primjetnih simptoma. Bolovi se pojavljuju kada je za samostalno liječenje već prekasno.",
+        "U našem testu urološke asocijacije uzimaju se u obzir svi skriveni i očiti simptomi - više od 3000 parametara na temelju 50.000 pregleda. Test će odrediti imate li skrivene bolesti, u kojoj su fazi i dat će vam preporuke za samostalnu terapiju bez liječnika, ponižavajućih postupaka i teških lijekova."
     ],
     socialProof: [
-        "94% muškaraca primijetilo je poboljšanje erekcije nakon primjene preporuka",
-        "87% muškaraca riješilo je probleme s prostatom",
-        "91% muškaraca izvijestilo je o povećanju libida i seksualnoj želji",
-        "82% muškaraca primijetilo je povećanje veličine penisa u erekciji",
-        "96% muškaraca više ne treba stimulanse za erekciju nakon terapije"
+        "Test je razvila Europska i Američka urološka asocijacija uz podršku asocijacija iz 5 drugih zemalja.",
+        "Naš kviz može s točnošću od 97% odrediti imate li hormonalni poremećaj i sastaviti preporuke posebno za vaš organizam.",
+        "Više od 1000+ muškaraca s prostatitisom u ranoj fazi pomogli smo izliječiti pomoću pravilno odabrane prehrane i vježbi.",
+        "78% dodataka prehrani u našoj zemlji su krivotvorine ili neučinkoviti, a one koji stvarno pomažu treba odabrati vrlo individualno.",
+        "Ako otkrijemo ozbiljne bolesti, darujemo vam kupon za potpuni besplatni urološki pregled u bilo kojoj klinici u vašem gradu."
     ],
     landingBenefits: {
         title: "ZAŠTO JE OVAJ TEST VAŽAN ZA VAS:",
@@ -89,98 +89,98 @@ const landingContent = {
     "Rezultati mogu varirati ovisno o individualnim karakteristikama. Uvijek se posavjetujte s liječnikom prije početka bilo kojeg tretmana."   
 ],
 faq: {
-title: "ČESTO POSTAVLJANA PITANJA",
+title: "Odgovori na često postavljana pitanja",
 items: [
-    {
-        question: "Koliko brzo Formelan počinje djelovati?",
-        answer: {
-            intro: "Brzina djelovanja Formelana ovisi o nekoliko faktora, uključujući težinu problema, dob i opće zdravstveno stanje:",
-            list: [
-                "Većina muškaraca primjećuje prve rezultate već nakon 3-5 dana korištenja",
-                "Nakon 7-10 dana, 87% korisnika izvještava o značajnom poboljšanju erekcije",
-                "Nakon 14 dana, 92% muškaraca može imati normalan seksualni odnos bez ikakvih poteškoća",
-                "Puni učinak postiže se nakon 21-30 dana redovite primjene"
-            ],
-            conclusion: "Za postizanje dugotrajnog učinka, preporučuje se korištenje punog terapijskog ciklusa od 30 dana."
-        }
-    },
     {
         question: "Koliko dugo traje učinak Formelana nakon završetka terapije?",
         answer: {
-            intro: "Formelan nije privremeni stimulans poput tableta za erekciju, već terapija koja rješava uzroke problema:",
+            intro: "Učinak primjene Formelana ima dvije faze:",
             list: [
-                "Nakon jednog terapijskog ciklusa, učinak traje 2-3 godine kod 89% muškaraca",
-                "96% pacijenata ne zahtijeva dodatne stimulanse za erekciju nakon terapijskog ciklusa",
-                "Za muškarce s težim oblicima erektilne disfunkcije, može biti potreban dodatni ciklus nakon 6 mjeseci",
-                "Preventivno korištenje jednom godišnje osigurava trajnu zaštitu od problema s erekcijom",
-                "Učinak se može produžiti zdravim načinom života i redovitom tjelesnom aktivnošću"
+                "Brzi učinak: 30-40 minuta nakon nanošenja gela, traje 1-3 sata",
+                "Terapijski učinak: prva poboljšanja nakon 3-6 dana, potpuni oporavak nakon 3 tjedna",
+                "Nakon potpunog ciklusa, učinak traje 1-3 godine uz pridržavanje preporuka",
+                "96% pacijenata nakon terapije više ne treba dodatne stimulatore za erekciju"
             ],
-            conclusion: "Klinička ispitivanja pokazuju da Formelan pruža najduži učinak među svim dostupnim metodama liječenja erektilne disfunkcije."
-        }
-    },
-    {
-        question: "Koje su aktivne komponente Formelana i kako djeluju?",
-        answer: {
-            intro: "Formelan sadrži 18 aktivnih komponenti koje sinergijski djeluju na sve uzroke erektilne disfunkcije:",
-            list: [
-                "Guarana: Sadrži 4 puta više kofeina od kave, što osigurava snažan dotok krvi u organe zdjelice",
-                "Ženšen: Sadrži 32 vrste ginzenozida - prirodnih stimulatora proizvodnje testosterona",
-                "L-arginin: Aminokiselina koja se pretvara u dušikov oksid - glavni vazodilatator",
-                "Ekstrakt kore bijele vrbe: Sadrži salicin - prirodni analog aspirina, ali 3 puta jači i bez nuspojava",
-                "Ekstrakt prostate bika: Sadrži peptide prostate identične ljudskima koji obnavljaju tkivo žlijezde",
-                "Kvercetin: Moćan prirodni antioksidans koji uništava patogene bakterije u prostati",
-                "Ekstrakt ginkgo bilobe: Sadrži 24% flavonoidnih glikozida - tvari koje čine stijenke krvnih žila elastičnima",
-                "Niacin (vitamin B3): U Formelanu se koristi poseban oblik niacina s produljenim djelovanjem",
-                "Cink pikolinat: Bioraspoloživi oblik cinka koji se apsorbira 95% bolje od običnog",
-                "Palma sabal: Ekstrakt sadrži jedinstvene fitosterole koji blokiraju pretvorbu testosterona u dihidrotestosteron"
-            ],
-            conclusion: "Sve komponente Formelana su prirodnog podrijetla i prošle su stroge kliničke testove koji potvrđuju njihovu učinkovitost i sigurnost."
-        }
-    },
-    {
-        question: "Ima li Formelan nuspojava?",
-        answer: {
-            intro: "Formelan je razvijen kao sigurna alternativa sintetskim lijekovima za erektilnu disfunkciju:",
-            list: [
-                "U kliničkim ispitivanjima na više od 12.000 muškaraca nisu zabilježene ozbiljne nuspojave",
-                "Za razliku od tableta za erekciju, Formelan ne utječe na krvni tlak i siguran je za muškarce s hipertenzijom i srčanim bolestima"
-            ],
-            conclusion: "Formelan je siguran za dugoročnu upotrebu i ne stvara ovisnost ili toleranciju, što ga čini idealnim za kontinuiranu terapiju."
+            conclusion: "Za održavanje rezultata preporučuje se ponavljanje terapije jednom u 1-3 godine"
         }
     },
     {
         question: "Može li se Formelan koristiti s drugim lijekovima?",
         answer: {
-            intro: "Jedna od glavnih prednosti Formelana je njegova kompatibilnost s drugim lijekovima:",
+            intro: "Formelan se kombinira sa svime osim sildenafila:",
             list: [
-                "Formelan se može sigurno koristiti s lijekovima za hipertenziju, za razliku od većine tableta za erekciju",
-                "Kompatibilan je s lijekovima za dijabetes i ne utječe na razinu šećera u krvi",
-                "Može se koristiti istovremeno s antibioticima za liječenje upale prostate",
-                "Ne interferira s lijekovima za kolesterol ili srčane bolesti",
-                "Sigurno se može kombinirati s vitaminskim i mineralnim dodacima"
+                "Može se koristiti zajedno s bilo kojim lijekovima za krvni tlak i dijabetes",
+                "Siguran je za kardiovaskularni sustav u bilo kojoj dobi",
+                "Ne uzrokuje nuspojave čak ni kod dugotrajne primjene",
+                "Kompatibilan je s vitaminima i dodacima prehrani",
+                "VAŽNO: ne smije se koristiti istovremeno s Viagrom i sličnim preparatima"
             ],
-            conclusion: "Zbog svoje prirodne formule i lokalnog djelovanja, Formelan ne ulazi u interakcije s drugim lijekovima, što ga čini sigurnim za muškarce s kroničnim bolestima koji uzimaju više lijekova."
+            conclusion: "Prirodni sastav Formelana jamči sigurnost pri korištenju s bilo kojim lijekovima, osim sintetičkih stimulatora erekcije. Nakon završetka terapije Formelanom, dodatni stimulatori više neće biti potrebni."
         }
     },
     {
-        question: "Je li Formelan učinkovit za muškarce svih dobnih skupina?",
+        question: "Je li Formelan prikladan za muškarce starije od 60 godina?",
         answer: {
-            intro: "Formelan je razvijen za rješavanje problema s erekcijom kod muškaraca različitih dobnih skupina:",
+            intro: "Formelan je posebno učinkovit za starije muškarce jer uzima u obzir sve dobne promjene u organizmu:",
             list: [
-                "Za muškarce 30-45 godina: Učinkovitost 97% - rješava rane znakove erektilne disfunkcije i probleme uzrokovane stresom",
-                "Za muškarce 46-60 godina: Učinkovitost 94% - bori se protiv hormonalnih promjena i početnih problema s prostatom",
-                "Za muškarce iznad 60 godina: Učinkovitost 89% - pomaže kod kompleksnih problema uzrokovanih starenjem i kroničnim bolestima",
-                "Za muškarce s dijabetesom: Učinkovitost 86% - posebno učinkovit kod problema s erekcijom uzrokovanih dijabetesom"
+                "Kompenzira prirodno smanjenje testosterona nakon 60 godina",
+                "Poboljšava cirkulaciju u zdjelici, koja se obično pogoršava s godinama",
+                "Jača oslabljene mišiće dna zdjelice",
+                "Smanjuje rizik od razvoja adenoma prostate",
+                "Obnavlja smanjenu osjetljivost živčanih završetaka",
+                "Djeluje blago, bez stresa za organizam",
+                "Siguran je za dugotrajnu upotrebu i kompatibilan s drugim lijekovima",
+                "Ne uzrokuje skokove krvnog tlaka za razliku od sintetičkih preparata",
+                "Poboljšava opće stanje i energičnost",
+                "Pomaže održavati aktivan način života"
             ],
-            conclusion: "Klinička ispitivanja pokazuju da je Formelan učinkovit bez obzira na dob i uzrok problema, što ga čini univerzalnim rješenjem za erektilnu disfunkciju."
+            conclusion: "Postupno nakupljanje učinka i prirodni sastav čine Formelan najboljim izborom za starije muškarce. Preparat ne zahtijeva posebnu dijetu, siguran je za kardiovaskularni sustav i pomaže održavati erekciju i zdravu prostatu u bilo kojoj dobi."
+        }
+    },
+    {
+        question: "Ima li Formelan kontraindikacije?",
+        answer: {
+            intro: "Da, preparat se ne smije koristiti ako imate:",
+            list: [
+                "Individualnu netoleranciju ili alergiju na guaranu i ginseng",
+                "Ne smije se koristiti istovremeno s Viagrom i sličnim preparatima"
+            ],
+            conclusion: "Ako ste alergični na bilo koju komponentu, trebali biste se suzdržati od korištenja. U ostalim slučajevima, preparat je potpuno siguran i ne zahtijeva konzultaciju s liječnikom."
+        }
+    },
+    {
+        question: "Mogu li dijeta i vježbe izliječiti moj problem?",
+        answer: {
+            intro: "Analiza vaših simptoma pokazala je upalu prostate i poremećaj cirkulacije u zdjelici. U ovoj fazi, same promjene životnog stila više nisu dovoljne:",
+            list: [
+                "Najvažnije je hitno smanjiti upalu i obnoviti protok krvi pomoću Formelana",
+                "Dijeta i vježbe su samo pomoćne mjere koje mogu ubrzati liječenje",
+                "Preporučene namirnice (kao dodatak Formelanu): masna riba, orasi, sjemenke bundeve, povrće (posebno brokula, špinat), bobičasto voće, maslinovo ulje",
+                "Korisne vježbe (po želji): brzo hodanje 30 minuta dnevno, plivanje, lagano istezanje zdjeličnih mišića, Kegelove vježbe",
+                "Što izbjegavati za bolji učinak: ljutu hranu, prženu hranu, alkohol, dugotrajno sjedenje, teške fizičke napore"
+            ],
+            conclusion: "Bez primjene Formelana, sama dijeta i vježbe neće zaustaviti napredovanje bolesti. Formelan uklanja uzrok problema: nakon 3-6 dana smanjuje se učestalo mokrenje, nakon 3 tjedna normalizira se erekcija. Pravilna prehrana i umjerena aktivnost mogu ubrzati rezultate, ali osnova liječenja je terapija Formelanom."
+        }
+    },
+    {
+        question: "Kako pravilno koristiti Formelan?",
+        answer: {
+            intro: "Formelan je jednostavan za upotrebu, ali postoje dva načina primjene:",
+            list: [
+                "Za brzi učinak: nanijeti gel 30-40 minuta prije intimnog odnosa",
+                "Za terapijski učinak: nanositi 2 puta dnevno - ujutro i navečer",
+                "Gel se nanosi u tankom sloju na penis i područje međice",
+                "Laganim masažnim pokretima utrljati 2-3 minute do potpune apsorpcije"
+            ],
+            conclusion: "Nakon što napravite narudžbu, stručnjak će vas nazvati i detaljno objasniti kako pravilno koristiti Formelan za brzi učinak i dugotrajno liječenje u vašem specifičnom slučaju."
         }
     }
 ]
 },
         doctorComment: {
         name: "Dr. Marko Horvat",
-        title: "Urolog, dr. med.",
-        quote: "Kao urolog s 25 godina iskustva, vidio sam mnoge proizvode za erektilnu disfunkciju, ali Formelan je revolucionaran. Njegova formula djeluje na sve uzroke problema istovremeno: hormonalni disbalans, upalu prostate i probleme s cirkulacijom. Ono što Formelan čini jedinstvenim je njegova sposobnost da ne samo privremeno poboljša erekciju, već i trajno riješi uzroke problema. Preporučujem ga svojim pacijentima jer pruža dugoročne rezultate bez rizika i nuspojava povezanih s tabletama za erekciju ili invazivnim postupcima."
+        title: "Urolog, dr. med., specijalist s 25 godina iskustva u urologiji",
+        quote: "Kao urolog s 25 godina iskustva, vidio sam mnoge proizvode za erektilnu disfunkciju, ali Formelan je revolucionaran. Njegova formula djeluje na sve uzroke problema istovremeno: hormonalni disbalans, upalu prostate i poremećaj cirkulacije. Ono što Formelan čini jedinstvenim je njegova sposobnost da ne samo privremeno poboljša erekciju, već i trajno riješi uzroke problema. Preporučujem ga svojim pacijentima jer pruža dugoročne rezultate bez rizika i nuspojava povezanih s tabletama za erekciju ili invazivnim postupcima."
         }
 };
 
@@ -198,48 +198,48 @@ const headerButtons = [
 
 const questions = [
     {
-        question: "Koliko imate godina?",
-        answers: ["Manje od 30", "30-45", "46-60", "Više od 60"]
+        question: "Događa li se da erekcija ne nastupi čak ni nakon ručne ili oralne stimulacije?",
+        answers: ["Da, često", "Ponekad", "Rijetko", "Ne"]
     },
     {
-        question: "Koliko često imate problema s postizanjem ili održavanjem erekcije?",
-        answers: ["Rijetko (manje od 25% vremena)", "Povremeno (oko 50% vremena)", "Često (više od 75% vremena)", "Gotovo uvijek"]
+        question: "Je li vam teško kontrolirati proces ejakulacije?",
+        answers: ["Da, gotovo uvijek", "Ponekad", "Vrlo rijetko", "Ne"]
     },
     {
-        question: "Kada ste prvi put primijetili probleme s erekcijom?",
-        answers: ["U posljednjih mjesec dana", "U posljednjih 3-6 mjeseci", "U posljednjih 6-12 mjeseci", "Više od godinu dana"]
+        question: "Događa li se preuranjena ejakulacija (manje od 30 min)?",
+        answers: ["Da, to je stalno", "Ponekad", "Vrlo rijetko", "Ne"]
     },
     {
-        question: "Imate li jutarnje erekcije?",
-        answers: ["Da, redovito", "Povremeno", "Rijetko", "Nikada"]
+        question: "Jeste li primijetili da vaša partnerica glumi stenjanje i orgazam?",
+        answers: ["Da, to je očito", "Sumnjam da je tako", "Moguće, ali nisam siguran", "Ne, uvijek dovodim do pravog orgazma"]
     },
     {
-        question: "Primjećujete li probleme s mokrenjem (često mokrenje, slab mlaz, noćno mokrenje)?",
-        answers: ["Ne, nemam takvih problema", "Ponekad imam takve probleme", "Često imam takve probleme", "Imam ozbiljne probleme s mokrenjem"]
+        question: "Primjećujete li da vaša erekcija svakim mjesecom postaje slabija?",
+        answers: ["Da, gotovo uvijek je slaba", "Pojavljuje se samo s viagrom", "Ne mogu postići punu erekciju", "Ne, sve je normalno"]
     },
     {
-        question: "Osjećate li bol ili nelagodu u donjem dijelu leđa ili području prepona?",
-        answers: ["Ne, nikada", "Rijetko", "Povremeno", "Često"]
+        question: "Jesu li jutarnje erekcije postale rjeđe?",
+        answers: ["Davno su nestale", "Ponekad se pojavljuju, ali vrlo slabe", "Da, kao i prije stoji čvrsto svako jutro", "Rijetko se pojavljuju"]
     },
     {
-        question: "Jeste li primijetili smanjenje seksualne želje (libida)?",
-        answers: ["Ne, moj libido je normalan", "Blago smanjenje", "Značajno smanjenje", "Gotovo potpuni gubitak seksualne želje"]
+        question: "Možete li nastaviti seks nakon prvog čina ili brzo gubite erekciju?",
+        answers: ["Ne, uopće nemam želju", "Ponekad", "Gotovo uvijek", "Želja postoji, ali nema erekcije"]
     },
     {
-        question: "Jeste li primijetili promjene u kvaliteti ejakulacije (smanjen volumen, promjena boje)?",
-        answers: ["Ne, sve je normalno", "Primijetio sam manje promjene", "Primijetio sam značajne promjene", "Imam ozbiljne probleme s ejakulacijom"]
+        question: "Nestaje li ili slabi vaša erekcija tijekom seksa?",
+        answers: ["Da, to se događa redovito", "Ponekad, ali nije kritično", "Ne, erekcija je stabilna", "Često slabi"]
     },
     {
-        question: "Patite li od kroničnih bolesti (dijabetes, hipertenzija, srčane bolesti)?",
-        answers: ["Ne", "Da, jedna kronična bolest", "Da, dvije kronične bolesti", "Da, više od dvije kronične bolesti"]
+        question: "Je li penis postao manji u stanju mirovanja?",
+        answers: ["Da, to je očito", "Postao je manji u stanju mirovanja", "Manji je samo kad imam erekciju", "Ponekad se čini da je postao manji"]
     },
     {
-        question: "Jeste li pokušali koristiti lijekove za poboljšanje erekcije?",
-        answers: ["Ne, nikada", "Da, s dobrim rezultatima", "Da, s ograničenim rezultatima", "Da, bez ikakvih rezultata"]
+        question: "Imate li poteškoća s postizanjem orgazma?",
+        answers: ["Gubim erekciju prije nego što dođem do orgazma", "Ne, orgazam je stabilan", "Dugo nisam imao orgazam", "Imam 2-3 puta tijekom noći"]
     },
     {
-        question: "Kako biste ocijenili svoj trenutni stres i anksioznost?",
-        answers: ["Nizak (osjećam se opušteno većinu vremena)", "Umjeren (povremeno sam pod stresom)", "Visok (često sam pod stresom)", "Vrlo visok (stalno sam pod stresom)"]
+        question: "Koliko vam je godina?",
+        answers: ["30-40", "40-50", "50-60", "60+"]
     }
 ];
 
@@ -358,8 +358,9 @@ const results = {
         phonePlaceholder: "Broj telefona",
         buttonText: "Dobijte FORMELAN s popustom"
     }, 
-    bottomOrderButton: "NARUČITE FORMELAN SADA"
-}; 
+    bottomOrderButton: "NARUČITE FORMELAN SADA",
+    orderButtonText: "NARUČITE FORMELAN SADA"
+    }; 
 let currentQuestionIndex = 0;
 let currentSlideIndex1 = 0;
 let currentSlideIndex2 = 0;
