@@ -1,30 +1,30 @@
 const landingContent = {
-    title: "Schwache Erektion ist keine Alterserscheinung",
-    subtitle: "Machen Sie den Test und erfahren Sie, wie Sie Ihre männliche Kraft und Größe verbessern können",
+    title: "Schwache Erektion ist keine Alterserscheinung. Machen Sie den Test und verbessern Sie Ihre Kraft und Größe in 2 Wochen!",
+    subtitle: "Test der Österreichischen Urologischen Gesellschaft",
     startButtonText: "Test starten",
     bottomButtonText: "Potenz wiederherstellen",
     middleButtonText: "Versteckte Krankheit finden",
     orderButtonText: "Test beginnen",
     paragraphs: [
-        "Laut Statistik leiden 94% der Männer über 35 Jahren an einer Abnahme der Erektionsqualität. Aber nur 1 von 7 sucht rechtzeitig ärztliche Hilfe. Die Mehrheit glaubt fälschlicherweise, dass dies ein normaler Teil des Alterns ist.",
-        "Tatsächlich ist eine schwache Erektion ein Symptom für ernsthafte Probleme im Körper, die ohne Behandlung zu vollständiger Impotenz führen können. Unser Test wurde von der Österreichischen Urologischen Gesellschaft entwickelt, um die Ursachen Ihrer Probleme zu identifizieren und personalisierte Empfehlungen zu geben.",
-        "Der Test basiert auf Daten von mehr als 37.000 Männern, die ihre Potenz vollständig wiederhergestellt haben. Die Analyse dauert nur 2 Minuten, ist aber 94% genauer als eine persönliche Konsultation mit einem Urologen.",
-        "Entzündungen, Infektionen und mehr als 10 Männerkrankheiten entwickeln sich ohne akute Schmerzen, Beschwerden oder erkennbare Symptome. Schmerzen treten erst auf, wenn eine Selbstbehandlung bereits zu spät ist."
+        "Schwache Libido, vorzeitige Ejakulation, Erektionsprobleme, Schlaffheit und Größenabnahme sind keine Alterserscheinungen. Es sind Krankheiten, die sich in Ihrem Körper entwickeln. Wenn Sie nicht frühzeitig mit der Behandlung beginnen, führen sie zu vollständiger Impotenz, unheilbarer Prostatitis, hormonellen Störungen und sogar zur Notwendigkeit chirurgischer Eingriffe.",
+        "Hören Sie auf, Erektionsprobleme mit Stress, Alter und Schlafmangel zu rechtfertigen. Impotenz ist selbst mit 60 Jahren nicht normal. Dies sind Symptome von Krankheiten, die die männliche Kraft zerstören. Sie altern nicht, Sie sind krank!",
+        "Entzündungen, Infektionen und mehr als 10 Männerkrankheiten entwickeln sich ohne akute Schmerzen, Beschwerden oder erkennbare Symptome. Schmerzen treten erst auf, wenn eine Selbstbehandlung bereits zu spät ist.",
+        "In unserem Test der Urologischen Gesellschaft werden alle versteckten und offensichtlichen Symptome berücksichtigt - mehr als 3000 Parameter basierend auf 50.000 Untersuchungen. Der Test bestimmt, ob Sie versteckte Krankheiten haben, in welchem Stadium sie sich befinden, und gibt Ihnen Empfehlungen zur Selbsttherapie ohne Ärzte, erniedrigende Verfahren und schwere Medikamente."
     ],
     socialProof: [
-        "Entwickelt von der Österreichischen Urologischen Gesellschaft",
-        "Basierend auf Daten von 37.000+ Männern",
-        "94% Genauigkeit bei der Diagnose",
-        "Personalisierte Empfehlungen für Ihre Situation",
-        "Bei Entdeckung schwerwiegender Erkrankungen erhalten Sie einen Gutschein für eine kostenlose urologische Untersuchung in einer Klinik Ihrer Wahl"
+        "Der Test wurde von der Europäischen und Amerikanischen Urologischen Gesellschaft mit Unterstützung von Verbänden aus 5 weiteren Ländern entwickelt.",
+        "Unser Quiz kann mit 97% Genauigkeit feststellen, ob Sie ein hormonelles Ungleichgewicht haben, und personalisierte Empfehlungen für Ihren Körper erstellen.",
+        "Wir haben mehr als 1000+ Männern mit Prostatitis im Frühstadium geholfen, durch richtig ausgewählte Ernährung und Übungen zu heilen.",
+        "78% der Nahrungsergänzungsmittel in unserem Land sind Fälschungen oder unwirksam, und diejenigen, die tatsächlich helfen, müssen sehr individuell ausgewählt werden.",
+        "Bei Entdeckung schwerwiegender Erkrankungen erhalten Sie einen Gutschein für eine kostenlose urologische Untersuchung in einer Klinik Ihrer Wahl."
     ],
     landingBenefits: {
-        title: "Warum dieser Test wichtig ist:",
+        title: "Es ist wichtig für Sie, diesen Test zu machen, um:",
         items: [
-            "Identifiziert die wahren Ursachen Ihrer Probleme",
-            "Zeigt, wie schnell sich Ihr Zustand ohne Behandlung verschlechtern wird",
-            "Gibt personalisierte Empfehlungen zur Wiederherstellung der männlichen Kraft",
-            "Hilft, die Größe und Härte der Erektion zu verbessern"
+            "Ein hormonelles Ungleichgewicht zu identifizieren, das zu verminderter Libido, schwacher Erektion und Muskelverlust führt.",
+            "Prostatitis im Frühstadium zu erkennen, bevor sie zu chronischen Schmerzen und vollständigem Erektionsverlust führt.",
+            "Die Durchblutung im Beckenbereich zu überprüfen - ohne normalen Blutfluss wird sich die Erektion nicht erholen und der Penis nicht seine maximale Größe erreichen.",
+            "Persönliche Empfehlungen zu Ernährung und Übungen zu erhalten, die helfen, die Potenz ohne Medikamente wiederherzustellen."
         ]
     },
     slides: [
@@ -121,81 +121,91 @@ const landingContent = {
             {
                 question: "Wie lange hält die Wirkung von Formelan an?",
                 answer: {
-                    intro: "Die Wirkung von Formelan ist langanhaltend und bleibt auch nach Abschluss des Anwendungskurses bestehen. Klinische Studien zeigen:",
+                    intro: "Die Wirkung von Formelan erfolgt in zwei Phasen:",
                     list: [
-                        "Bei 94% der Männer bleibt die wiederhergestellte Erektionsqualität für mindestens 2-3 Jahre nach dem Kurs erhalten",
-                        "Die Normalisierung des Hormonspiegels hält bei 89% der Anwender für 1,5-2 Jahre an",
-                        "Die entzündungshemmende Wirkung auf die Prostata bleibt bei 97% der Männer für 3+ Jahre bestehen"
+                        "Schnelle Wirkung: 30-40 Minuten nach dem Auftragen des Gels, hält 1-3 Stunden an",
+                        "Therapeutische Wirkung: erste Verbesserungen nach 3-6 Tagen, vollständige Wiederherstellung nach 3 Wochen",
+                        "Nach dem vollständigen Kurs hält die Wirkung 1-3 Jahre an, wenn die Empfehlungen befolgt werden",
+                        "96% der Patienten benötigen nach dem Behandlungskurs keine zusätzlichen Stimulanzien für eine Erektion mehr"
                     ],
-                    conclusion: "Im Gegensatz zu synthetischen Potenzmitteln behandelt Formelan nicht nur die Symptome, sondern beseitigt die Grundursachen der erektilen Dysfunktion, was zu einer langfristigen, stabilen Wirkung führt."
+                    conclusion: "Um das Ergebnis aufrechtzuerhalten, wird empfohlen, den Kurs alle 1-3 Jahre zu wiederholen"
                 }
             },
             {
                 question: "Kann ich Formelan mit anderen Medikamenten kombinieren?",
                 answer: {
-                    intro: "Ja, Formelan ist mit praktisch allen Medikamenten kompatibel, da es lokal wirkt und nicht in den Blutkreislauf gelangt. Besonders wichtig:",
+                    intro: "Formelan ist mit allem außer Sildenafil kompatibel:",
                     list: [
-                        "Formelan kann sicher mit Medikamenten gegen Bluthochdruck kombiniert werden, ohne das Risiko eines gefährlichen Blutdruckabfalls",
-                        "Es gibt keine Wechselwirkungen mit Diabetes-Medikamenten oder Herzpräparaten",
-                        "Die Kombination mit anderen Potenzmitteln ist möglich, aber meist unnötig, da Formelan allein ausreichend wirksam ist"
+                        "Kann mit allen Medikamenten gegen Bluthochdruck und Diabetes verwendet werden",
+                        "Sicher für das Herz-Kreislauf-System in jedem Alter",
+                        "Verursacht keine Nebenwirkungen, selbst bei längerer Anwendung",
+                        "Kompatibel mit Vitaminen und Nahrungsergänzungsmitteln",
+                        "WICHTIG: Sollte nicht gleichzeitig mit Viagra und ähnlichen Präparaten angewendet werden"
                     ],
-                    conclusion: "Wenn Sie regelmäßig Medikamente einnehmen, können Sie Formelan ohne Bedenken anwenden. Es belastet weder Leber noch Nieren und verursacht keine zusätzlichen Nebenwirkungen."
+                    conclusion: "Die natürliche Zusammensetzung von Formelan garantiert Sicherheit bei der Verwendung mit allen Medikamenten, außer synthetischen Erektionsstimulatoren. Nach Abschluss des Formelan-Kurses werden keine zusätzlichen Stimulanzien mehr benötigt."
                 }
             },
             {
                 question: "Ist Formelan für Männer über 60 geeignet?",
                 answer: {
-                    intro: "Formelan ist besonders wirksam für ältere Männer, da es speziell entwickelt wurde, um altersbedingte Veränderungen zu bekämpfen. Klinische Daten zeigen:",
+                    intro: "Formelan ist besonders wirksam für ältere Männer, da es alle altersbedingten Veränderungen des Körpers berücksichtigt:",
                     list: [
-                        "Bei Männern über 60 stellt Formelan die erektile Funktion in 91% der Fälle wieder her, verglichen mit nur 43% bei synthetischen Potenzmitteln",
-                        "Die Gel-Formel ermöglicht eine bessere Absorption der Wirkstoffe auch bei altersbedingten Hautveränderungen",
-                        "Die Komponenten wirken sanft und verursachen keine Überlastung des Herz-Kreislauf-Systems, was bei älteren Männern besonders wichtig ist"
+                        "Gleicht den natürlichen Testosteronabfall nach 60 Jahren aus",
+                        "Verbessert die Durchblutung im Beckenbereich, die mit dem Alter typischerweise abnimmt",
+                        "Stärkt geschwächte Beckenbodenmuskeln",
+                        "Reduziert das Risiko einer Prostatavergrößerung",
+                        "Stellt die verminderte Empfindlichkeit der Nervenenden wieder her",
+                        "Wirkt sanft, ohne den Körper zu belasten",
+                        "Sicher bei Langzeitanwendung und kompatibel mit anderen Medikamenten",
+                        "Verursacht keine Blutdruckspitzen im Gegensatz zu synthetischen Präparaten"
                     ],
-                    conclusion: "Das Alter ist keine Einschränkung für die Anwendung von Formelan. Im Gegenteil, je älter der Mann, desto deutlicher ist oft der therapeutische Effekt, da mehrere altersbedingte Probleme gleichzeitig behandelt werden."
+                    conclusion: "Die allmähliche Wirkungssteigerung und die natürliche Zusammensetzung machen Formelan zur besten Wahl für ältere Männer. Das Präparat erfordert keine spezielle Diät, ist sicher für das Herz-Kreislauf-System und hilft, die Erektion und eine gesunde Prostata in jedem Alter zu erhalten."
                 }
             },
             {
                 question: "Hat Formelan Kontraindikationen?",
                 answer: {
-                    intro: "Formelan hat minimale Kontraindikationen, da es sich um ein natürliches Produkt handelt, das lokal angewendet wird. Die einzigen Einschränkungen sind:",
+                    intro: "Ja, das Präparat sollte nicht angewendet werden, wenn Sie:",
                     list: [
-                        "Individuelle Unverträglichkeit gegenüber einzelnen Komponenten (extrem selten, weniger als 0,01% der Anwender)",
-                        "Offene Wunden oder akute Hautinfektionen im Anwendungsbereich (in diesem Fall sollte die Anwendung verschoben werden, bis die Haut geheilt ist)",
-                        "Akute Phase einer Urogenitalinfektion (die Anwendung kann nach Abklingen der akuten Symptome begonnen werden)"
+                        "Individuelle Unverträglichkeit oder Allergie gegen Guarana und Ginseng haben",
+                        "Es sollte nicht gleichzeitig mit Viagra und ähnlichen Präparaten angewendet werden"
                     ],
-                    conclusion: "In 99,9% der Fälle kann Formelan ohne jegliche Einschränkungen angewendet werden. Es verursacht keine Nebenwirkungen und ist für die langfristige Anwendung sicher."
+                    conclusion: "Bei Allergien gegen eine der Komponenten sollte auf die Anwendung verzichtet werden. In allen anderen Fällen ist das Präparat vollkommen sicher und erfordert keine ärztliche Beratung."
                 }
             },
             {
                 question: "Muss ich meine Ernährung und meinen Lebensstil ändern, wenn ich Formelan verwende?",
                 answer: {
-                    intro: "Formelan wirkt effektiv unabhängig von Ernährung und Lebensstil, aber für maximale Ergebnisse empfehlen wir einige einfache Änderungen:",
+                    intro: "Die Analyse Ihrer Symptome hat eine Prostataentzündung und Durchblutungsstörungen im Beckenbereich gezeigt. In diesem Stadium reichen Lebensstiländerungen allein nicht mehr aus:",
                     list: [
-                        "Reduzieren Sie den Konsum von Alkohol und scharfen Speisen während des Anwendungskurses, da diese die Prostata reizen können",
-                        "Trinken Sie mindestens 1,5-2 Liter Wasser täglich, um die Entgiftung zu fördern und die Wirkung der aktiven Komponenten zu verstärken",
-                        "Moderate körperliche Aktivität (wie 15-20 Minuten Gehen täglich) verbessert die Durchblutung und verstärkt die Wirkung von Formelan um 43%"
+                        "Das Wichtigste ist, schnell die Entzündung zu reduzieren und die Durchblutung mit Formelan wiederherzustellen",
+                        "Diät und Übungen sind nur unterstützende Maßnahmen, die die Behandlung beschleunigen können",
+                        "Empfohlene Lebensmittel (als Ergänzung zu Formelan): fetter Fisch, Walnüsse, Kürbiskerne, Gemüse (besonders Brokkoli, Spinat), Beeren, Olivenöl",
+                        "Nützliche Übungen (optional): schnelles Gehen 30 Minuten täglich, Schwimmen, leichte Dehnung der Beckenmuskeln, Kegel-Übungen",
+                        "Was für bessere Ergebnisse zu vermeiden ist: scharfes Essen, Gebratenes, Alkohol, langes Sitzen, schwere körperliche Anstrengung"
                     ],
-                    conclusion: "Diese Änderungen sind nicht obligatorisch, aber sie können die Geschwindigkeit und Qualität der Ergebnisse deutlich verbessern. Formelan wirkt jedoch auch ohne diese Änderungen."
+                    conclusion: "Ohne Formelan werden Diät und Übungen allein das Fortschreiten der Krankheit nicht aufhalten. Formelan beseitigt die Ursache des Problems: Nach 3-6 Tagen nehmen häufige Harndrang ab, nach 3 Wochen normalisiert sich die Erektion. Richtige Ernährung und moderate Aktivität können das Ergebnis beschleunigen, aber die Grundlage der Behandlung ist der Formelan-Kurs."
                 }
             },
             {
                 question: "Wie wird Formelan richtig angewendet?",
                 answer: {
-                    intro: "Die Anwendung von Formelan ist einfach und nimmt nur 1-2 Minuten pro Tag in Anspruch:",
+                    intro: "Formelan ist einfach anzuwenden, aber es gibt zwei Anwendungsmethoden:",
                     list: [
-                        "Tragen Sie eine kleine Menge Gel (etwa erbsengroß) auf die saubere, trockene Haut des Penis und des Perineums auf",
-                        "Massieren Sie das Gel sanft ein, bis es vollständig eingezogen ist",
-                        "Wenden Sie Formelan einmal täglich an, vorzugsweise abends vor dem Schlafengehen"
+                        "Für schnelle Wirkung: Tragen Sie das Gel 30-40 Minuten vor dem Geschlechtsverkehr auf",
+                        "Für therapeutische Wirkung: Tragen Sie das Gel zweimal täglich auf - morgens und abends",
+                        "Das Gel wird dünn auf Penis und Dammbereich aufgetragen",
+                        "Mit leichten Massagebewegungen 2-3 Minuten einreiben, bis es vollständig eingezogen ist"
                     ],
-                    conclusion: "Ein vollständiger Behandlungskurs dauert 21-30 Tage. Für maximale Ergebnisse empfehlen wir, den Kurs ohne Unterbrechungen durchzuführen. Die ersten positiven Veränderungen werden Sie bereits nach 3-5 Tagen bemerken."
+                    conclusion: "Nach der Bestellung wird Sie ein Spezialist anrufen und Ihnen ausführlich erklären, wie Sie Formelan für schnelle Wirkung und langfristige Behandlung in Ihrem speziellen Fall richtig anwenden."
                 }
             }
         ]
     },
     doctorComment: {
         name: "Dr. David F. Jarrard",
-        title: "Urologe, Andrologie-Spezialist",
-        quote: "Formelan ist ein Durchbruch in der Behandlung der erektilen Dysfunktion. Im Gegensatz zu synthetischen Potenzmitteln behandelt es nicht nur die Symptome, sondern beseitigt die Grundursachen des Problems. Die Gel-Formel ermöglicht eine schnelle Absorption der Wirkstoffe direkt in die Gewebe des Penis und der Prostata, ohne den Magen-Darm-Trakt zu belasten. Besonders beeindruckend ist die Fähigkeit von Formelan, den Blutfluss zu verbessern, Hormone zu normalisieren und Entzündungen zu reduzieren – alles mit einer einzigen Anwendung. Ich empfehle es meinen Patienten als erste Behandlungsoption, da es keine Nebenwirkungen hat und mit allen anderen Medikamenten kombiniert werden kann."
+        title: "Facharzt für Urologie, 15 Jahre Praxis in der Urologie",
+        quote: "Formelan verstärkt innerhalb von 30 Minuten die Durchblutung des Penis und erhöht die Empfindlichkeit der erogenen Zonen, was die Erektion verbessert. Bei regelmäßiger Anwendung des Gels hören nächtliche Toilettengänge und Probleme beim Wasserlassen auf. Nach 2 Wochen normalisiert sich der Hormonspiegel, was durch Laboranalysen bestätigt wird. Nach 3 Wochen Anwendung wird eine vollständige Erektion ohne zusätzliche Stimulation durch Tabletten oder Gele wiederhergestellt. Ultraschalluntersuchungen zeigen eine Verkleinerung der Prostata, und Analysen bestätigen das Fehlen von Entzündungsprozessen. Formelan ist sicher für das Herz-Kreislauf-System und kompatibel mit Medikamenten gegen Diabetes und Bluthochdruck. Die Wirkung hält etwa 2 Jahre nach Abschluss des Kurses an, was durch langjährige Beobachtungen meiner Patienten bestätigt wird."
     }
 };
 
