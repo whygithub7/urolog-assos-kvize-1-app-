@@ -44,23 +44,23 @@ const landingContent = {
     ],
     slides2: [
         {
-            img: "dp/1.webp", 
+            img: "dp/11.webp", 
             text: "\"Formelan je jedini proizvod koji mi je stvarno pomogao s erekcijom. Probao sam sve - tablete, pumpe, čak i injekcije. Ništa nije djelovalo dok nisam otkrio Formelan. Sada imam erekciju kad god želim!\" - Stjepan, 57 godina"
         },
         {
-            img: "dp/2.webp", 
+            img: "dp/12.webp", 
             text: "\"Nakon samo 5 dana korištenja Formelana, moje jutarnje erekcije su se vratile. Nakon 2 tjedna, mogao sam voditi ljubav bez ikakvih problema. Moja supruga je oduševljena!\" - Darko, 49 godina"
         },
         {
-            img: "dp/3.webp", 
+            img: "dp/13.webp", 
             text: "\"Formelan je spasio moj seksualni život. Imao sam problema s održavanjem erekcije, ali nakon samo jednog tjedna korištenja, moja erekcija je čvrsta i trajna. Preporučujem svim muškarcima!\" - Goran, 51 godina"
         },
         {
-            img: "dp/4.webp", 
+            img: "dp/14.webp", 
             text: "\"Kao urolog, preporučujem Formelan svojim pacijentima jer djeluje na sve uzroke erektilne disfunkcije istovremeno. Rezultati su impresivni - preko 90% mojih pacijenata doživjelo je potpuni oporavak.\" - dr. Kovač, urolog"
         },
         {
-            img: "dp/5.webp", 
+            img: "dp/15.webp", 
             text: "\"Formelan mi je vratio samopouzdanje. S 62 godine, mislio sam da je moj seksualni život gotov. Sada, nakon terapije Formelanom, ponovno sam aktivan kao u mladosti!\" - Milan, 62 godine"
         },
         {
