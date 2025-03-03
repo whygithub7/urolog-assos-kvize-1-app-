@@ -68,7 +68,31 @@ function showResults() {
         const screen3 = document.getElementById('screen3');
         screen3.classList.add('active');
         
-        // Заполняем основной результат
+        // Инициализируем навигацию
+        const navList = document.getElementById('navLinks');
+        if (navList) {
+            navList.innerHTML = ''; // Очищаем существующие ссылки
+            navLinks.forEach(link => {
+                const li = document.createElement('li');
+                li.innerHTML = `<a href="${link.href}">${link.text}</a>`;
+                navList.appendChild(li);
+            });
+        }
+        
+    // Заполняем кнопки хедера
+        const headerButtonsContainer = document.getElementById('headerButtons');
+        if (headerButtonsContainer) {
+            headerButtonsContainer.innerHTML = ''; // Очищаем существующие кнопки
+            headerButtons.forEach(button => {
+                const a = document.createElement('a');
+                a.href = button.href;
+                a.className = button.class;
+                a.textContent = button.text;
+                headerButtonsContainer.appendChild(a);
+            });
+        }
+        
+    // Заполняем основной результат
         document.getElementById('resultMainHeading').textContent = results.headings[0];
         document.getElementById('resultMainText').textContent = results.mainText;
         
