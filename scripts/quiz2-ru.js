@@ -359,7 +359,7 @@ orderForm: {
     phonePlaceholder: "Номер телефона",
     buttonText: "Получить FORMELAN со скидкой"
 }, 
-    bottomOrderButton: "ЗАКАЗАТЬ FORMELAN СЕЙЧАС"
+    bottomOrderButton: "ЗАКАЗАТЬ FORMELAN СЕЙЧАС!"
 };
 let currentQuestionIndex = 0;
 let currentSlideIndex1 = 0;
