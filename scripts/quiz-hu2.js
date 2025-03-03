@@ -402,7 +402,7 @@ const results = {
         title: "Rendelje meg most a Formelan-t",
         namePlaceholder: "Az Ön neve",
         phonePlaceholder: "Telefonszám",
-        button: "Megrendelés kedvezményes áron",
+        buttonText: "Megrendelés kedvezményes áron",
         privacyText: "Az adatait bizalmasan kezeljük"
     },
     bottomOrderButton: "RENDELJE MEG A FORMELAN-T MOST"
