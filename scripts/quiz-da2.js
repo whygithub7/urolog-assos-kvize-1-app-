@@ -44,23 +44,23 @@ const landingContent = {
     ],
     slides2: [
         {
-            img: "dp/1.webp", 
+            img: "dp/11.webp", 
             text: "Jeg er 60 år gammel, og Formelan bragte mig tilbage til livet. Nu har jeg en stabil erektion og sex i 40-60 minutter. Først troede jeg ikke på testresultaterne, men jeg tog chancen og har ikke fortrudt det!"
         },
         {
-            img: "dp/2.webp", 
+            img: "dp/12.webp", 
             text: "Jeg er ingeniør og tilbringer meget tid ved computeren. Jeg er 53 år gammel. Formelan hjalp mig med at håndtere potensproblemer forårsaget af stillesiddende livsstil."
         },
         {
-            img: "dp/3.webp", 
+            img: "dp/13.webp", 
             text: "Jeg tog Viagra i en måned, så fik jeg et hjerteanfald. Læger anbefalede mig Formelan som et naturligt alternativ. Det virker hurtigere end Viagra og skader ikke de indre organer."
         },
         {
-            img: "dp/4.webp", 
+            img: "dp/14.webp", 
             text: "Det værste ved impotens er sandsynligvis depressionen. Formelan blev redningen for vores ægteskab, mit fysiske og mentale helbred. Så snart jeg helbredte impotensen, begyndte depressionen også at forsvinde."
         },
         {
-            img: "dp/5.webp", 
+            img: "dp/15.webp", 
             text: "Prostatitis er meget farlig. Min onkel døde af prostatakræft. Da jeg bemærkede, at jeg ofte skulle på toilettet, og min erektion forsvandt, begyndte jeg at bruge Formelan. Jeg behandlede mig selv på mindre end en måned. Nu er jeg absolut rask."
         },
         {

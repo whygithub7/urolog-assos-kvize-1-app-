@@ -44,23 +44,23 @@ const landingContent = {
     ],
     slides2: [
         {
-            img: "dp/1.webp", 
+            img: "dp/11.webp", 
             text: "Ho 60 anni e Formelan mi ha riportato in vita. Ora ho un'erezione stabile e sesso per 40-60 minuti. All'inizio non credevo ai risultati del test, ma ho rischiato e non me ne sono pentito!"
         },
         {
-            img: "dp/2.webp", 
+            img: "dp/12.webp", 
             text: "Sono un ingegnere e passo molto tempo al computer. Ho 53 anni. Formelan ha aiutato a risolvere i problemi di potenza causati dallo stile di vita sedentario."
         },
         {
-            img: "dp/3.webp", 
+            img: "dp/13.webp", 
             text: "Ho preso Viagra per un mese, poi ho avuto un infarto. I medici mi hanno consigliato Formelan come sostituto naturale. Agisce più velocemente del Viagra e non danneggia gli organi interni."
         },
         {
-            img: "dp/4.webp", 
+            img: "dp/14.webp", 
             text: "La cosa peggiore dell'impotenza è probabilmente la depressione. Formelan è diventato la salvezza per il nostro matrimonio, per la mia salute fisica e morale. Non appena ho curato l'impotenza, anche la depressione ha iniziato a passare."
         },
         {
-            img: "dp/5.webp", 
+            img: "dp/15.webp", 
             text: "La prostatite è molto pericolosa. Mio zio è morto di cancro alla prostata. Quando ho notato che ho iniziato ad andare spesso in bagno e l'erezione scompariva, ho iniziato a usare Formelan. Mi sono curato per meno di un mese. Ora sono assolutamente sano."
         },
         {

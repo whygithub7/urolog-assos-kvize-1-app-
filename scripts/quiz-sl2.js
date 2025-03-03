@@ -45,23 +45,23 @@ const landingContent = {
     ],
     slides2: [
         {
-            img: "dp/1.webp", 
+            img: "dp/11.webp", 
             text: "Star sem 60 let in Formelan me je vrnil v življenje. Zdaj imam stabilno erekcijo in spolni odnos 40-60 minut. Najprej nisem verjel rezultatom testa, a sem tvegal in mi ni žal!"
         },
         {
-            img: "dp/2.webp", 
+            img: "dp/12.webp", 
             text: "Sem inženir in veliko časa preživim za računalnikom. Star sem 53 let. Formelan mi je pomagal premagati težave s potenco, ki jih je povzročil sedeč način življenja."
         },
         {
-            img: "dp/3.webp", 
+            img: "dp/13.webp", 
             text: "En mesec sem jemal viagro, potem sem doživel srčni infarkt. Zdravniki so mi svetovali Formelan kot naravno zamenjavo. Deluje hitreje od viagre in ne uničuje notranjih organov."
         },
         {
-            img: "dp/4.webp", 
+            img: "dp/14.webp", 
             text: "Najhujše pri impotenci je verjetno depresija. Formelan je postal rešitev za najin zakon, moje fizično in duševno zdravje. Takoj ko sem ozdravil impotenco, je začela izginjati tudi depresija."
         },
         {
-            img: "dp/5.webp", 
+            img: "dp/15.webp", 
             text: "Prostatitis je zelo nevaren. Moj stric je umrl za rakom prostate. Ko sem opazil, da sem začel pogosto hoditi na stranišče in izgubljati erekcijo, sem začel uporabljati Formelan. Zdravil sem se manj kot mesec dni. Zdaj sem popolnoma zdrav."
         },
         {

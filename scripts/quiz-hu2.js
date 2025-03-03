@@ -44,23 +44,23 @@ const landingContent = {
     ],
     slides2: [
         {
-            img: "dp/1.webp", 
+            img: "dp/11.webp", 
             text: "60 éves vagyok, és a Formelan visszahozta az életemet. Most stabil erekcióm van és 40-60 perces szexre vagyok képes. Először nem hittem a teszt eredményeinek, de megkockáztattam és nem bántam meg!"
         },
         {
-            img: "dp/2.webp", 
+            img: "dp/12.webp", 
             text: "Mérnök vagyok és sok időt töltök számítógép előtt. 53 éves vagyok. A Formelan segített megoldani az ülő életmód okozta potencia problémákat."
         },
         {
-            img: "dp/3.webp", 
+            img: "dp/13.webp", 
             text: "Egy hónapig szedtem Viagrát, aztán szívinfarktust kaptam. Az orvosok a Formelant javasolták természetes helyettesítőként. Gyorsabban hat, mint a Viagra, és nem károsítja a belső szerveket."
         },
         {
-            img: "dp/4.webp", 
+            img: "dp/14.webp", 
             text: "Az impotencia legrosszabb része valószínűleg a depresszió. A Formelan megmentette a házasságunkat, fizikai és mentális egészségemet. Amint meggyógyítottam az impotenciát, a depresszió is kezdett elmúlni."
         },
         {
-            img: "dp/5.webp", 
+            img: "dp/15.webp", 
             text: "A prosztatagyulladás nagyon veszélyes. A nagybátyám prosztatarákban halt meg. Amikor észrevettem, hogy gyakran kell mosdóba járnom és eltűnik az erekcióm, elkezdtem használni a Formelant. Kevesebb mint egy hónapig kezeltem magam. Most teljesen egészséges vagyok."
         },
         {
