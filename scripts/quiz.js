@@ -104,10 +104,8 @@ function showResults() {
         document.getElementById('bottomOrderButton').textContent = results.bottomOrderButton;
         
         // Устанавливаем текст для кнопки orderButton
-        const orderButton = document.getElementById('orderButton');
-        if (orderButton && results.orderButtonText) {
-            orderButton.textContent = results.orderButtonText;
-        }
+        document.getElementById('orderButton').textContent = results.bottomOrderButton;
+        
         
         // Заполняем блок доказательств
         document.getElementById('proofsHeading').textContent = results.headings[4];
