@@ -178,9 +178,9 @@ items: [
 ]
 },
         doctorComment: {
-        name: "Dr. Marko Horvat",
-        title: "Urolog, dr. med., specijalist s 25 godina iskustva u urologiji",
-        quote: "Kao urolog s 25 godina iskustva, vidio sam mnoge proizvode za erektilnu disfunkciju, ali Formelan je revolucionaran. Njegova formula djeluje na sve uzroke problema istovremeno: hormonalni disbalans, upalu prostate i poremećaj cirkulacije. Ono što Formelan čini jedinstvenim je njegova sposobnost da ne samo privremeno poboljša erekciju, već i trajno riješi uzroke problema. Preporučujem ga svojim pacijentima jer pruža dugoročne rezultate bez rizika i nuspojava povezanih s tabletama za erekciju ili invazivnim postupcima."
+        name: "Dr. David F. Jarrard",
+        title: "Urolog najviše kategorije, 15 godina prakse u urologiji",
+        quote: "Formelan nakon 30 minuta pojačava protok krvi u penisu i povećava osjetljivost erogenih zona, poboljšava erekciju. Kod redovite primjene gela prestaju noćni odlasci na toalet i problemi s mokrenjem. Do kraja 2. tjedna normalizira se hormonalna ravnoteža, što potvrđuju laboratorijske analize. Nakon 3 tjedna primjene obnavlja se potpuna erekcija bez dodatne stimulacije tabletama ili gelovima. Ultrazvuk pokazuje smanjenje veličine prostate, a analize potvrđuju odsutnost upalnih procesa. Formelan je siguran za kardiovaskularni sustav i kompatibilan je s lijekovima za dijabetes i hipertenziju. Učinak traje približno 2 godine nakon završetka terapije, što je potvrđeno dugogodišnjim praćenjem mojih pacijenata."
         }
 };
 
