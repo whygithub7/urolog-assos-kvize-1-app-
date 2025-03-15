@@ -205,7 +205,7 @@ const landingContent = {
         ]
     },
     doctorComment: {
-        name: "Dr. Kovács István",
+        name: "Dr. David F. Jarrard",
         title: "Kiemelt kategóriájú urológus szakorvos, 15 év urológiai gyakorlattal",
         quote: "Az Eroboost egyszeri alkalmazáskor biztonságos afrodiziákumként működik: 30-40 perc után erősíti az erekciót és az érzékenységet, a hatás 1-3 órán át tart. Kúraszerű kezelés esetén: 3-6 nap után csökkennek a gyakori vizelési ingerek és az éjszakai ébredések, a második hét végére elmúlik a vizeléskor jelentkező égő érzés és a gáttáji fájdalom. 3 hét alkalmazás után normalizálódik az erekció és a libidó. Ezután a legtöbb betegnek már nincs szüksége további erekciós serkentőkre, szex közben már tabletták nélkül is boldogulnak. Az ultrahangos vizsgálat 20-30%-os prosztataméret-csökkenést mutat, a laborvizsgálatok pedig igazolják a gyulladásos markerek csökkenését és a prosztatanedv normalizálódását. Különösen fontos, hogy az Eroboost biztonságos a szív- és érrendszerre, kombinálható cukorbetegség és vérnyomás elleni gyógyszerekkel, és a hatás 1-3 évig megmarad a kúra befejezése után."
     }
