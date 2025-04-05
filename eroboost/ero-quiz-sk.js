@@ -238,10 +238,6 @@ const questions = [
         answers: ["Áno", "Nie", "Zriedka", "Nevšimol som si"]
     },
     {
-        question: "Budíte sa v noci kvôli bolestiam v krížoch alebo pohlavných orgánoch?",
-        answers: ["Áno", "Nie", "Niekedy", "Zriedka"]
-    },
-    {
         question: "Máte bolesti v podbrušku alebo v oblasti prostaty?",
         answers: ["Áno", "Nie", "Niekedy", "Veľmi zriedka"]
     },
@@ -251,10 +247,6 @@ const questions = [
     },
     {
         question: "Končíte príliš skoro (do 10 minút)?",
-        answers: ["Áno", "Nie", "Niekedy", "Zriedka"]
-    },
-    {
-        question: "Máte nepríjemný zápach alebo výtok z pohlavných orgánov?",
         answers: ["Áno", "Nie", "Niekedy", "Zriedka"]
     },
     {
