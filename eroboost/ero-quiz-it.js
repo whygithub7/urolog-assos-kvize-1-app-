@@ -61,7 +61,7 @@ const landingContent = {
         },
         {
             img: "dp/5.webp",
-            text: "La prostatite è molto pericolosa. Mio zio è morto di cancro alla prostata. Quando ho notato che ho iniziato ad andare spesso in bagno e l'erezione è scomparsa, ho iniziato a usare Eroboost. Mi sono curato in meno di un mese. Ora sono completamente sano."
+            text: "Non appena ho superato i quarant'anni, sono iniziati i problemi. Prima un leggero bruciore, poi un dolore sordo costante, seguito dall'impotenza. Ho iniziato ad avere paura anche solo di pensare al sesso. Ho preso Eroboost ogni giorno per un mese, e sembra di essere un'altra persona: non c'è dolore, l'erezione dura 40 minuti. Le dimensioni sono diventate notevolmente maggiori. Non avverto effetti collaterali."
         },
         {
             img: "dp/6.webp",
