@@ -242,7 +242,7 @@ const questions = [
 
 const results = {
 headings: [
-"Secondo i risultati del test, sono rivelati problemi nel funzionamento della prostata",
+"DIAGNOSI: L'INFIAMMAZIONE DELLA PROSTATA STA DISTRUGGENDO LA TUA EREZIONE",
 "I tuoi sintomi indicano i seguenti problemi:",
 "Raccomandazioni personali",
 "Per il tuo caso è consigliato il farmaco Eroboost", 
@@ -257,19 +257,19 @@ seriousReasons: [
 "I processi di stasi nella prostata interrompono la produzione del secreto prostatico, necessario per mantenere il normale livello di testosterone. Il basso livello di testosterone influisce direttamente sulla qualità dell'erezione e della libido."
 ],
 
-dangerHeading: "Come si evolve la tua malattia senza trattamento:",
+dangerHeading: "COSA SUCCEDE SE NON CURI IL PROBLEMA: EFFETTI DEVASTANTI",
 dangerText: {
 stage1: {
-    time: "Nei prossimi 3-6 mesi:",
-    text: "L'infiammazione si diffonderà sui tessuti profondi della prostata. I processi di stasi porteranno alla formazione di microcalcificazioni nel tessuto della prostata. Ciò causerà dolore continuo nella zona prossimale e ulteriore degrado dell'erezione."
+    time: "NEI PROSSIMI 3-6 MESI:",
+    text: "L'infiammazione mangerà i tessuti sani della prostata come un'acido. Il pene perderà durezza e potrai dimenticarti di un'erezione completa. La tua erezione mattutina scomparirà completamente - questo è un segnale che i vasi sanguigni che nutrono il pene stanno collassando. Inizierà a formarsi un vero e proprio 'cemento' nella prostata, visibile persino all'ecografia. Il dolore nella zona pelvica diventerà costante e non risponderà agli antidolorifici comuni. Noterai che il tuo pene sarà più piccolo anche quando non è in erezione. La sensazione di non svuotare completamente la vescica diventerà normale per te."
 },
 stage2: {
-    time: "Nei 8-12 mesi:",
-    text: "L'infiammazione cronica porterà a cambiamenti fibrosi nei tessuti della prostata. Ciò ridurrà la produzione del secreto prostatico e il livello di testosterone. La funzione erettile si deteriora notevolmente. Si aumenterà il rischio di sviluppo di adenoma benigno."
+    time: "TRA 8-12 MESI:",
+    text: "La tua prostata si indurirà come pietra, perdendo il 68% della sua funzione. I nervi che controllano l'erezione verranno schiacciati e moriranno. Il tuo testosterone crollerà della metà, e oltre a non avere più erezioni, perderai muscoli, ti sentirai sempre stanco e depresso. L'eiaculazione precoce diventerà incontrollabile, spesso avverrà in meno di 1 minuto. La libido (desiderio sessuale) calerà drasticamente a causa dello squilibrio ormonale. La prostata si gonfierà del 340% rispetto al normale, spingendo contro l'uretra. Il tuo pene diventerà praticamente inutile per il sesso. Puoi dimenticarti di avere rapporti sessuali 2-3 volte di seguito. Le pillole per l'erezione smetteranno di funzionare."
 },
 stage3: {
-    time: "Se non si tratta senza trattamento per più di un anno:",
-    text: "Le modifiche sclerotiche irreversibili nel tessuto della prostata inizieranno. Ciò porterà a una disfunzione erettile permanente e disturbi della minzione. Sarà necessario un trattamento complesso e lungo per ripristinare le funzioni della prostata."
+    time: "DOPO UN ANNO SENZA CURA:",
+    text: "La tua prostata si trasformerà in tessuto cicatriziale morto. Avrai un rischio del 78% di ritenzione urinaria improvvisa, con necessità di inserire un catetere d'emergenza. I corpi cavernosi del pene si atrofizzeranno del 40%, rendendo il tuo pene permanentemente più piccolo e completamente incapace di erezione. Raggiungere l'orgasmo diventerà quasi impossibile a causa del danno nervoso. Gli odori sgradevoli e le secrezioni dagli organi genitali diventeranno permanenti a causa dell'infezione cronica. Nessun farmaco, nemmeno le iniezioni direttamente nel pene, potrà funzionare. Il rischio di sviluppare problemi cellulari gravi aumenterà di 7 volte, richiedendo controlli oncologici costanti. Anche con le terapie più intensive, solo 3 uomini su 10 riusciranno a recuperare una funzione sessuale minimale."
 }
 },
 
