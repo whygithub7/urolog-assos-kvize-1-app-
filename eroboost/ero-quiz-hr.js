@@ -205,20 +205,13 @@ const questions = [
         question: "Jesu li vaše jutarnje erekcije rjeđe ili manje izražene?",
         answers: ["Da", "Ne", "Rijetko", "Nisam primijetio"]
     },
-    {
-        question: "Imate li bolove ili nelagodu u donjem dijelu trbuha ili u području prostate?",
-        answers: ["Da", "Ne", "Ponekad", "Vrlo rijetko"]
-    },
+  
     {
         question: "Morate li često ići na toalet noću?",
         answers: ["Da", "Ne", "Ponekad", "Rijetko"]
     },
     {
         question: "Imate li preranu ejakulaciju unutar 10 minuta?",
-        answers: ["Da", "Ne", "Ponekad", "Rijetko"]
-    },
-    {
-        question: "Budiš li se noću iz bolova u donjem dijelu leđa ili genitalnom području?",
         answers: ["Da", "Ne", "Ponekad", "Rijetko"]
     },
     {
