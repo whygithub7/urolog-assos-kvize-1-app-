@@ -249,7 +249,7 @@ const questions = [
 
 const results = {
     headings: [
-        "Test rezultati pokazuju probleme s prostatom",
+        "Rezultat: UPALNI PROCES U PROSTATI UNIŠTAVA VAŠU POTENCIJU",
         "Vaši simptomi ukazuju na sljedeće probleme:",
         "Osobne preporuke",
         "Za vaš slučaj preporučuje se lijek Eroboost", 
