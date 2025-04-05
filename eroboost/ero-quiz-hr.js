@@ -218,27 +218,15 @@ const questions = [
         answers: ["Da", "Ne", "Ponekad", "Rijetko"]
     },
     {
-        question: "Imate li česte porive za toalet, osjećaj nepotpunog pražnjenja ili bolove prilikom mokrenja?",
-        answers: ["Da", "Ne", "Ponekad", "Osobito noću"]
-    },
-    {
         question: "Budiš li se noću iz bolova u donjem dijelu leđa ili genitalnom području?",
         answers: ["Da", "Ne", "Ponekad", "Rijetko"]
-    },
-    {
-        question: "Osjećaš li bol, nelagodu ili težinu u području prostate ili donjeg trbuha?",
-        answers: ["Da", "Ne", "Ponekad", "Vrlo rijetko"]
     },
     {
         question: "Jesi li primijetio smanjenje libida u posljednje vrijeme?",
         answers: ["Da", "Ne", "Ponekad", "Gotovo uvijek"]
     },
     {
-        question: "Imaš li neugodan miris ili iscjedak iz genitalnog područja?",
-        answers: ["Da", "Ne", "Ponekad", "Rijetko"]
-    },
-    {
-        question: "Imaš li poteškoća u postizanju orgazma? Imaš li dug spolni odnos, ali ne možeš doći do vrhunca?",
+        question: "Imaš li poteškoća u postizanju orgazma? ",
         answers: ["Da", "Ne", "Ponekad", "Rijetko"]
     },
     {
