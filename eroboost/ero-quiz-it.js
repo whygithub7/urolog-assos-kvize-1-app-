@@ -206,29 +206,10 @@ const questions = [
         answers: ["Sì", "No", "Succede raramente", "Non l'ho notato"]
     },
     {
-        question: "Provi dolore o disagio nella parte bassa dell'addome o nell'area della prostata?",
-        answers: ["Sì", "No", "A volte", "Molto raramente"]
-    },
-    {
-        question: "Ti alzi spesso per urinare durante la notte?",
-        answers: ["Sì", "No", "A volte", "Raramente"]
-    },
-    {
         question: "Hai l'eiaculazione precoce entro 10 minuti?",
         answers: ["Sì", "No", "A volte", "Succede raramente"]
     },
-    {
-        question: "Hai frequenti urgenze di urinare, sensazione di svuotamento incompleto o dolore durante la minzione?",
-        answers: ["Sì", "No", "A volte", "A volte, soprattutto di notte"]
-    },
-    {
-        question: "Ti svegli di notte a causa di dolori nella zona lombare o genitale?",
-        answers: ["Sì", "No", "A volte", "Raramente"]
-    },
-    {
-        question: "Senti dolore, disagio o pesantezza nell'area della prostata o nella parte bassa dell'addome?",
-        answers: ["Sì", "No", "A volte", "Molto raramente"]
-    },
+
     {
         question: "Hai notato una diminuzione della libido ultimamente?",
         answers: ["Sì", "No", "A volte", "Quasi sempre"]
