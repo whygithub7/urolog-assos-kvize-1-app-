@@ -84,9 +84,9 @@ const landingContent = {
             text: "Sono un ex atleta di sollevamento pesi. Gli allenatori mi riempivano di preparati per la crescita muscolare. Hanno ucciso la mia potenza. Negli ultimi 5 anni ho trascorso 3 giorni a settimana in ospedale. I medici non hanno aiutato. Eroboost è diventato il mio salvagente."
         }
     ], 
-    footerText:[
-    "© 2025 European Urological Association",
-    "All rights reserved"   
+    footerText: [
+        "© 2025 Associazione Europea di Urologia",
+        "Tutti i diritti riservati"   
     ],
     faq: {
         title: "Risposte alle domande frequenti",

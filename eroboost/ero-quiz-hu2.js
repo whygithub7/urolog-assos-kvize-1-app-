@@ -84,9 +84,9 @@ const landingContent = {
             text: "Korábbi súlyemelő sportoló vagyok. Az edzők teletömtek izomépítő szerekkel. Tönkretették a potenciámat. Az elmúlt 5 évben heti 3 napot töltöttem kórházban. Az orvosok nem tudtak segíteni. Az Eroboost lett a mentőövem."
         }
     ], 
-    footerText:[
-    "© 2025 European Urological Association",
-    "All rights reserved"   
+    footerText: [
+        "© 2025 Európai Urológiai Egyesület",
+        "Minden jog fenntartva"   
     ],
     faq: {
         title: "Gyakran Ismételt Kérdések",
@@ -193,15 +193,15 @@ const landingContent = {
 };
 
 const navLinks = [
-    {text: "Guidelines", href: "#"},
-    {text: "Education & Events", href: "#"},
-    {text: "Science & Publications", href: "#"},
-    {text: "About", href: "#"}
+    {text: "Irányelvek", href: "#"},
+    {text: "Oktatás és események", href: "#"},
+    {text: "Tudomány és publikációk", href: "#"},
+    {text: "Rólunk", href: "#"}
 ];
 
 const headerButtons = [
-    {text: "Log in", class: "login-btn", href: "#"},
-    {text: "Become member", class: "become-member-btn", href: "#"}
+    {text: "Bejelentkezés", class: "login-btn", href: "#"},
+    {text: "Csatlakozz", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [
@@ -335,7 +335,7 @@ const results = {
         },
         stage3: {
             time: "Egy évnél hosszabb kezelés nélkül:",
-            text: "Visszafordíthatatlan merevedési zavar alakul ki. A prosztatagyulladás krónikus formát ölt adenoma kialakulásával. A hormonális egyensúlyzavar súlygyarapodáshoz és izomtömeg-vesztéshez vezet. A húgy-ivarrendszer működése károsodik. Az Eroboost az egyetlen olyan szer, amely képes helyreállítani a férfi funkciókat még ebben a szakaszban is, a probléma minden okára gyakorolt komplex hatásának köszönhetően."
+            text: "Visszafordíthatatlan merevedési zavar alakul ki. A prosztata gyulladás krónikus formát ölt adenoma kialakulásával. A hormonális egyensúlyzavar súlygyarapodáshoz és izomtömeg-vesztéshez vezet. A húgy-ivarrendszer működése károsodik. Az Eroboost az egyetlen olyan szer, amely képes helyreállítani a férfi funkciókat még ebben a szakaszban is, a probléma minden okára gyakorolt komplex hatásának köszönhetően."
         }
     },
 

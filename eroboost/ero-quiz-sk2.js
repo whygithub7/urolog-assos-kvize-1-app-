@@ -91,9 +91,9 @@ const landingContent = {
             text: "Nazdar športovci! Kedysi som bol profesionálny vzpierač, reprezentoval som Slovensko. Ale tie svinské anaboliká, čo nám dávali tréneri, mi úplne zničili prirodzenú potenciu. 5 rokov som chodil po doktoroch v Poprade aj Bratislave - nič nepomáhalo. Eroboost bol moja posledná nádej a funguje! Konečne som zase chlap!"
         }
     ],
-    footerText:[
-    "© 2025 European Urological Association",
-    "All rights reserved"   
+    footerText: [
+        "© 2025 Európska urologická spoločnosť",
+        "Všetky práva vyhradené"   
     ],
     doctorComment: {
         name: "Dr. David F. Jarrard",

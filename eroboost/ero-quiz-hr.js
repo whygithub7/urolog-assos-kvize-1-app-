@@ -1,5 +1,5 @@
 const landingContent = {
-    title: "Kontrola skrivenih ubica erekcije i prostate",
+    title: "Prođi test i pronađi skrivene ubice erekcije i prostate",
     subtitle: "Test od urologijske udruge",
     startButtonText: "Započni test",
     bottomButtonText: "Obnovi potenciju",

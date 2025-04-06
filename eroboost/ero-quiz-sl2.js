@@ -86,8 +86,8 @@ const landingContent = {
         }
     ], 
     footerText:[
-    "© 2025 European Urological Association",
-    "All rights reserved"   
+        "© 2025 Evropsko združenje za urologijo",
+        "Vse pravice pridržane"   
     ],
     doctorComment: {
         name: "Dr. David F. Jarrard",

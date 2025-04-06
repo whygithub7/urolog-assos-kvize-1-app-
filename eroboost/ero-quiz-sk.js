@@ -1,7 +1,7 @@
 // Slovenská lokalizácia pre Slovensko 
 
 const landingContent = {
-    title: "Test na problémy s erekciou a prostatou",
+    title: "Urob test a zisti, či máš skrytých zabijakov prostaty a erekcie",
     subtitle: "Test Urologickej spoločnosti",
     startButtonText: "Spustiť test",
     bottomButtonText: "Obnoviť potenciu",

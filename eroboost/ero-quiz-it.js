@@ -32,15 +32,15 @@ const landingContent = {
             img: "coms/kv1.webp", 
             text: "Ho 53 anni. Il test ha rivelato problemi di circolazione sanguigna nella zona pelvica. Seguendo le raccomandazioni, ho iniziato a fare plank e squat con torsioni al mattino, più ho iniziato a mangiare salmone due volte a settimana, noci e olio d'oliva. Dopo 3-4 settimane ho notato che il pene è aumentato in volume. Mi sono curato senza pillole, solo con la giusta alimentazione ed esercizio."
         },
-        {img: "coms/kv2.webp", text: "Te test hanno rivelato che ho una bassa circolazione sanguigna nella zona pelvica. Mi hanno consigliato di fare esercizi cardiologici quotidiani - sono iniziato a correre al mattino per 20 minuti e ho aggiunto la dieta con pesce, noci e verdure. In 3 settimane l'erezione è diventata più forte, non si perde durante il sesso 1-3 ore, ora posso controllare l'orgasmo."},
+        {img: "coms/kv2.webp", text: "I test hanno rivelato che ho una bassa circolazione sanguigna nella zona pelvica. Mi hanno consigliato di fare esercizi cardiologici quotidiani - ho iniziato a correre al mattino per 20 minuti e ho aggiunto la dieta con pesce, noci e verdure. In 3 settimane l'erezione è diventata più forte, non si perde durante il sesso 1-3 ore, ora posso controllare l'orgasmo."},
         {img: "coms/3.jpg", text: "Ho 50 anni. Il test ha rivelato che ho un basso livello di testosterone. Mi hanno dato una dieta proteica con carne, uova e anche vitamine del gruppo B. Dopo 3 settimane dopo queste modifiche ho notato che il pene è diventato leggermente più spesso, le ere mattutine sono tornate e sono passati i cambiamenti di umore."},
-        {img: "coms/4.jpg", text: "Dopo aver completato il test, mi sono consigliato di ridurre la consumazione di zucchero, aumentare la quantità di cellulosa. Ho aggiunto broccoli, spinaci e frutta nella dieta, ho fatto esercizi di stretching. Dopo 2-4 settimane ho sentito che l'erezione è migliorata."},
-        {img: "coms/kv55.webp", text: "Dopo aver completato il test, ho scoperto che ho prostatite cronica. Mi hanno impedito di mangiare carne, griglia e alcol. Mi hanno consigliato un supplimento alimentare e mi hanno consigliato di sistemare il sonno. Ho preso il supplimento per 1 mese, ho seguito tutte le raccomandazioni. Dopo 1 mese non ci sono più dolori alla prostata, non sono più andato al bagno ogni ora, non ci sono più dolori nel retro, i dolori nel retro sono passati."},
-        {img: "coms/6.jpg", text: "Ho 47 anni. Ho completato il test e mi sono detto che ho una bassa circolazione nella zona pelvica. Le raccomandazioni includevano una dieta con riduzione dei carboidrati, l'abbandono del fast food e l'aumento della consumazione di cellulosa - sono mangiato più verdure, avena e fagioli. Mi sono consigliato di fare esercizi di stretching e per rafforzare i muscoli della zona pelvica. In 3 settimane l'erezione è diventata più forte e più lunga, i dolori nella zona prostatica sono passati."},
-        {img: "coms/7.jpg", text: "Ho sofferto molto per i richiami nel bagno, ogni volta sembrava che non potessi arrivare all'unisci. È stato scoperto che la prostata era infiammata. Dopo il test mi sono consigliato di aumentare la consumazione di prodotti con acidi grassi omega-3 - sono mangiato più pesce e noci. Mi sono consigliati di fare esercizi cardiologici e non sedersi troppo. Dopo 1 mese ho notato che non ci sono più dolori alla prostata, non ci sono più richiami nel bagno, e la libido è tornato."},
-        {img: "coms/8.jpg", text: "Ho 60 anni. Dopo aver completato il test, mi sono consigliato di abbandonare la carne grassa, specialmente la maiale, e aumentare la consumazione di oli vegetali e prodotti, ricchi di vitamine A e E. Sono iniziato a bere più acqua, ho sostituito il caffè con il tè verde. Dopo 3 settimane sono iniziato a notare miglioramenti - il sesso dura più a lungo, l'erezione non è più scomparsa quando cambio la posizione nel sesso, l'orgasmo è stabile."},
-        {img: "coms/9.jpg", text: "Il test ha rivelato che ho problemi di erezione a causa di bassa circolazione sanguigna. Mi sono consigliato di fare più attività fisica: sono iniziato a camminare per 30 minuti e nuotare. Ho iniziato a bere acqua con limone. Dopo una settimana ho notato che la mia erezione era stabile. La funzione sessuale è completamente ripresa alla 5ª settimana. Ho anche fatto analisi per verificarlo, i medici mi hanno detto che sono guarito"},
-        {img: "coms/10.jpg", text: "Non avrei mai sospettato nemmeno che avessi un'infezione - non c'erano secrezioni, né dolore, né odore. Prima non credo ai risultati della ricerca, ma poi sono andato in ospedale e lì mi hanno confermato che avessi davvero un'infezione. Dopo aver completato il test, mi sono consigliato un farmaco, i medici lo hanno approvato. In 1 settimana sono guarito dall'infezione. Dopo 2 settimane ho sentito che la mia erezione era più forte e i movimenti erano più facili. Nel ospedale mi hanno confermato che ero completamente sano."}
+        {img: "coms/4.jpg", text: "Dopo aver completato il test, mi hanno consigliato di ridurre la consumazione di zucchero, aumentare la quantità di cellulosa. Ho aggiunto broccoli, spinaci e frutta nella dieta, ho fatto esercizi di stretching. Dopo 2-4 settimane ho sentito che l'erezione è migliorata."},
+        {img: "coms/kv55.webp", text: "Dopo aver completato il test, ho scoperto che ho prostatite cronica. Mi hanno impedito di mangiare carne, griglia e alcol. Mi hanno consigliato un supplimento alimentare e mi hanno consigliato di sistemare il sonno. Ho preso il supplimento per 1 mese, ho seguito tutte le raccomandazioni. Dopo 1 mese non ci sono più dolori alla prostata, non sono più andato al bagno ogni ora, non ci sono più dolori nell'area lombare."},
+        {img: "coms/6.jpg", text: "Ho 47 anni. Ho completato il test e mi hanno detto che ho una bassa circolazione nella zona pelvica. Le raccomandazioni includevano una dieta con riduzione dei carboidrati, l'abbandono del fast food e l'aumento della consumazione di cellulosa - ho mangiato più verdure, avena e fagioli. Mi hanno consigliato di fare esercizi di stretching e per rafforzare i muscoli della zona pelvica. In 3 settimane l'erezione è diventata più forte e più lunga, i dolori nella zona prostatica sono passati."},
+        {img: "coms/7.jpg", text: "Ho sofferto molto per i richiami nel bagno, ogni volta sembrava che non potessi finire di urinare. È stato scoperto che la prostata era infiammata. Dopo il test mi hanno consigliato di aumentare la consumazione di prodotti con acidi grassi omega-3 - ho mangiato più pesce e noci. Mi hanno consigliato di fare esercizi cardiologici e non sedersi troppo. Dopo 1 mese ho notato che non ci sono più dolori alla prostata, non ci sono più richiami nel bagno, e la libido è tornata."},
+        {img: "coms/8.jpg", text: "Ho 60 anni. Dopo aver completato il test, mi hanno consigliato di abbandonare la carne grassa, specialmente il maiale, e aumentare la consumazione di oli vegetali e prodotti, ricchi di vitamine A e E. Ho iniziato a bere più acqua, ho sostituito il caffè con il tè verde. Dopo 3 settimane ho iniziato a notare miglioramenti - il sesso dura più a lungo, l'erezione non è più scomparsa quando cambio la posizione nel sesso, l'orgasmo è stabile."},
+        {img: "coms/9.jpg", text: "Il test ha rivelato che ho problemi di erezione a causa di bassa circolazione sanguigna. Mi hanno consigliato di fare più attività fisica: ho iniziato a camminare per 30 minuti e nuotare. Ho iniziato a bere acqua con limone. Dopo una settimana ho notato che la mia erezione era stabile. La funzione sessuale è completamente ripresa alla 5ª settimana. Ho anche fatto analisi per verificarlo, i medici mi hanno detto che sono guarito"},
+        {img: "coms/10.jpg", text: "Non avrei mai sospettato nemmeno che avessi un'infezione - non c'erano secrezioni, né dolore, né odore. Prima non credo ai risultati della ricerca, ma poi sono andato in ospedale e lì mi hanno confermato che avessi davvero un'infezione. Dopo aver completato il test, mi hanno consigliato un farmaco, i medici lo hanno approvato. In 1 settimana sono guarito dall'infezione. Dopo 2 settimane ho sentito che la mia erezione era più forte e i movimenti erano più facili. Nell'ospedale mi hanno confermato che ero completamente sano."}
     ],
     slides2: [
         {
@@ -57,7 +57,7 @@ const landingContent = {
         },
         {
             img: "dp/4.webp",
-            text: "La cosa peggiore dell'impotenza è probabilmente la depressione. Eroboost è diventato la salvezza per il nostro matrimonio, la mia salute fisica e mentale. Quando ho curato l'impotenza, anche la depressione è iniziato a scomparire."
+            text: "La cosa peggiore dell'impotenza è probabilmente la depressione. Eroboost è diventato la salvezza per il nostro matrimonio, la mia salute fisica e mentale. Quando ho curato l'impotenza, anche la depressione è iniziata a scomparire."
         },
         {
             img: "dp/5.webp",
@@ -85,8 +85,8 @@ const landingContent = {
         }
     ], 
     footerText:[
-    "© 2025 European Urological Association",
-    "All rights reserved"   
+    "© 2025 Associazione Europea di Urologia",
+    "Tutti i diritti riservati"   
 ],
 faq: {
 title: "Risposte ai quesiti più frequenti",
@@ -99,13 +99,13 @@ items: [
                 "Effetto rapido: 30-40 minuti dopo l'assunzione della capsula, dura 4-6 ore",
                 "Effetto terapeutico: miglioramenti iniziali in 3-6 giorni, completa ripresa in 3 settimane",
                 "Dopo la completa terapia, l'effetto dura 1-3 anni con osservanza delle raccomandazioni",
-                "Il 96% dei pazienti dopo la terapia non necessitano ulteriori stimolatori per l'erezione"
+                "Il 96% dei pazienti dopo la terapia non necessita ulteriori stimolatori per l'erezione"
             ],
             conclusion: "Per mantenere il risultato, si consiglia di ripetere la terapia 1 volta ogni 1-3 anni"
         }
     },
     {
-        question: "Posso prendere con altri farmaci?",
+        question: "Posso prenderlo con altri farmaci?",
         answer: {
             intro: "Eroboost si combina con tutto tranne il sildenafilo:",
             list: [
@@ -113,7 +113,7 @@ items: [
                 "È sicuro per il sistema cardiovascolare in ogni età",
                 "Non causa effetti collaterali anche con lunga assunzione",
                 "È compatibile con vitamine e supplementi alimentari",
-                "IMPORTANTE: non prendere contemporaneamente con farmaci per erezione e analoghi farmaci"
+                "IMPORTANTE: non prenderlo contemporaneamente con farmaci per erezione e analoghi farmaci"
             ],
             conclusion: "La composizione naturale di Eroboost garantisce la sicurezza nell'uso con qualsiasi farmaco, tranne i stimolatori sintetici per l'erezione. Dopo la fine della terapia, non saranno più necessari ulteriori stimolatori."
         }
@@ -151,15 +151,15 @@ items: [
     {
         question: "Le diete e gli esercizi mi guariranno?",
         answer: {
-            intro: "L'analisi dei tuoi sintomi ha rivelato la presenza di infiammazione della prostata e di disfunzione di circolazione sanguigna nella zona pelvica. A questa fase, i cambiamenti dell'aspetto della vita sono già insufficienti:",
+            intro: "L'analisi dei tuoi sintomi ha rivelato la presenza di infiammazione della prostata e di disfunzione di circolazione sanguigna nella zona pelvica. In questa fase, i cambiamenti dello stile di vita sono già insufficienti:",
             list: [
-                "Il principale - prendere immediatamente le capsule e ripristinare la circolazione sanguigna con Eroboost",
-                "Dieta e esercizi - questi sono solo metodi di supporto, che possono accelerare la guarigione",
+                "La cosa principale è prendere immediatamente le capsule e ripristinare la circolazione sanguigna con Eroboost",
+                "Dieta ed esercizi sono solo metodi di supporto che possono accelerare la guarigione",
                 "Prodotti consigliati (come complemento a Eroboost): pesce grasso, noci, semi di zucca, verdure (specialmente broccoli, spinaci), frutta, olio d'oliva",
                 "Esercizi utili (volontari): camminata veloce 30 minuti al giorno, nuoto, stretching leggero dei muscoli della zona pelvica, esercizi di Kegel",
                 "Cosa escludere per un miglior effetto: carne, griglia, alcol, lunga seduta, carichi fisici pesanti"
             ],
-            conclusion: "Senza Eroboost, i cambiamenti dell'aspetto della vita non fermeranno la progressione della malattia. Eroboost elimina la causa del problema: in 3-6 giorni diminuiscono i richiami frequenti, in 3 settimane normalizza l'erezione. La dieta giusta e la moderazione dell'attività possono accelerare il risultato, ma la base della cura è la terapia Eroboost."
+            conclusion: "Senza Eroboost, i cambiamenti dello stile di vita non fermeranno la progressione della malattia. Eroboost elimina la causa del problema: in 3-6 giorni diminuiscono i richiami frequenti, in 3 settimane normalizza l'erezione. La dieta giusta e la moderazione dell'attività possono accelerare il risultato, ma la base della cura è la terapia Eroboost."
         }
     },
     {
@@ -180,20 +180,20 @@ items: [
 doctorComment: {
 name: "Dr. David F. Jarrard",
 title: "Urologo di alto livello, 15 anni di pratica in urologia",
-quote: "Eroboost all'uso singolo agisce come un aperitivo erotico sicuro: 30-40 minuti dopo l'assunzione aumenta l'erezione e la sensibilità, l'effetto dura 4-6 ore. Nella terapia a lungo termine: nei 3-6 giorni diminuiscono i richiami nel bagno e i risvegli notturni, alla fine della seconda settimana c'è dolore durante la minzione e dolore nella zona prossimale. Dopo 3 settimane di utilizzo, l'erezione e la libido sono normalizzati. Dopo questo, la maggior parte dei pazienti non ha bisogno di stimolare ulteriormente l'erezione, possono fare sesso già senza pillole. L'ecografia mostra una riduzione della prostata del 20-30%, e gli esami confermano una riduzione degli indicatori infiammatori e una normalizzazione del secreto prostatico. È molto importante che Eroboost sia sicuro per il sistema cardiovascolare, compatibile con farmaci per la pressione e l'aumento del livello di testosterone, e l'effetto dura 1-3 anni dopo la fine della terapia."
+quote: "Eroboost all'uso singolo agisce come un afrodisiaco sicuro: 30-40 minuti dopo l'assunzione aumenta l'erezione e la sensibilità, l'effetto dura 4-6 ore. Nella terapia a lungo termine: in 3-6 giorni diminuiscono i richiami frequenti al bagno e i risvegli notturni, alla fine della seconda settimana scompare il bruciore durante la minzione e il dolore nella zona perineale. Dopo 3 settimane di utilizzo, l'erezione e la libido sono normalizzate. Dopo questo, la maggior parte dei pazienti non ha bisogno di stimolare ulteriormente l'erezione, possono fare sesso già senza pillole. L'ecografia mostra una riduzione della prostata del 20-30%, e gli esami confermano una riduzione degli indicatori infiammatori e una normalizzazione del secreto prostatico. È molto importante che Eroboost sia sicuro per il sistema cardiovascolare, compatibile con farmaci per la pressione e il diabete, e l'effetto dura 1-3 anni dopo la fine della terapia."
 }
 };
 
 const navLinks = [
-    {text: "Guidelines", href: "#"},
-    {text: "Education & Events", href: "#"},
-    {text: "Science & Publications", href: "#"},
-    {text: "About", href: "#"}
+    {text: "Linee guida", href: "#"},
+    {text: "Formazione ed eventi", href: "#"},
+    {text: "Scienza e pubblicazioni", href: "#"},
+    {text: "Chi siamo", href: "#"}
 ];
 
 const headerButtons = [
-    {text: "Log in", class: "login-btn", href: "#"},
-    {text: "Become member", class: "become-member-btn", href: "#"}
+    {text: "Accedi", class: "login-btn", href: "#"},
+    {text: "Diventa membro", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [
@@ -248,7 +248,7 @@ headings: [
 "Per il tuo caso è consigliato il farmaco Eroboost", 
 "Perché Eroboost è efficace nel tuo caso:"
 ],
-mainText: "L'analisi dei tuoi risposte ha rivelato la presenza di un processo infiammatorio nella prostata. Lo stato attuale richiede attenzione immediata, poiché i sintomi indicano una fase attiva della malattia.",
+mainText: "L'analisi delle tue risposte ha rivelato la presenza di un processo infiammatorio nella prostata. Lo stato attuale richiede attenzione immediata, poiché i sintomi indicano una fase attiva della malattia.",
 
 seriousReasons: [
 "La disfunzione di circolazione sanguigna nella zona pelvica blocca la penetrazione dei nutrienti alla prostata e ai testicoli del pene. Ciò porta a una scarsa nutrizione durante l'eccitazione e una debole erezione.",
@@ -261,7 +261,7 @@ dangerHeading: "COSA SUCCEDE SE NON CURI IL PROBLEMA: EFFETTI DEVASTANTI",
 dangerText: {
 stage1: {
     time: "NEI PROSSIMI 3-6 MESI:",
-    text: "L'infiammazione mangerà i tessuti sani della prostata come un'acido. Il pene perderà durezza e potrai dimenticarti di un'erezione completa. La tua erezione mattutina scomparirà completamente - questo è un segnale che i vasi sanguigni che nutrono il pene stanno collassando. Inizierà a formarsi un vero e proprio 'cemento' nella prostata, visibile persino all'ecografia. Il dolore nella zona pelvica diventerà costante e non risponderà agli antidolorifici comuni. Noterai che il tuo pene sarà più piccolo anche quando non è in erezione. La sensazione di non svuotare completamente la vescica diventerà normale per te."
+    text: "L'infiammazione mangerà i tessuti sani della prostata come un acido. Il pene perderà durezza e potrai dimenticarti di un'erezione completa. La tua erezione mattutina scomparirà completamente - questo è un segnale che i vasi sanguigni che nutrono il pene stanno collassando. Inizierà a formarsi un vero e proprio 'cemento' nella prostata, visibile persino all'ecografia. Il dolore nella zona pelvica diventerà costante e non risponderà agli antidolorifici comuni. Noterai che il tuo pene sarà più piccolo anche quando non è in erezione. La sensazione di non svuotare completamente la vescica diventerà normale per te."
 },
 stage2: {
     time: "TRA 8-12 MESI:",
@@ -284,7 +284,7 @@ sections: [
 {
     title: "Componenti principali per effetto rapido",
     points: [
-        "<span class='component'>Guarana</span>: Il principale componente del farmaco. Contiene stimolatori naturali che rapidamente riducono l'edema della prostata e migliorano l'erezione. Nei primi giorni ne noterai la riduzione della dolore e del disagio.",
+        "<span class='component'>Guarana</span>: Il principale componente del farmaco. Contiene stimolatori naturali che rapidamente riducono l'edema della prostata e migliorano l'erezione. Nei primi giorni ne noterai la riduzione del dolore e del disagio.",
         "<span class='component'>Ginseng</span>: Secondo componente chiave. Stimolatore maschile naturale che aumenta il livello di testosterone e ripristina la libido sessuale. L'effetto si accumula con ogni giorno di assunzione.",
         "<span class='component'>L-arginina</span>: Terzo componente principale. Espande i vasi e migliora la circolazione sanguigna nei genitali. Grazie a lui l'erezione diventa più forte già nei 2-3 giorni di assunzione."
     ]
@@ -314,10 +314,10 @@ sections: [
     ]
 },
 {
-    title: "Riduzione dello stasi e ripristino del funzionamento della prostata",
+    title: "Riduzione della stasi e ripristino del funzionamento della prostata",
     points: [
-        "<span class='component'>Estratto di ortica</span>: Migliora l'evacuazione dello stasi della prostata. Riduce l'edema e ripristina la minzione normale.",
-        "<span class='component'>Vitamina D3</span>: Aiuta la prostata a ripristinare il normale funzionamento. Regola la produzione del secreto prostatico e dei farmaci.",
+        "<span class='component'>Estratto di ortica</span>: Migliora l'evacuazione della stasi della prostata. Riduce l'edema e ripristina la minzione normale.",
+        "<span class='component'>Vitamina D3</span>: Aiuta la prostata a ripristinare il normale funzionamento. Regola la produzione del secreto prostatico e degli ormoni.",
         "<span class='component'>Estratto di macchia peruviana</span>: Risolve i processi di stasi nella prostata e migliora la libido sessuale. Ripristina la gioia della vita sessuale."
     ]
 },
@@ -325,17 +325,17 @@ sections: [
     title: "Miglioramento della funzione sessuale",
     points: [
         "<span class='component'>Tribulus terrestris</span>: Stimolatore naturale della libido e dell'erezione. Aumenta il flusso sanguigno al pene, rendendolo più grande durante l'eccitazione. L'effetto è visibile già nei giorni di assunzione.",
-        "<span class='component'>Estratto di damiana</span>: Afrodisiaco potente che aiuta a controllare il momento dell'eiaculazione. Prolungare l'attività sessuale e aumentare l'orgasmo. Funziona dal primo utilizzo.",
-        "<span class='component'>Yohimbina</span>: Migliora la sensibilità degli erogeni e aumenta l'erezione. Aiuta a raggiungere la dimensione massima del pene durante l'eccitazione e mantenere durante tutta l'attività sessuale."
+        "<span class='component'>Estratto di damiana</span>: Afrodisiaco potente che aiuta a controllare il momento dell'eiaculazione. Prolunga l'attività sessuale e intensifica l'orgasmo. Funziona dal primo utilizzo.",
+        "<span class='component'>Yohimbina</span>: Migliora la sensibilità degli erogeni e aumenta l'erezione. Aiuta a raggiungere la dimensione massima del pene durante l'eccitazione e a mantenerla durante tutta l'attività sessuale."
     ]
 }
 ],
-summary: "Nel fondo del farmaco Eroboost ci sono 3 principali componenti - guarana, ginseng e L-arginina. Il loro effetto è rafforzato da sostanze naturali aggiuntive. La combinazione dei componenti ripristina la prostata e migliora le funzioni sessuali. Il farmaco è sicuro anche a 60 anni e non causa dipendenza."
+    summary: "Alla base del farmaco Eroboost ci sono 3 componenti principali - guarana, ginseng e L-arginina. Il loro effetto è potenziato da sostanze naturali aggiuntive. La combinazione dei componenti ripristina la prostata e migliora le funzioni sessuali. Il farmaco è sicuro anche a 60 anni e non causa dipendenza."
 },
 orderForm: {
-namePlaceholder: "Il tuo nome",
-phonePlaceholder: "Numero di telefono",
-buttonText: "Ottenere Eroboost"
+    namePlaceholder: "Il tuo nome",
+    phonePlaceholder: "Numero di telefono",
+    buttonText: "Ottenere Eroboost"
 }, 
 bottomOrderButton: "Inizia il trattamento"
 };

@@ -185,15 +185,15 @@ items: [
 };
 
 const navLinks = [
-    {text: "Guidelines", href: "#"},
-    {text: "Education & Events", href: "#"},
-    {text: "Science & Publications", href: "#"},
-    {text: "About", href: "#"}
+    {text: "Smjernice", href: "#"},
+    {text: "Obrazovanje i događaji", href: "#"},
+    {text: "Znanost i publikacije", href: "#"},
+    {text: "O nama", href: "#"}
 ];
 
 const headerButtons = [
-    {text: "Log in", class: "login-btn", href: "#"},
-    {text: "Become member", class: "become-member-btn", href: "#"}
+    {text: "Prijavi se", class: "login-btn", href: "#"},
+    {text: "Postani član", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [
