@@ -86,7 +86,7 @@ const landingContent = {
     ], 
     footerText:[
     "© 2025 European Urological Association",
-    "All rights reserved"   
+    "Все права защищены"   
 ],
 faq: {
 title: "Ответы на популярные вопросы",
@@ -185,15 +185,15 @@ items: [
 };
 
 const navLinks = [
-    {text: "Guidelines", href: "#"},
-    {text: "Education & Events", href: "#"},
-    {text: "Science & Publications", href: "#"},
-    {text: "About", href: "#"}
+    {text: "Руководства", href: "#"},
+    {text: "Образование и события", href: "#"},
+    {text: "Наука и публикации", href: "#"},
+    {text: "О нас", href: "#"}
 ];
 
 const headerButtons = [
-    {text: "Log in", class: "login-btn", href: "#"},
-    {text: "Become member", class: "become-member-btn", href: "#"}
+    {text: "Вход", class: "login-btn", href: "#"},
+    {text: "Стать участником", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [

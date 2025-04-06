@@ -114,7 +114,7 @@ const landingContent = {
     ],
     footerText: [
         "© 2025 European Urological Association",
-        "All rights reserved"   
+        "Vse pravice pridržane"
     ],
     faq: {
         title: "Odgovori na pogosta vprašanja",
@@ -223,7 +223,7 @@ const navLinks = [
 // Кнопки хедера
 const headerButtons = [
     {text: "Prijava", class: "login-btn", href: "#"},
-    {text: "Postani član", class: "become-member-btn", href: "#"}
+    {text: "Postanite član", class: "become-member-btn", href: "#"}
 ];
 
 // Вопросы теста

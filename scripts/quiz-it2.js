@@ -86,7 +86,7 @@ const landingContent = {
     ], 
     footerText:[
     "© 2025 European Urological Association",
-    "All rights reserved"   
+    "Tutti i diritti riservati"   
     ],
     faq: {
         title: "Risposte alle domande frequenti",

@@ -86,7 +86,7 @@ const landingContent = {
     ], 
     footerText:[
     "© 2025 European Urological Association",
-    "All rights reserved"   
+    "Tutti i diritti riservati"   
 ],
 faq: {
 title: "Risposte ai quesiti più frequenti",
@@ -185,15 +185,15 @@ quote: "Formelan all'uso singolo agisce come un aperitivo erotico sicuro: 30-40 
 };
 
 const navLinks = [
-    {text: "Guidelines", href: "#"},
-    {text: "Education & Events", href: "#"},
-    {text: "Science & Publications", href: "#"},
-    {text: "About", href: "#"}
+    {text: "Linee guida", href: "#"},
+    {text: "Formazione & Eventi", href: "#"},
+    {text: "Scienza & Pubblicazioni", href: "#"},
+    {text: "Chi siamo", href: "#"}
 ];
 
 const headerButtons = [
-    {text: "Log in", class: "login-btn", href: "#"},
-    {text: "Become member", class: "become-member-btn", href: "#"}
+    {text: "Accedi", class: "login-btn", href: "#"},
+    {text: "Diventa membro", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [

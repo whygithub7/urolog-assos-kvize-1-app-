@@ -90,7 +90,7 @@ const landingContent = {
     ], 
     footerText:[
     "© 2025 European Urological Association",
-    "All rights reserved"   
+    "Alla rättigheter förbehållna"   
 ],
 faq: {
 title: "Svar på populära frågor",

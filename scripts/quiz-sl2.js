@@ -87,7 +87,7 @@ const landingContent = {
     ], 
     footerText:[
     "© 2025 European Urological Association",
-    "All rights reserved"   
+    "Vse pravice pridržane"   
     ],
     doctorComment: {
         name: "Dr. David F. Jarrard",
@@ -194,7 +194,7 @@ const navLinks = [
 
 const headerButtons = [
     {text: "Prijava", class: "login-btn", href: "#"},
-    {text: "Postani član", class: "become-member-btn", href: "#"}
+    {text: "Postanite član", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [

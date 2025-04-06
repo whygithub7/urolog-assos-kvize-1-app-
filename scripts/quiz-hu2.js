@@ -86,7 +86,7 @@ const landingContent = {
     ], 
     footerText:[
     "© 2025 European Urological Association",
-    "All rights reserved"   
+    "Minden jog fenntartva"   
     ],
     faq: {
         title: "Gyakran Ismételt Kérdések",
