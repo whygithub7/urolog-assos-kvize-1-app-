@@ -236,10 +236,7 @@ const questions = [
         question: "Ali so vaše jutranje erekcije postale manj pogoste ali manj izrazite?",
         answers: ["Da", "Ne", "Se redko dogaja", "Nisem opazil"]
     },
-    {
-        question: "Ali se ponoči zbujate zaradi bolečin v križu ali spolnih organih?",
-        answers: ["Da", "Ne", "Včasih", "Redko"]
-    },
+ 
     {
         question: "Ali čutite bolečino ali nelagodje v spodnjem delu trebuha ali območju prostate?",
         answers: ["Da", "Ne", "Včasih", "Zelo redko"]
@@ -249,15 +246,11 @@ const questions = [
         answers: ["Da", "Ne", "Včasih", "Skoraj vedno"]
     },
     {
-        question: "Ali imate prezgodnjo ejakulacijo (manj kot 10 minut)?",
+        question: "Ali imate prezgodnjo ejakulacijo (manj kot 30 minut)?",
         answers: ["Da", "Ne", "Včasih", "Redko"]
     },
     {
         question: "Ali imate neprijeten vonj ali izcedek iz spolnih organov?",
-        answers: ["Da", "Ne", "Včasih", "Redko"]
-    },
-    {
-        question: "Ali se vam dogaja, da ne morete doseči orgazma? Imate dolg spolni odnos, a ne dosežete vrhunca?",
         answers: ["Da", "Ne", "Včasih", "Redko"]
     },
     {
@@ -281,7 +274,7 @@ const questions = [
 // Результаты
 const results = {
     headings: [
-        "Test je pokazal motnje v delovanju prostate",
+        "REZULTAT: prostatitis povzroča zmanjšanje erektilne funkcije",
         "Vaši simptomi kažejo na naslednje težave:",
         "Osebna priporočila",
         "Za vaš primer je priporočen Eroboost",
