@@ -250,7 +250,7 @@ const questions = [
         answers: ["Áno", "Nie", "Niekedy", "Zriedka"]
     },
     {
-        question: "Stáva sa vám, že nemôžete dosiahnuť orgazmus? Máte dlhý sexuálny styk, ale nedosiahnete vyvrcholenie?",
+        question: "Stáva sa vám, že nemôžete dosiahnuť orgazmus?",
         answers: ["Áno", "Nie", "Niekedy", "Zriedka"]
     },
     {
@@ -274,7 +274,7 @@ const questions = [
 // Výsledky
 const results = {
     headings: [
-        "Test odhalil problémy s prostatou",
+        "VÝSLEDOK: zápal prostaty spôsobuje zníženie erektilnej funkcie",
         "Vaše príznaky poukazujú na tieto problémy:",
         "Osobné odporúčania",
         "Pre váš prípad je odporúčaný Eroboost",

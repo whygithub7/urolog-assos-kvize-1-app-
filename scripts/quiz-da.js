@@ -86,7 +86,7 @@ const landingContent = {
     ], 
     footerText: [
         "© 2025 European Urological Association",
-        "All rights reserved"
+        "Alle rettigheder forbeholdes"
     ],
     faq: {
         title: "Svar på populære spørgsmål",
@@ -185,87 +185,75 @@ const landingContent = {
 };
 
 const navLinks = [
-    {text: "Guidelines", href: "#"},
-    {text: "Education & Events", href: "#"},
-    {text: "Science & Publications", href: "#"},
-    {text: "About", href: "#"}
+    {text: "Retningslinjer", href: "#"},
+    {text: "Uddannelse & Begivenheder", href: "#"},
+    {text: "Videnskab & Publikationer", href: "#"},
+    {text: "Om os", href: "#"}
 ];
 
 const headerButtons = [
-    {text: "Log in", class: "login-btn", href: "#"},
-    {text: "Become member", class: "become-member-btn", href: "#"}
+    {text: "Log ind", class: "login-btn", href: "#"},
+    {text: "Bliv medlem", class: "become-member-btn", href: "#"}
 ];
 
 const questions = [
 
     {
-        question: "Betrifft Sie eine vollständige oder teilweise Erektionsstörung während des Geschlechtsverkehrs?",
-        answers: ["Ja", "Nein", "Manchmal", "Habe ich nicht bemerkt"]
+        question: "Oplever du fuldstændig eller delvis erektil dysfunktion under samleje?",
+        answers: ["Ja", "Nej", "Nogle gange", "Har ikke bemærket det"]
     },
  
     {
-        question: "Sind Ihre morgendlichen Erektionen seltener oder weniger ausgeprägt?",
-        answers: ["Ja", "Nein", "Kommt selten vor", "Habe ich nicht bemerkt"]
+        question: "Er dine morgenerektioner blevet sjældnere eller mindre udtalte?",
+        answers: ["Ja", "Nej", "Sker sjældent", "Har ikke bemærket det"]
     },
    
     {
-        question: "Haben Sie Schmerzen oder Unbehagen im Unterbauch oder im Bereich der Prostata?",
-        answers: ["Ja", "Nein", "Manchmal", "Sehr selten"]
+        question: "Har du smerter eller ubehag i underlivet eller i prostataområdet?",
+        answers: ["Ja", "Nej", "Nogle gange", "Meget sjældent"]
     },
   
     {
-        question: "Müssen Sie nachts häufig zur Toilette?",
-        answers: ["Ja", "Nein", "Manchmal", "Selten"]
+        question: "Skal du ofte på toilettet om natten?",
+        answers: ["Ja", "Nej", "Nogle gange", "Sjældent"]
     },
  
     {
-        question: "Haben Sie vorzeitige Ejakulation innerhalb von 10 Minuten?",
-        answers: ["Ja", "Nein", "Manchmal", "Kommt selten vor"]
+        question: "Har du for tidlig sædafgang inden for 10 minutter?",
+        answers: ["Ja", "Nej", "Nogle gange", "Sker sjældent"]
     },
 
     {
-        question: "Haben Sie häufige Dränge zur Toilette, das Gefühl einer unvollständigen Entleerung oder Schmerzen beim Wasserlassen?",
-        answers: ["Ja", "Nein", "Manchmal", "Besonders nachts"]
+        question: "Har du hyppig vandladningstrang, følelse af ufuldstændig tømning eller smerter ved vandladning?",
+        answers: ["Ja", "Nej", "Nogle gange", "Især om natten"]
     },
-
     {
-        question: "Wachen Sie nachts wegen Schmerzen im Lenden- oder Genitalbereich auf?",
-        answers: ["Ja", "Nein", "Manchmal", "Selten"]
-    },
-
-    {
-        question: "Fühlen Sie Schmerzen, Unbehagen oder Schwere im Bereich der Prostata oder des Unterbauchs?",
-        answers: ["Ja", "Nein", "Manchmal", "Sehr selten"]
+        question: "Føler du smerter, ubehag eller tyngde i prostataområdet eller underlivet?",
+        answers: ["Ja", "Nej", "Nogle gange", "Meget sjældent"]
     },
  
     {
-        question: "Haben Sie in letzter Zeit einen Rückgang der Libido bemerkt?",
-        answers: ["Ja", "Nein", "Manchmal", "Fast immer"]
+        question: "Har du bemærket et fald i din sexlyst på det seneste?",
+        answers: ["Ja", "Nej", "Nogle gange", "Næsten altid"]
+    },
+    {
+        question: "Har du svært ved at opnå orgasme? Har du langvarig samleje, men når ikke klimaks?",
+        answers: ["Ja", "Nej", "Nogle gange", "Sjældent"]
     },
 
     {
-        question: "Haben Sie einen unangenehmen Geruch oder Ausfluss aus den Geschlechtsorganen?",
-        answers: ["Ja", "Nein", "Manchmal", "Selten"]
-    },
-
-    {
-        question: "Haben Sie Schwierigkeiten, einen Orgasmus zu erreichen? Haben Sie lange Geschlechtsverkehr, erreichen aber nicht den Höhepunkt?",
-        answers: ["Ja", "Nein", "Manchmal", "Selten"]
-    },
-
-    {
-        question: "Haben Sie eine schwache Erektion, auch nach einer langen Pause?",
-        answers: ["Ja", "Nein", "Manchmal", "Fast immer"]
+        question: "Har du svag erektion, selv efter en lang pause?",
+        answers: ["Ja", "Nej", "Nogle gange", "Næsten altid"]
     },
   
     {
-        question: "Haben Sie das Gefühl einer unvollständigen Blasenentleerung?",
-        answers: ["Ja", "Nein", "Manchmal", "Selten"]
+        question: "Har du en følelse af ufuldstændig blæretømning?",
+        answers: ["Ja", "Nej", "Nogle gange", "Sjældent"]
     },
  
     {
-        question: "Können Sie 2 oder 3 Mal hintereinander Geschlechtsverkehr haben?",
-        answers: ["Ja", "Nein", "Manchmal", "Selten"]
+        question: "Kan du have samleje 2 eller 3 gange i træk?",
+        answers: ["Ja", "Nej", "Nogle gange", "Sjældent"]
     },
     {
         question: "Hvor gammel er du?",
